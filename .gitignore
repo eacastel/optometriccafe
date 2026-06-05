@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# next
+.next/
+out/
+.vercel/
+
+# production
+build/
+dist/
+
+# env
+.env
+.env*.local
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# system
+.DS_Store
+Thumbs.db
+
+# local source packs and scratch references
+optometriccafe-local-build-pack-20260604/
+optometriccafe-local-build-pack-20260604.tar.gz
+public/tmp/
+# local WordPress content export source artifacts
+optometriccafe-content-export-20260605/
+optometriccafe-content-export-20260605.tar.gz
