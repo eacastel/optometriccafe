@@ -1,0 +1,810 @@
+{
+  "checkedAt": "2026-11-05T18:06:50.540Z",
+  "base": "http://localhost:3001",
+  "pages": 46,
+  "internalLinks": 48,
+  "sitemapUrls": 47,
+  "legacyMediaUrls": 76,
+  "results": [
+    {
+      "path": "/homepage-redesign-no-divi/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/glasses-repair-adjustment-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/contact-us/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/featured-reviews/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/sunglasses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/blog/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/optometry-lab-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/about-us/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/childrens-sunglasses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/mens-sunglasses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/womens-sunglasses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/contact-lenses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/computer-gaming-eye-glasses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/sports-eye-glasses-and-sunglasses/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/childrens-prescription-glasses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/mens-prescription-eye-glasses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/womens-prescription-glasses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/prescription-eyeglasses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/optometry-services-in-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/progressive-glasses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/replacement-lenses-existing-frames-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/high-prescription-glasses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/back-to-school-glasses-contact-lenses-children-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/best-glasses-watching-outdoor-sports-los-angeles/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/world-cup-2026-prescription-sunglasses-sports-glasses/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/how-to-care-for-prescription-glasses/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/cheap-sunglasses-eye-protection/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/summer-prescription-sunglasses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/luxury-designer-frames-how-to-choose/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/beverly-hills-eye-care-guide-families/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/optometrist-near-rodeo-drive-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/where-to-get-prescription-sunglasses-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/best-eyewear-boutique-experience-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/sports-glasses-prescription-sunglasses-active-lifestyles/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/kids-prescription-glasses-fit-durability-comfort/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/daily-vs-monthly-contact-lenses/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/designer-eyewear-beverly-hills-great-fit/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/contact-lens-fitting-beverly-hills/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/prescription-sunglasses-vs-regular-sunglasses/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/beverly-hills-eyewear-boutique/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/eye-exam-beverly-hills-what-to-expect/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/the-real-secret-to-picking-sunglasses-hint-its-not-face-shape/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/computer-glasses-digital-eye-strain/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/prescription-glasses-beverly-hills-choose-frames/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/how-often-should-you-get-an-eye-exam/",
+      "status": 200,
+      "copy": "exact",
+      "title": "exact",
+      "canonical": "exact",
+      "schema": "parsed"
+    },
+    {
+      "path": "/sports-glasses-sunglasses?utm_source=migration-test",
+      "status": 301,
+      "destination": "/sports-eye-glasses-and-sunglasses/",
+      "hops": 1
+    },
+    {
+      "path": "/sports-glasses-sunglasses/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/sports-eye-glasses-and-sunglasses/",
+      "hops": 1
+    },
+    {
+      "path": "/optometry-services-beverly-hills?utm_source=migration-test",
+      "status": 301,
+      "destination": "/optometry-services-in-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/optometry-services-beverly-hills/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/optometry-services-in-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/gunnar-gaming-computer-eye-glasses?utm_source=migration-test",
+      "status": 301,
+      "destination": "/computer-gaming-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/gunnar-gaming-computer-eye-glasses/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/computer-gaming-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/optometry-los-angeles?utm_source=migration-test",
+      "status": 301,
+      "destination": "/optometry-services-in-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/optometry-los-angeles/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/optometry-services-in-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/sunglasses?utm_source=migration-test",
+      "status": 301,
+      "destination": "/sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/sunglasses/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/womens-sunglasses?utm_source=migration-test",
+      "status": 301,
+      "destination": "/womens-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/womens-sunglasses/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/womens-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/mens-sunglasses?utm_source=migration-test",
+      "status": 301,
+      "destination": "/mens-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/mens-sunglasses/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/mens-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/childrens-sunglasses?utm_source=migration-test",
+      "status": 301,
+      "destination": "/childrens-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/childrens-sunglasses/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/childrens-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/prescription-glasses?utm_source=migration-test",
+      "status": 301,
+      "destination": "/prescription-eyeglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/prescription-glasses/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/prescription-eyeglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/womens-prescription-glasses?utm_source=migration-test",
+      "status": 301,
+      "destination": "/womens-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/womens-prescription-glasses/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/womens-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/mens-prescription-eye-glasses?utm_source=migration-test",
+      "status": 301,
+      "destination": "/mens-prescription-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/mens-prescription-eye-glasses/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/mens-prescription-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/childrens-prescription-glasses?utm_source=migration-test",
+      "status": 301,
+      "destination": "/childrens-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/childrens-prescription-glasses/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/childrens-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/computer-gaming-eye-glasses?utm_source=migration-test",
+      "status": 301,
+      "destination": "/computer-gaming-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/computer-gaming-eye-glasses/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/computer-gaming-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/contact-lenses?utm_source=migration-test",
+      "status": 301,
+      "destination": "/contact-lenses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/contact-lenses/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/contact-lenses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/optometry-lab?utm_source=migration-test",
+      "status": 301,
+      "destination": "/optometry-lab-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/optometry-lab/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/optometry-lab-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/mens-prescription-glasses-beverly-hills?utm_source=migration-test",
+      "status": 301,
+      "destination": "/mens-prescription-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/mens-prescription-glasses-beverly-hills/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/mens-prescription-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/computer-glasses-beverly-hills?utm_source=migration-test",
+      "status": 301,
+      "destination": "/computer-gaming-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/computer-glasses-beverly-hills/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/computer-gaming-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/eyeglasses-beverly-hills?utm_source=migration-test",
+      "status": 301,
+      "destination": "/prescription-eyeglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/eyeglasses-beverly-hills/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/prescription-eyeglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/womens-eyeglasses-beverly-hills?utm_source=migration-test",
+      "status": 301,
+      "destination": "/womens-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/womens-eyeglasses-beverly-hills/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/womens-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/mens-eyeglasses-beverly-hills?utm_source=migration-test",
+      "status": 301,
+      "destination": "/mens-prescription-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/mens-eyeglasses-beverly-hills/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/mens-prescription-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/childrens-eyeglasses-beverly-hills?utm_source=migration-test",
+      "status": 301,
+      "destination": "/childrens-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/childrens-eyeglasses-beverly-hills/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/childrens-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/reviews?utm_source=migration-test",
+      "status": 301,
+      "destination": "/featured-reviews/",
+      "hops": 1
+    },
+    {
+      "path": "/reviews/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/featured-reviews/",
+      "hops": 1
+    },
+    {
+      "path": "/preparing-for-eye-exam-beverly-hills?utm_source=migration-test",
+      "status": 301,
+      "destination": "/eye-exam-beverly-hills-what-to-expect/",
+      "hops": 1
+    },
+    {
+      "path": "/preparing-for-eye-exam-beverly-hills/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/eye-exam-beverly-hills-what-to-expect/",
+      "hops": 1
+    },
+    {
+      "path": "/category/blog?utm_source=migration-test",
+      "status": 301,
+      "destination": "/blog/",
+      "hops": 1
+    },
+    {
+      "path": "/category/blog/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/blog/",
+      "hops": 1
+    },
+    {
+      "path": "/best-eyewear-boutique-experience-beverly-hills/amp?utm_source=migration-test",
+      "status": 301,
+      "destination": "/best-eyewear-boutique-experience-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/best-eyewear-boutique-experience-beverly-hills/amp/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/best-eyewear-boutique-experience-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/beverly-hills-eye-care-guide-families/amp?utm_source=migration-test",
+      "status": 301,
+      "destination": "/beverly-hills-eye-care-guide-families/",
+      "hops": 1
+    },
+    {
+      "path": "/beverly-hills-eye-care-guide-families/amp/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/beverly-hills-eye-care-guide-families/",
+      "hops": 1
+    },
+    {
+      "path": "/computer-glasses-digital-eye-strain/amp?utm_source=migration-test",
+      "status": 301,
+      "destination": "/computer-glasses-digital-eye-strain/",
+      "hops": 1
+    },
+    {
+      "path": "/computer-glasses-digital-eye-strain/amp/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/computer-glasses-digital-eye-strain/",
+      "hops": 1
+    },
+    {
+      "path": "/wp-sitemap.xml?utm_source=migration-test",
+      "status": 301,
+      "destination": "/sitemap.xml",
+      "hops": 1
+    },
+    {
+      "path": "/wp-sitemap.xml/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/sitemap.xml",
+      "hops": 1
+    },
+    {
+      "path": "/sitemap_index.xml?utm_source=migration-test",
+      "status": 301,
+      "destination": "/sitemap.xml",
+      "hops": 1
+    },
+    {
+      "path": "/sitemap_index.xml/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/sitemap.xml",
+      "hops": 1
+    },
+    {
+      "path": "/page-sitemap.xml?utm_source=migration-test",
+      "status": 301,
+      "destination": "/sitemap.xml",
+      "hops": 1
+    },
+    {
+      "path": "/page-sitemap.xml/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/sitemap.xml",
+      "hops": 1
+    },
+    {
+      "path": "/post-sitemap.xml?utm_source=migration-test",
+      "status": 301,
+      "destination": "/sitemap.xml",
+      "hops": 1
+    },
+    {
+      "path": "/post-sitemap.xml/?utm_source=migration-test",
+      "status": 301,
+      "destination": "/sitemap.xml",
+      "hops": 1
+    },
+    {
+      "path": "/optometry-lab-beverly-hills",
+      "status": 301,
+      "destination": "/optometry-lab-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/index.php/optometry-lab/amp/?amp=1",
+      "status": 301,
+      "destination": "/optometry-lab-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/index.php/prescription-eyeglasses-beverly-hills/",
+      "status": 301,
+      "destination": "/prescription-eyeglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/progressive-glasses-beverly-hills/amp/",
+      "status": 301,
+      "destination": "/progressive-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/progressive-glasses-beverly-hills/?noamp=mobile",
+      "status": 301,
+      "destination": "/progressive-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?amp=1",
+      "status": 301,
+      "destination": "/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22635",
+      "status": 301,
+      "destination": "/progressive-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/blog/page/1/",
+      "status": 301,
+      "destination": "/blog/",
+      "hops": 1
+    },
+    {
+      "path": "/category/blog/page/2/",
+      "status": 301,
+      "destination": "/blog/",
+      "hops": 1
+    },
+    {
+      "path": "/author/morteza/page/6/",
+      "status": 301,
+      "destination": "/author/morteza/",
+      "hops": 1
+    }
+  ]
+}

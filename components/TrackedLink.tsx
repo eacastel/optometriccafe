@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import type { AnchorHTMLAttributes, MouseEvent, ReactNode } from "react";
+import type { AnchorHTMLAttributes, ReactNode } from "react";
 
 declare global {
   interface Window {
@@ -32,30 +32,23 @@ export function TrackedLink({
   ctaType,
   ...props
 }: Props) {
-  function track(event: MouseEvent<HTMLAnchorElement>) {
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      event: eventName,
-      cta_text: ctaText,
-      cta_type: ctaType,
-      link_url: href,
-      page_path: window.location.pathname,
-    });
-  }
-
+  // AnalyticsLinks owns event classification and dispatch for every link.
+  // Legacy eventName/ctaType props are consumed here, never used to override it.
   const isExternal =
-    href.startsWith("http") || href.startsWith("tel:") || href.startsWith("mailto:");
+    href.startsWith("http") ||
+    href.startsWith("tel:") ||
+    href.startsWith("mailto:");
 
   if (isExternal) {
     return (
-      <a href={href} onClick={track} {...props}>
+      <a href={href} data-cta-text={ctaText} {...props}>
         {children}
       </a>
     );
   }
 
   return (
-    <Link href={href} onClick={track} {...props}>
+    <Link href={href} data-cta-text={ctaText} {...props}>
       {children}
     </Link>
   );

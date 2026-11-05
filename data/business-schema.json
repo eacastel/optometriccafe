@@ -1,0 +1,192 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://optometriccafe.com/#website",
+      "url": "https://optometriccafe.com/",
+      "name": "Optometric Cafe",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://optometriccafe.com/#business"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://optometriccafe.com/search/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://optometriccafe.com/#heroimage",
+      "contentUrl": "https://optometriccafe.com/wp-content/uploads/2019/01/optometric-cafe.jpg",
+      "url": "https://optometriccafe.com/wp-content/uploads/2019/01/optometric-cafe.jpg"
+    },
+    {
+      "@type": [
+        "LocalBusiness",
+        "Optician"
+      ],
+      "@id": "https://optometriccafe.com/#business",
+      "url": "https://optometriccafe.com/",
+      "name": "Optometric Cafe",
+      "description": "Family-owned optical boutique in Beverly Hills offering prescription eyewear, designer frames, sunglasses, children's glasses, contact lens replenishment, eyeglass fittings, repairs, and in-house lens craftsmanship.",
+      "image": {
+        "@id": "https://optometriccafe.com/#heroimage"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://optometriccafe.com/wp-content/uploads/2022/05/original_optometric_cafe_logo.png",
+        "width": 593,
+        "height": 182
+      },
+      "telephone": "+1-310-888-2848",
+      "email": "info@optometriccafe.com",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "277 South Beverly Dr",
+        "addressLocality": "Beverly Hills",
+        "addressRegion": "CA",
+        "postalCode": "90212",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.0624387,
+        "longitude": -118.3992683
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Beverly Hills"
+        },
+        {
+          "@type": "City",
+          "name": "Los Angeles"
+        },
+        "Beverly Hills",
+        "Century City",
+        "Pico-Robertson",
+        "Beverlywood",
+        "Crestview",
+        "Monte Mar Vista",
+        "Cheviot Hills",
+        "South Carthay",
+        {
+          "@type": "City",
+          "name": "Beverly Hills, CA"
+        }
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Morteza Talebi",
+        "jobTitle": "Owner and expert optician"
+      },
+      "foundingDate": "2005",
+      "slogan": "Family-owned and operated in Beverly Hills since 2005.",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "10:00",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "10:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "11:00",
+          "closes": "14:00"
+        }
+      ],
+      "hasMap": "https://www.google.com/maps?cid=12237678482973097844",
+      "knowsAbout": [
+        "Prescription eyeglasses",
+        "High-prescription lenses",
+        "Designer eyewear",
+        "Children's eyewear",
+        "Prescription sunglasses",
+        "Contact lenses",
+        "Eyeglass fitting and adjustment",
+        "Eyeglass repair",
+        "In-house lens craftsmanship"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Prescription Eyeglasses"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Eyeglass Fitting and Adjustment"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Eyeglass Repair"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Prescription Sunglasses"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Children's Eyewear"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Contact Lens Replenishment"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "In-House Lens Fabrication"
+          }
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/optometric_cafe/",
+        "https://www.facebook.com/OptometricCafe/",
+        "https://www.yelp.com/biz/optometric-cafe-beverly-hills",
+        "https://twitter.com/optometriccafe",
+        "https://www.google.com/maps?cid=12237678482973097844"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-310-888-2848",
+        "contactType": "Customer Service",
+        "areaServed": "US",
+        "availableLanguage": "en"
+      }
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+import profiles from "@/data/business-profiles.json";
+
 export const business = {
   name: "Optometric Cafe",
   url: "https://optometriccafe.com",
@@ -6,8 +8,7 @@ export const business = {
   email: "info@optometriccafe.com",
   emailHref: "mailto:info@optometriccafe.com",
   address: "277 South Beverly Dr., Beverly Hills, CA 90212",
-  mapsUrl:
-    "https://www.google.com/maps/search/?api=1&query=277%20South%20Beverly%20Dr%2C%20Beverly%20Hills%2C%20CA%2090212",
+  mapsUrl: profiles.googleBusinessUrl,
   gtmId: "GTM-WGHNXHX9",
 };
 

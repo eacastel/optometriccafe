@@ -1,0 +1,157 @@
+[
+  {
+    "source": "/sports-glasses-sunglasses",
+    "destination": "/sports-eye-glasses-and-sunglasses/",
+    "evidence": "Repair broken contextual link in sports glasses article; source returns 404 on November 5"
+  },
+  {
+    "source": "/optometry-services-beverly-hills",
+    "destination": "/optometry-services-in-beverly-hills/",
+    "evidence": "Repair broken contextual link in eye exam frequency article; source returns 404 on November 5"
+  },
+  {
+    "source": "/gunnar-gaming-computer-eye-glasses",
+    "destination": "/computer-gaming-eye-glasses-beverly-hills/",
+    "evidence": "June Redirection export, chain flattened"
+  },
+  {
+    "source": "/optometry-los-angeles",
+    "destination": "/optometry-services-in-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/sunglasses",
+    "destination": "/sunglasses-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/womens-sunglasses",
+    "destination": "/womens-sunglasses-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/mens-sunglasses",
+    "destination": "/mens-sunglasses-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/childrens-sunglasses",
+    "destination": "/childrens-sunglasses-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/prescription-glasses",
+    "destination": "/prescription-eyeglasses-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/womens-prescription-glasses",
+    "destination": "/womens-prescription-glasses-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/mens-prescription-eye-glasses",
+    "destination": "/mens-prescription-eye-glasses-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/childrens-prescription-glasses",
+    "destination": "/childrens-prescription-glasses-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/computer-gaming-eye-glasses",
+    "destination": "/computer-gaming-eye-glasses-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/contact-lenses",
+    "destination": "/contact-lenses-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/optometry-lab",
+    "destination": "/optometry-lab-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/mens-prescription-glasses-beverly-hills",
+    "destination": "/mens-prescription-eye-glasses-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/computer-glasses-beverly-hills",
+    "destination": "/computer-gaming-eye-glasses-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/eyeglasses-beverly-hills",
+    "destination": "/prescription-eyeglasses-beverly-hills/",
+    "evidence": "June Redirection export"
+  },
+  {
+    "source": "/womens-eyeglasses-beverly-hills",
+    "destination": "/womens-prescription-glasses-beverly-hills/",
+    "evidence": "October alias plugin"
+  },
+  {
+    "source": "/mens-eyeglasses-beverly-hills",
+    "destination": "/mens-prescription-eye-glasses-beverly-hills/",
+    "evidence": "October alias plugin"
+  },
+  {
+    "source": "/childrens-eyeglasses-beverly-hills",
+    "destination": "/childrens-prescription-glasses-beverly-hills/",
+    "evidence": "October alias plugin"
+  },
+  {
+    "source": "/reviews",
+    "destination": "/featured-reviews/",
+    "evidence": "October live HTTP audit"
+  },
+  {
+    "source": "/preparing-for-eye-exam-beverly-hills",
+    "destination": "/eye-exam-beverly-hills-what-to-expect/",
+    "evidence": "November analytics live HTTP audit"
+  },
+  {
+    "source": "/category/blog",
+    "destination": "/blog/",
+    "evidence": "October live HTTP audit"
+  },
+  {
+    "source": "/best-eyewear-boutique-experience-beverly-hills/amp",
+    "destination": "/best-eyewear-boutique-experience-beverly-hills/",
+    "evidence": "November analytics observed 301"
+  },
+  {
+    "source": "/beverly-hills-eye-care-guide-families/amp",
+    "destination": "/beverly-hills-eye-care-guide-families/",
+    "evidence": "November analytics observed 301"
+  },
+  {
+    "source": "/computer-glasses-digital-eye-strain/amp",
+    "destination": "/computer-glasses-digital-eye-strain/",
+    "evidence": "November analytics observed 301"
+  },
+  {
+    "source": "/wp-sitemap.xml",
+    "destination": "/sitemap.xml",
+    "evidence": "WordPress sitemap entry point, Apache rule from analytics read-only audit"
+  },
+  {
+    "source": "/sitemap_index.xml",
+    "destination": "/sitemap.xml",
+    "evidence": "WordPress sitemap entry point"
+  },
+  {
+    "source": "/page-sitemap.xml",
+    "destination": "/sitemap.xml",
+    "evidence": "WordPress page sitemap entry point"
+  },
+  {
+    "source": "/post-sitemap.xml",
+    "destination": "/sitemap.xml",
+    "evidence": "WordPress post sitemap entry point"
+  }
+]

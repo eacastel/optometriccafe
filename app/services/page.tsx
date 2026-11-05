@@ -5,6 +5,7 @@ import { JsonLd } from "@/components/SiteChrome";
 import { TrackedLink } from "@/components/TrackedLink";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://optometriccafe.com/services/" },
   title: "Services",
   description:
     "Prescription eyeglasses, designer eyewear, glasses repair, prescription sunglasses, children's glasses, eye exams, and in-house lens work in Beverly Hills.",
@@ -55,7 +56,7 @@ export default function ServicesPage() {
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", path: "/" },
-          { name: "Services", path: "/services" },
+          { name: "Services", path: "/services/" },
         ])}
       />
       <section className="page-hero">
@@ -76,7 +77,7 @@ export default function ServicesPage() {
             <div className="hero-ctas">
               <TrackedLink
                 className="button primary"
-                href="/visit#book"
+                href="/visit/#book"
                 eventName="oc_appointment_click"
                 ctaText="Book a Fitting"
                 ctaType="primary"
@@ -144,7 +145,7 @@ export default function ServicesPage() {
                 <p>{detail.body}</p>
                 <TrackedLink
                   className="button secondary"
-                  href="/visit#book"
+                  href="/visit/#book"
                   eventName="oc_service_cta_click"
                   ctaText={`Book for ${detail.title}`}
                   ctaType={detail.id}
@@ -170,7 +171,7 @@ export default function ServicesPage() {
             <div className="section-ctas">
               <TrackedLink
                 className="button primary"
-                href="/visit#book"
+                href="/visit/#book"
                 eventName="oc_appointment_click"
                 ctaText="Book a Lens Workshop Fitting"
                 ctaType="primary"
@@ -179,7 +180,7 @@ export default function ServicesPage() {
               </TrackedLink>
               <TrackedLink
                 className="button secondary"
-                href="/services#eye-exams"
+                href="/services/#eye-exams"
                 eventName="oc_service_cta_click"
                 ctaText="Eye Exams"
                 ctaType="tertiary"

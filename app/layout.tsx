@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
-import { business, localBusinessSchema, websiteSchema } from "@/app/data";
+import { business } from "@/app/data";
+import businessSchema from "@/data/business-schema.json";
+import { AnalyticsLinks } from "@/components/AnalyticsLinks";
 import { Footer, Header, JsonLd } from "@/components/SiteChrome";
 
 export const metadata: Metadata = {
@@ -48,8 +50,7 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','${business.gtmId}');
           `}
         </Script>
-        <JsonLd data={websiteSchema()} />
-        <JsonLd data={localBusinessSchema()} />
+        <JsonLd data={businessSchema} />
       </head>
       <body>
         <noscript>
@@ -61,6 +62,7 @@ export default function RootLayout({
           />
         </noscript>
         <div className="site-shell">
+          <AnalyticsLinks />
           <Header />
           {children}
           <Footer />

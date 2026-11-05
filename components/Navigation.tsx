@@ -12,38 +12,38 @@ const groups = [
   {
     label: "Eyewear",
     links: [
-      ["Prescription glasses", "/prescription-eyeglasses-beverly-hills"],
-      ["Women's glasses", "/womens-prescription-glasses-beverly-hills"],
-      ["Men's glasses", "/mens-prescription-eye-glasses-beverly-hills"],
-      ["Children's glasses", "/childrens-prescription-glasses-beverly-hills"],
-      ["Designer sunglasses", "/sunglasses-beverly-hills"],
-      ["Women's sunglasses", "/womens-sunglasses-beverly-hills"],
-      ["Men's sunglasses", "/mens-sunglasses-beverly-hills"],
-      ["Children's sunglasses", "/childrens-sunglasses-beverly-hills"],
+      ["Prescription glasses", "/prescription-eyeglasses-beverly-hills/"],
+      ["Women's glasses", "/womens-prescription-glasses-beverly-hills/"],
+      ["Men's glasses", "/mens-prescription-eye-glasses-beverly-hills/"],
+      ["Children's glasses", "/childrens-prescription-glasses-beverly-hills/"],
+      ["Designer sunglasses", "/sunglasses-beverly-hills/"],
+      ["Women's sunglasses", "/womens-sunglasses-beverly-hills/"],
+      ["Men's sunglasses", "/mens-sunglasses-beverly-hills/"],
+      ["Children's sunglasses", "/childrens-sunglasses-beverly-hills/"],
       [
         "Prescription sunglasses",
-        "/prescription-sunglasses-vs-regular-sunglasses",
+        "/prescription-sunglasses-vs-regular-sunglasses/",
       ],
-      ["Sports eyewear", "/sports-eye-glasses-and-sunglasses"],
-      ["Computer glasses", "/computer-gaming-eye-glasses-beverly-hills"],
+      ["Sports eyewear", "/sports-eye-glasses-and-sunglasses/"],
+      ["Computer glasses", "/computer-gaming-eye-glasses-beverly-hills/"],
     ],
   },
   {
     label: "Optical services",
     links: [
-      ["All services", "/services"],
-      ["Repairs & adjustments", "/services#glasses-repair"],
-      ["Our optical workshop", "/optometry-lab-beverly-hills"],
-      ["Eye exams", "/optometry-services-in-beverly-hills"],
-      ["Contact lenses", "/contact-lenses-beverly-hills"],
+      ["All services", "/services/"],
+      ["Repairs & adjustments", "/services/#glasses-repair"],
+      ["Our optical workshop", "/optometry-lab-beverly-hills/"],
+      ["Eye exams", "/optometry-services-in-beverly-hills/"],
+      ["Contact lenses", "/contact-lenses-beverly-hills/"],
     ],
   },
   {
     label: "Our story",
     links: [
-      ["About us", "/about-us"],
-      ["Featured reviews", "/featured-reviews"],
-      ["Journal & guides", "/blog"],
+      ["About us", "/about-us/"],
+      ["Featured reviews", "/featured-reviews/"],
+      ["Journal & guides", "/blog/"],
     ],
   },
 ];
@@ -123,15 +123,15 @@ export function Navigation() {
           </details>
         ))}
         <Link
-          href="/visit"
-          aria-current={pathname === "/visit" ? "page" : undefined}
+          href="/visit/"
+          aria-current={pathname === "/visit/" ? "page" : undefined}
         >
           Visit us
         </Link>
         {mobile && (
           <TrackedLink
             className="button primary"
-            href="/visit#book"
+            href="/visit/#book"
             eventName="oc_appointment_click"
             ctaText="Book a Fitting"
             ctaType="mobile_nav"
@@ -175,7 +175,7 @@ export function Navigation() {
         </TrackedLink>
         <TrackedLink
           className="button primary"
-          href="/visit#book"
+          href="/visit/#book"
           eventName="oc_appointment_click"
           ctaText="Book a Fitting"
           ctaType="header"

@@ -1,0 +1,70 @@
+[
+  {
+    "path": "/",
+    "reason": "Preserve homepage business identity #business, consolidate duplicates and service areas, use owner-confirmed hours (Saturday closes 14:00), source footer social links and direct Google listing. Correct geo from viewport center to marker coordinates in the live Google listing link. SearchAction targets implemented search."
+  },
+  {
+    "path": "/contact-us/",
+    "reason": "Business node merged with homepage #business. Conflicting descriptions, identities, hours and social handles replaced with current homepage/owner facts.",
+    "originalId": "https://optometriccafe.com/#business"
+  },
+  {
+    "path": "/featured-reviews/",
+    "reason": "Business node merged with homepage #business. Conflicting descriptions, identities, hours and social handles replaced with current homepage/owner facts.",
+    "originalId": "https://optometriccafe.com/#optometric-cafe"
+  },
+  {
+    "path": "/featured-reviews/",
+    "reason": "Self-serving third-party review/aggregate rating schema omitted; all visible reviews retained verbatim. Original schema archived in wordpress-source.json."
+  },
+  {
+    "path": "/sunglasses-beverly-hills/",
+    "reason": "Business node merged with homepage #business. Conflicting descriptions, identities, hours and social handles replaced with current homepage/owner facts.",
+    "originalId": "https://optometriccafe.com/#business"
+  },
+  {
+    "path": "/optometry-lab-beverly-hills/",
+    "reason": "Business node merged with homepage #business. Conflicting descriptions, identities, hours and social handles replaced with current homepage/owner facts.",
+    "originalId": "https://optometriccafe.com/optometry-lab-beverly-hills/#optometric-cafe-lab"
+  },
+  {
+    "path": "/about-us/",
+    "reason": "Business node merged with homepage #business. Conflicting descriptions, identities, hours and social handles replaced with current homepage/owner facts.",
+    "originalId": "https://optometriccafe.com/about-us/"
+  },
+  {
+    "path": "/childrens-sunglasses-beverly-hills/",
+    "reason": "Business node merged with homepage #business. Conflicting descriptions, identities, hours and social handles replaced with current homepage/owner facts.",
+    "originalId": "https://optometriccafe.com/#optometric-cafe"
+  },
+  {
+    "path": "/contact-lenses-beverly-hills/",
+    "reason": "Business node merged with homepage #business. Conflicting descriptions, identities, hours and social handles replaced with current homepage/owner facts.",
+    "originalId": "https://optometriccafe.com/#business"
+  },
+  {
+    "path": "/computer-gaming-eye-glasses-beverly-hills/",
+    "reason": "Business node merged with homepage #business. Conflicting descriptions, identities, hours and social handles replaced with current homepage/owner facts.",
+    "originalId": "https://optometriccafe.com/#business"
+  },
+  {
+    "path": "/childrens-prescription-glasses-beverly-hills/",
+    "reason": "Business node merged with homepage #business. Conflicting descriptions, identities, hours and social handles replaced with current homepage/owner facts.",
+    "originalId": "https://optometriccafe.com/#business"
+  },
+  {
+    "path": "/mens-prescription-eye-glasses-beverly-hills/",
+    "reason": "Business node merged with homepage #business. Conflicting descriptions, identities, hours and social handles replaced with current homepage/owner facts.",
+    "originalId": "https://optometriccafe.com/#business"
+  },
+  {
+    "path": "/womens-prescription-glasses-beverly-hills/",
+    "reason": "Business node merged with homepage #business. Conflicting descriptions, identities, hours and social handles replaced with current homepage/owner facts.",
+    "originalId": "https://optometriccafe.com/#business"
+  },
+  {
+    "path": "/prescription-eyeglasses-beverly-hills/",
+    "reason": "Business node merged with homepage #business. Conflicting descriptions, identities, hours and social handles replaced with current homepage/owner facts.",
+    "originalId": "https://optometriccafe.com/prescription-eyeglasses-beverly-hills/"
+  }
+]

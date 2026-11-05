@@ -1,0 +1,562 @@
+{
+  "checkedAt": "2026-11-05T18:07:31.926Z",
+  "base": "http://localhost:3001",
+  "errors": [],
+  "results": [
+    {
+      "route": "/homepage-redesign-no-divi/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/glasses-repair-adjustment-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/contact-us/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/featured-reviews/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/sunglasses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/optometry-lab-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/about-us/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/childrens-sunglasses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/mens-sunglasses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/womens-sunglasses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/contact-lenses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/computer-gaming-eye-glasses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/sports-eye-glasses-and-sunglasses/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/childrens-prescription-glasses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/mens-prescription-eye-glasses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/womens-prescription-glasses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/prescription-eyeglasses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/optometry-services-in-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/progressive-glasses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/replacement-lenses-existing-frames-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/high-prescription-glasses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/back-to-school-glasses-contact-lenses-children-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/best-glasses-watching-outdoor-sports-los-angeles/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/world-cup-2026-prescription-sunglasses-sports-glasses/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/how-to-care-for-prescription-glasses/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/cheap-sunglasses-eye-protection/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/summer-prescription-sunglasses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/luxury-designer-frames-how-to-choose/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/beverly-hills-eye-care-guide-families/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/optometrist-near-rodeo-drive-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/where-to-get-prescription-sunglasses-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/best-eyewear-boutique-experience-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/sports-glasses-prescription-sunglasses-active-lifestyles/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/kids-prescription-glasses-fit-durability-comfort/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/daily-vs-monthly-contact-lenses/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/designer-eyewear-beverly-hills-great-fit/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/contact-lens-fitting-beverly-hills/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/prescription-sunglasses-vs-regular-sunglasses/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/beverly-hills-eyewear-boutique/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/eye-exam-beverly-hills-what-to-expect/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/the-real-secret-to-picking-sunglasses-hint-its-not-face-shape/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/computer-glasses-digital-eye-strain/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/prescription-glasses-beverly-hills-choose-frames/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/how-often-should-you-get-an-eye-exam/",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": []
+    },
+    {
+      "route": "/homepage-redesign-no-divi/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/glasses-repair-adjustment-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/contact-us/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/featured-reviews/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/sunglasses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/optometry-lab-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/about-us/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/childrens-sunglasses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/mens-sunglasses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/womens-sunglasses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/contact-lenses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/computer-gaming-eye-glasses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/sports-eye-glasses-and-sunglasses/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/childrens-prescription-glasses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/mens-prescription-eye-glasses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/womens-prescription-glasses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/prescription-eyeglasses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/optometry-services-in-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/progressive-glasses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/replacement-lenses-existing-frames-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/high-prescription-glasses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/back-to-school-glasses-contact-lenses-children-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/best-glasses-watching-outdoor-sports-los-angeles/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/world-cup-2026-prescription-sunglasses-sports-glasses/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/how-to-care-for-prescription-glasses/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/cheap-sunglasses-eye-protection/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/summer-prescription-sunglasses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/luxury-designer-frames-how-to-choose/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/beverly-hills-eye-care-guide-families/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/optometrist-near-rodeo-drive-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/where-to-get-prescription-sunglasses-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/best-eyewear-boutique-experience-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/sports-glasses-prescription-sunglasses-active-lifestyles/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/kids-prescription-glasses-fit-durability-comfort/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/daily-vs-monthly-contact-lenses/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/designer-eyewear-beverly-hills-great-fit/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/contact-lens-fitting-beverly-hills/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/prescription-sunglasses-vs-regular-sunglasses/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/beverly-hills-eyewear-boutique/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/eye-exam-beverly-hills-what-to-expect/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/the-real-secret-to-picking-sunglasses-hint-its-not-face-shape/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/computer-glasses-digital-eye-strain/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/prescription-glasses-beverly-hills-choose-frames/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    },
+    {
+      "route": "/how-often-should-you-get-an-eye-exam/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": []
+    }
+  ],
+  "mobileMenu": "pass",
+  "search": "pass",
+  "singleFireTracking": "pass"
+}

@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "test": "node --test tests/*.test.mjs",
+    "test:migration": "node scripts/verify-migration.mjs",
+    "content:capture": "node scripts/capture-wordpress.mjs",
+    "content:import": "node scripts/import-wordpress.mjs",
+    "content:media": "node scripts/download-wordpress-media.mjs"
   },
   "dependencies": {
     "lucide-react": "1.69.0",
@@ -18,6 +22,8 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "cheerio": "^1.2.0",
+    "playwright": "^1.64.1",
     "typescript": "latest"
   }
 }

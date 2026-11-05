@@ -3,8 +3,10 @@ import Image from "next/image";
 import { breadcrumbSchema, business, hours } from "@/app/data";
 import { JsonLd } from "@/components/SiteChrome";
 import { TrackedLink } from "@/components/TrackedLink";
+import { BusinessLinks } from "@/components/BusinessLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://optometriccafe.com/visit/" },
   title: "Visit & Contact",
   description:
     "Visit Optometric Cafe at 277 South Beverly Dr. in Beverly Hills. Call 310-888-2848 to book a fitting or ask about eye exams by appointment.",
@@ -16,7 +18,7 @@ export default function VisitPage() {
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", path: "/" },
-          { name: "Visit", path: "/visit" },
+          { name: "Visit", path: "/visit/" },
         ])}
       />
       <section className="page-hero">
@@ -171,6 +173,9 @@ export default function VisitPage() {
             </p>
           </div>
         </div>
+      </section>
+      <section className="content-shell profile-section">
+        <BusinessLinks />
       </section>
     </main>
   );

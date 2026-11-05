@@ -11,30 +11,35 @@ import {
   Star,
 } from "lucide-react";
 import { BoutiqueGallery } from "@/components/BoutiqueGallery";
-import { breadcrumbSchema, business, hours, reviews } from "@/app/data";
+import { business, hours, reviews } from "@/app/data";
 import { JsonLd } from "@/components/SiteChrome";
 import { TrackedLink } from "@/components/TrackedLink";
+import { ContentBody } from "@/components/ContentBody";
+import { BusinessLinks, GoogleMap } from "@/components/BusinessLinks";
+import { home, contentMetadata } from "@/lib/content";
+
+export const metadata = contentMetadata(home);
 
 const pathways = [
   {
     number: "01",
     title: "Find your frames",
     text: "Prescription glasses, designer eyewear, and a fit that feels like you.",
-    href: "/prescription-eyeglasses-beverly-hills",
+    href: "/prescription-eyeglasses-beverly-hills/",
     icon: Glasses,
   },
   {
     number: "02",
     title: "Love them longer",
     text: "Thoughtful repairs, adjustments, and new lenses for favorite frames.",
-    href: "/services#glasses-repair",
+    href: "/services/#glasses-repair",
     icon: Wrench,
   },
   {
     number: "03",
     title: "See things clearly",
     text: "Eye exams with an optometrist, available by appointment.",
-    href: "/optometry-services-in-beverly-hills",
+    href: "/optometry-services-in-beverly-hills/",
     icon: Eye,
   },
 ];
@@ -42,7 +47,9 @@ const pathways = [
 export default function Home() {
   return (
     <main id="main-content">
-      <JsonLd data={breadcrumbSchema([{ name: "Home", path: "/" }])} />
+      <JsonLd
+        data={{ "@context": "https://schema.org", "@graph": home.schemas }}
+      />
       <section className="editorial-hero" aria-labelledby="home-title">
         <Image
           className="hero-art"
@@ -71,7 +78,7 @@ export default function Home() {
             <div className="hero-ctas">
               <TrackedLink
                 className="button primary"
-                href="/visit#book"
+                href="/visit/#book"
                 eventName="oc_appointment_click"
                 ctaText="Book a Fitting"
                 ctaType="hero"
@@ -90,7 +97,7 @@ export default function Home() {
             </div>
             <Link
               className="hero-exam"
-              href="/optometry-services-in-beverly-hills"
+              href="/optometry-services-in-beverly-hills/"
             >
               Looking for an eye exam? <ArrowRight size={15} />
             </Link>
@@ -143,22 +150,22 @@ export default function Home() {
               [
                 "Prescription eyeglasses",
                 "Everyday clarity, individual style.",
-                "/prescription-eyeglasses-beverly-hills",
+                "/prescription-eyeglasses-beverly-hills/",
               ],
               [
                 "Designer sunglasses",
                 "A little California, wherever you go.",
-                "/sunglasses-beverly-hills",
+                "/sunglasses-beverly-hills/",
               ],
               [
                 "Children's eyewear",
                 "Small frames. Plenty of personality.",
-                "/childrens-prescription-glasses-beverly-hills",
+                "/childrens-prescription-glasses-beverly-hills/",
               ],
               [
                 "Repairs & adjustments",
                 "Expert care for the pair you love.",
-                "/services#glasses-repair",
+                "/services/#glasses-repair",
               ],
             ].map(([title, text, href]) => (
               <Link href={href} key={title}>
@@ -169,7 +176,7 @@ export default function Home() {
                 <ArrowUpRight size={20} />
               </Link>
             ))}
-            <Link className="text-link" href="/services">
+            <Link className="text-link" href="/services/">
               All optical services <ArrowRight size={17} />
             </Link>
           </div>
@@ -205,7 +212,7 @@ export default function Home() {
               precise measurements, lens work, and repairs together in one
               Beverly Hills boutique.
             </p>
-            <Link className="text-link" href="/about-us">
+            <Link className="text-link" href="/about-us/">
               Get to know us <ArrowUpRight size={18} />
             </Link>
             <div className="owner-signoff">
@@ -244,7 +251,7 @@ export default function Home() {
             adjustments deserve close attention. Our in-house lens workshop
             keeps that care right here, with your optician.
           </p>
-          <Link className="text-link" href="/optometry-lab-beverly-hills">
+          <Link className="text-link" href="/optometry-lab-beverly-hills/">
             Inside our optical workshop <ArrowUpRight size={18} />
           </Link>
           <p className="exam-note">
@@ -264,7 +271,7 @@ export default function Home() {
               For a reason.
             </h2>
           </div>
-          <Link className="text-link" href="/featured-reviews">
+          <Link className="text-link" href="/featured-reviews/">
             Read more reviews <ArrowUpRight size={18} />
           </Link>
         </div>
@@ -306,6 +313,10 @@ export default function Home() {
         </p>
       </section>
 
+      <section className="home-preserved">
+        <ContentBody html={home.content} />
+      </section>
+
       <section className="visit-banner">
         <div>
           <p className="eyebrow">Come find your next favorite pair</p>
@@ -318,7 +329,7 @@ export default function Home() {
           <div className="section-ctas">
             <TrackedLink
               className="button primary"
-              href="/visit#book"
+              href="/visit/#book"
               eventName="oc_appointment_click"
               ctaText="Book a Fitting"
               ctaType="home_visit"
@@ -358,6 +369,10 @@ export default function Home() {
             <Phone size={16} /> {business.phoneDisplay}
           </TrackedLink>
         </div>
+      </section>
+      <section className="home-map">
+        <GoogleMap />
+        <BusinessLinks />
       </section>
     </main>
   );
