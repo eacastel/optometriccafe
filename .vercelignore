@@ -1,0 +1,13 @@
+# Local source packs, scratch files and private analytics working material.
+optometriccafe-local-build-pack-20260604/
+optometriccafe-local-build-pack-20260604.tar.gz
+optometriccafe-content-export-20260605/
+optometriccafe-content-export-20260605.tar.gz
+public/tmp/
+docs/
+.agents/
+.codex/
+.aws/
+.env*
+README.md
+data/wordpress-source.json

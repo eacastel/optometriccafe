@@ -34,3 +34,4 @@ public/tmp/
 # local WordPress content export source artifacts
 optometriccafe-content-export-20260605/
 optometriccafe-content-export-20260605.tar.gz
+.vercel
