@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import content from "@/data/site-content.json";
 import { breadcrumbSchema, business } from "@/app/data";
@@ -29,7 +30,11 @@ export function generateStaticParams() {
   return items.map((item) => ({ slug: item.slug }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
   const { slug } = await params;
   const item = findItem(slug);
   if (!item) return {};
@@ -42,32 +47,45 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
-
 function imageForItem(item: ContentItem) {
   const slug = item.slug;
-  if (slug.includes("lab")) return ["/images/selected/modern/store-frame-wall-modern.jpg", "Optometric Cafe eyewear frame wall"] as const;
-  if (slug.includes("about") || slug.includes("family")) return ["/images/selected/modern/family-portrait-modern.jpg", "Optometric Cafe family-owned eyewear boutique"] as const;
-  if (slug.includes("review")) return ["/images/optometric-cafe-reviews.jpg", "Optometric Cafe featured reviews"] as const;
-  if (slug.includes("sunglass") || slug.includes("eyewear") || slug.includes("frame")) return ["/images/selected/modern/store-frame-wall-modern.jpg", "Designer eyewear at Optometric Cafe"] as const;
-  if (slug.includes("contact") || slug.includes("beverly-hills")) return ["/images/selected/modern/store-showroom-wide-modern.jpg", "Optometric Cafe Beverly Hills showroom"] as const;
-  return ["/images/selected/modern/store-showroom-wide-modern.jpg", "Optometric Cafe Beverly Hills showroom"] as const;
+  if (
+    slug.includes("about") ||
+    slug.includes("family") ||
+    slug.includes("lab") ||
+    slug.includes("review")
+  )
+    return [
+      "/images/selected/originals/vintage-showroom.jpg",
+      "Morteza Talebi at Optometric Cafe",
+    ] as const;
+  return [
+    "/images/selected/originals/store-fitting-room.jpg",
+    "Eyewear displays inside Optometric Cafe in Beverly Hills",
+  ] as const;
 }
 
 function BlogIndex() {
   return (
-    <main>
+    <main id="main-content">
       <section className="content-hero">
         <p className="eyebrow">Optometric Cafe blog</p>
-        <h1>Blog</h1>
-        <p className="lead">Articles and guides from the current Optometric Cafe website, preserved from the WordPress export.</p>
+        <h1>Journal & guides</h1>
+        <p className="lead">
+          A closer look at eyewear, lenses, and finding your fit.
+        </p>
       </section>
       <section className="content-shell blog-list">
         {posts.map((post) => (
           <article className="content-card" key={post.slug}>
             <p className="content-type">Article</p>
-            <h2><Link href={`/${post.slug}`}>{post.title}</Link></h2>
+            <h2>
+              <Link href={`/${post.slug}`}>{post.title}</Link>
+            </h2>
             <p>{post.description || post.plainText.slice(0, 180)}</p>
-            <Link className="content-button" href={`/${post.slug}`}>Read article</Link>
+            <Link className="content-button" href={`/${post.slug}`}>
+              Read article
+            </Link>
           </article>
         ))}
       </section>
@@ -75,7 +93,11 @@ function BlogIndex() {
   );
 }
 
-export default async function ContentPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function ContentPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
   const item = findItem(slug);
   if (!item) notFound();
@@ -87,7 +109,7 @@ export default async function ContentPage({ params }: { params: Promise<{ slug: 
   const [imageSrc, imageAlt] = imageForItem(item);
 
   return (
-    <main>
+    <main id="main-content">
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", path: "/" },
@@ -95,22 +117,46 @@ export default async function ContentPage({ params }: { params: Promise<{ slug: 
         ])}
       />
       <section className="content-hero">
-        <p className="eyebrow">{item.type === "post" ? "Article" : "Optometric Cafe"}</p>
+        <p className="eyebrow">
+          {item.type === "post" ? "Article" : "Optometric Cafe"}
+        </p>
         <h1>{item.title}</h1>
         {item.description ? <p className="lead">{item.description}</p> : null}
         <div className="hero-ctas">
-          <TrackedLink className="button primary" href="/visit#book" eventName="oc_appointment_click" ctaText="Book a Fitting" ctaType="content_page">
+          <TrackedLink
+            className="button primary"
+            href="/visit#book"
+            eventName="oc_appointment_click"
+            ctaText="Book a Fitting"
+            ctaType="content_page"
+          >
             Book a Fitting
           </TrackedLink>
-          <TrackedLink className="button secondary" href={business.phoneHref} eventName="oc_phone_click" ctaText="Call Now" ctaType="content_page">
+          <TrackedLink
+            className="button secondary"
+            href={business.phoneHref}
+            eventName="oc_phone_click"
+            ctaText="Call Now"
+            ctaType="content_page"
+          >
             Call Now
           </TrackedLink>
         </div>
       </section>
       <section className="content-featured-image">
-        <img src={imageSrc} alt={imageAlt} />
+        <Image
+          src={imageSrc}
+          alt={imageAlt}
+          width={2400}
+          height={1800}
+          loading="eager"
+          sizes="(max-width: 1000px) 100vw, 950px"
+        />
       </section>
-      <article className="content-shell wp-content" dangerouslySetInnerHTML={{ __html: item.content }} />
+      <article
+        className="content-shell wp-content"
+        dangerouslySetInnerHTML={{ __html: item.content }}
+      />
     </main>
   );
 }

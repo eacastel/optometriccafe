@@ -65,36 +65,37 @@ export const reviews = [
   {
     name: "Victoria Green",
     quote:
-      "Morteza honestly explained that a scratch could not be buffed out, then tightened and cleaned LV sunglasses at no charge.",
+      "I was so grateful for his quick assistance, professionalism and honesty! I will definitely be back and will tell my friends about this location. Thank you!",
   },
   {
     name: "Davyd G",
     quote:
-      "Morteza was so helpful, kind and knowledgeable. Great customer service and high quality service here.",
+      "Morteza was so helpful, kind and knowledgeable. Great customer service and high quality stuff service here.",
   },
   {
     name: "Aashika Duvoor",
     quote:
-      "Very kind and generous owners. Helped me out when I was traveling on vacation.",
+      "Very kind and generous owners. Helped me out with when I was traveling on vacation.",
   },
   {
     name: "Matt",
     quote:
-      "In and out very quickly and efficiently. Took 5 minutes to fix my sunglasses.",
+      "In and out very quickly and efficiently! Took 5 minutes to fix my sunglasses.",
   },
   {
     name: "Polina Durneva",
     quote:
-      "Attentive, thoughtful care for a high prescription. Pricier, but worth it.",
+      "After visiting so many opticians, this was the only place where I received such attentive, thoughtful care. They were incredibly kind, helpful, and meticulous with every detail.",
   },
   {
     name: "Nick Jones",
     quote:
-      "A customer for decades. Morteza and Mostafa go above and beyond.",
+      "Best customer service. I have been getting my eyeglasses from Morteza and Mostafa for decades now and they go above and beyond. I can’t imagine going anywhere else.",
   },
   {
     name: "Joel Villalpando",
-    quote: "Morteza went above and beyond for a repair need.",
+    quote:
+      "To my delight he went above and beyond for a repair need that I had.",
   },
 ] as const;
 
