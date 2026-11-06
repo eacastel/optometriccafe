@@ -136,18 +136,18 @@ export default function Home() {
           <HomeCopy name="since" />
           <HomeCopy name="family" />
         </div>
-        <div className="section-head">
-          <div>
-            <p className="eyebrow">A different kind of optical shop</p>
-            <h2>
-              Good taste.
-              <br />
-              Personal attention.
-            </h2>
-          </div>
-        </div>
         <div className="shop-grid">
           <div className="shop-gallery">
+            <div className="section-head">
+              <div>
+                <p className="eyebrow">A different kind of optical shop</p>
+                <h2>
+                  Good taste.
+                  <br />
+                  Personal attention.
+                </h2>
+              </div>
+            </div>
             <BoutiqueGallery />
             <p className="gallery-intro">
               Designer frames, carefully crafted lenses, and someone who takes the

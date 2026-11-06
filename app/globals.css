@@ -697,6 +697,10 @@ summary::-webkit-details-marker {
   gap: 24px;
   min-width: 0;
 }
+.shop-gallery > .section-head {
+  order: -2;
+  margin-bottom: 8px;
+}
 .gallery-intro {
   font-size: 18px;
   line-height: 1.75;
