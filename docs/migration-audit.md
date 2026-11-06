@@ -2,6 +2,8 @@
 
 Status: implemented and independently checked locally; **not launched**. Final launch sign-off and the cutover gates in `content-migration-plan.md` remain outstanding.
 
+November 6 homepage refinement: integrated the original source into 20 design fragments, retained the approved editorial copy and imagery, strengthened the H1's local eyewear/fittings relevance, linked repairs directly, and added prominent links to all three specialist guides. The current build and 52 preservation tests pass; refreshed HTTP evidence validates every original homepage fragment exactly once, in addition to the existing page/redirect/media coverage. See `homepage-seo-integration.md`. The November 5 independent acceptance below applies to that earlier candidate, not a new independent sign-off on this layout change.
+
 Local production acceptance: build passes (56 generated routes), all 51 preservation tests pass, and the HTTP audit passes for 46 records, 72 redirect variants, 48 internal targets, 47 sitemap URLs, all 76 legacy media URLs, search and genuine 404s. Browser evidence covers all 46 imported pages at 390px and 1440px, plus 320/768/1024px homepage/header checks and single-fire click tracking. This is not production GA4 collector or ranking verification.
 
 Analytics supplied its independent handoff at `../analytics/2026-11-05-optometric-premigration/OPTOMETRIC-HANDOFF.txt`. Its November 5 local production HTTP review confirmed all 46 records return 200 with single correct canonicals and matching source titles/descriptions, plus 30 local legacy path/query variants, sitemap endpoints, draft noindex and real 404 behavior. Host-level redirects and production measurement remain outside that local acceptance.
@@ -22,7 +24,7 @@ The final independent 18:07 UTC recheck also passed all 60 observed legacy image
 
 The source WordPress server, DNS, Google accounts and GTM configuration were not modified. Existing `docs/analytics/` evidence and the user's README changes were not edited. The analytics agent independently recovered additional read-only production evidence and is preparing the launch report.
 
-The redesigned homepage hero and sections remain. Original homepage wording, its contextual guide links, award and video are added below those sections. The Google map and original social profiles are available on the new site; Google links target the actual business listing, not a generic address search.
+The redesigned homepage hero and sections remain. As of November 6, original homepage wording, contextual guide links, award and video are integrated into the relevant designed sections instead of appended as a duplicate homepage. Every source fragment is verified exactly once in rendered HTML; see `homepage-seo-integration.md`. The Google map and original social profiles are available on the new site; Google links target the actual business listing, not a generic address search.
 
 Additional issues caught by runtime crawling: decoded old Cloudflare email-protection links into working email links, repaired two pre-existing 404 contextual service links, and aligned the contact page's old Saturday 3 p.m. closing with the owner-confirmed 2 p.m. hours. These changes are explicit exceptions to byte-for-byte markup preservation, not copy rewrites.
 

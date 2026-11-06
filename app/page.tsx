@@ -6,15 +6,14 @@ import {
   ArrowRight,
   Glasses,
   Wrench,
-  Eye,
   Phone,
   Star,
 } from "lucide-react";
 import { BoutiqueGallery } from "@/components/BoutiqueGallery";
-import { business, hours, reviews } from "@/app/data";
+import { business, reviews } from "@/app/data";
 import { JsonLd } from "@/components/SiteChrome";
 import { TrackedLink } from "@/components/TrackedLink";
-import { ContentBody } from "@/components/ContentBody";
+import { HomeCopy } from "@/components/HomeCopy";
 import { BusinessLinks, GoogleMap } from "@/components/BusinessLinks";
 import { home, contentMetadata } from "@/lib/content";
 
@@ -32,15 +31,15 @@ const pathways = [
     number: "02",
     title: "Love them longer",
     text: "Thoughtful repairs, adjustments, and new lenses for favorite frames.",
-    href: "/services/#glasses-repair",
+    href: "/glasses-repair-adjustment-beverly-hills/",
     icon: Wrench,
   },
   {
     number: "03",
-    title: "See things clearly",
-    text: "Eye exams with an optometrist, available by appointment.",
-    href: "/optometry-services-in-beverly-hills/",
-    icon: Eye,
+    title: "Made for your prescription",
+    text: "An in-house optical workshop. Personal care, down to the last detail.",
+    href: "/optometry-lab-beverly-hills/",
+    icon: Glasses,
   },
 ];
 
@@ -65,7 +64,12 @@ export default function Home() {
               <span className="orange-dot" /> Beverly Hills. Family-owned since
               2005.
             </p>
-            <h1 id="home-title">Optometric Cafe</h1>
+            <h1 id="home-title">
+              Optometric Cafe
+              <span className="hero-subject" data-preserved-home="heroHeading">
+                {home.heading}
+              </span>
+            </h1>
             <p className="hero-statement">
               Great frames.
               <br />
@@ -128,6 +132,10 @@ export default function Home() {
       </section>
 
       <section className="band shop-section">
+        <div className="boutique-introduction">
+          <HomeCopy name="since" />
+          <HomeCopy name="family" />
+        </div>
         <div className="section-head">
           <div>
             <p className="eyebrow">A different kind of optical shop</p>
@@ -165,7 +173,7 @@ export default function Home() {
               [
                 "Repairs & adjustments",
                 "Expert care for the pair you love.",
-                "/services/#glasses-repair",
+                "/glasses-repair-adjustment-beverly-hills/",
               ],
             ].map(([title, text, href]) => (
               <Link href={href} key={title}>
@@ -181,6 +189,13 @@ export default function Home() {
             </Link>
           </div>
         </div>
+        <div className="collection-details">
+          {(["prescription", "sunglasses", "children", "repair"] as const).map(
+            (name) => (
+              <HomeCopy key={name} name={name} />
+            ),
+          )}
+        </div>
       </section>
 
       <section className="designer-band" aria-label="Designer eyewear brands">
@@ -193,9 +208,11 @@ export default function Home() {
           <span>MAUI JIM</span>
           <span>LUNOR</span>
         </div>
+        <HomeCopy name="designers" />
       </section>
 
       <section className="band owner-section">
+        <HomeCopy name="storyHeading" className="owner-context" />
         <div className="owner-grid">
           <div className="owner-copy">
             <p className="eyebrow">Meet your optician</p>
@@ -207,11 +224,7 @@ export default function Home() {
               Owner Morteza Talebi is the person behind your fitting, your
               lenses, and that final adjustment that makes all the difference.
             </p>
-            <p>
-              Family-owned since 2005, Optometric Cafe brings frame selection,
-              precise measurements, lens work, and repairs together in one
-              Beverly Hills boutique.
-            </p>
+            <HomeCopy name="story" />
             <Link className="text-link" href="/about-us/">
               Get to know us <ArrowUpRight size={18} />
             </Link>
@@ -226,13 +239,21 @@ export default function Home() {
               alt="Morteza Talebi smiling in his Optometric Cafe boutique"
               width={2400}
               height={1600}
-              loading="eager"
+              loading="lazy"
               sizes="(max-width: 760px) 100vw, 50vw"
             />
             <figcaption>
               Eyewear is personal. Your fitting should be, too.
             </figcaption>
           </figure>
+        </div>
+        <div className="boutique-film">
+          <div>
+            <p className="eyebrow">A little closer to the boutique</p>
+            <h3>Step inside.</h3>
+            <HomeCopy name="fittingLink" />
+          </div>
+          <HomeCopy name="video" />
         </div>
       </section>
 
@@ -254,10 +275,55 @@ export default function Home() {
           <Link className="text-link" href="/optometry-lab-beverly-hills/">
             Inside our optical workshop <ArrowUpRight size={18} />
           </Link>
+          <HomeCopy name="workshop" />
           <p className="exam-note">
             Morteza makes and fits glasses. Eye exams are provided by an
-            optometrist, by appointment.
+            optometrist. Please call to confirm availability before your visit.
           </p>
+        </div>
+      </section>
+
+      <section
+        className="band specialist-section"
+        aria-label="Specialist eyewear guidance"
+      >
+        <div className="specialist-intro">
+          <div>
+            <p className="eyebrow">More than a new pair</p>
+            <HomeCopy name="craft" />
+          </div>
+          <HomeCopy name="complex" />
+        </div>
+        <div className="specialist-guides">
+          {[
+            [
+              "01",
+              "High-prescription glasses",
+              "Thoughtful frame choices. Precise measurements. A fit made for your prescription.",
+              "/high-prescription-glasses-beverly-hills/",
+            ],
+            [
+              "02",
+              "New lenses. Favorite frames.",
+              "Find out whether your existing frames are suitable for replacement lenses.",
+              "/replacement-lenses-existing-frames-beverly-hills/",
+            ],
+            [
+              "03",
+              "Progressives, personally fitted.",
+              "Why frame fit and lens placement matter at every viewing distance.",
+              "/progressive-glasses-beverly-hills/",
+            ],
+          ].map(([number, title, text, href]) => (
+            <Link key={href} href={href} className="specialist-guide">
+              <span>
+                {number}
+                <ArrowUpRight size={20} />
+              </span>
+              <h3>{title}</h3>
+              <p>{text}</p>
+            </Link>
+          ))}
         </div>
       </section>
 
@@ -301,20 +367,7 @@ export default function Home() {
             </article>
           ))}
         </div>
-        <p className="recognition">
-          Recognized as a top Beverly Hills optometry practice by{" "}
-          <a
-            href="https://www.opencare.com/optometrists/beverly-hills-ca/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Opencare <ArrowUpRight size={13} />
-          </a>
-        </p>
-      </section>
-
-      <section className="home-preserved">
-        <ContentBody html={home.content} />
+        <HomeCopy name="award" className="recognition-award" />
       </section>
 
       <section className="visit-banner">
@@ -326,6 +379,7 @@ export default function Home() {
             South Beverly Drive.
           </h2>
           <p>{business.address}</p>
+          <HomeCopy name="invitation" />
           <div className="section-ctas">
             <TrackedLink
               className="button primary"
@@ -350,15 +404,7 @@ export default function Home() {
           </div>
         </div>
         <div className="visit-hours">
-          <p className="eyebrow">Boutique hours</p>
-          <ul className="hours-list">
-            {hours.map(([day, time]) => (
-              <li key={day}>
-                <strong>{day}</strong>
-                <span>{time}</span>
-              </li>
-            ))}
-          </ul>
+          <HomeCopy name="hours" />
           <TrackedLink
             className="text-link"
             href={business.phoneHref}
@@ -371,6 +417,10 @@ export default function Home() {
         </div>
       </section>
       <section className="home-map">
+        <div className="neighborhood-intro">
+          <HomeCopy name="visit" />
+          <HomeCopy name="neighborhood" />
+        </div>
         <GoogleMap />
         <BusinessLinks />
       </section>

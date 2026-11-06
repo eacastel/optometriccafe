@@ -33,7 +33,51 @@ for (const item of items) {
   if (item.robots.includes("noindex"))
     assert.ok($('meta[name="robots"]').attr("content").includes("noindex"));
   assert.equal($("main h1").length, 1, `H1 count: ${item.path}`);
-  if (item.slug !== "blog") {
+  if (item.path === "/") {
+    const fragments = JSON.parse(
+      await readFile("data/home-content.json", "utf8"),
+    );
+    for (const [name, html] of Object.entries(fragments)) {
+      const actual = $(`[data-preserved-home="${name}"]`);
+      assert.equal(actual.length, 1, `Homepage section: ${name}`);
+      assert.equal(
+        text(actual.text()),
+        text(load(html, null, false).root().text()),
+        `Homepage copy: ${name}`,
+      );
+      const before = load(html, null, false);
+      before("a[href]").each((_, node) => {
+        assert.ok(
+          actual
+            .find("a")
+            .toArray()
+            .some(
+              (n) =>
+                $(n).attr("href") === before(node).attr("href") &&
+                text($(n).text()) === text(before(node).text()),
+            ),
+          `Homepage link: ${before(node).attr("href")}`,
+        );
+      });
+    }
+    assert.match(
+      $("h1").text(),
+      /Optometric Cafe.*Eyewear.*Personal Fittings in Beverly Hills/,
+    );
+    for (const slug of [
+      "high-prescription-glasses-beverly-hills",
+      "replacement-lenses-existing-frames-beverly-hills",
+      "progressive-glasses-beverly-hills",
+      "optometry-lab-beverly-hills",
+      "glasses-repair-adjustment-beverly-hills",
+    ])
+      assert.ok($(`main a[href="/${slug}/"]`).length, slug);
+    assert.equal(
+      $(".home-preserved").length,
+      0,
+      "No appended duplicate homepage",
+    );
+  } else if (item.slug !== "blog") {
     const expected = load(item.content, null, false);
     assert.equal(
       text($("[data-preserved-content]").text()),
@@ -109,9 +153,12 @@ for (const path of links) {
   assert.equal(response.status, 200, `Internal link: ${path}`);
 }
 const sitemapResponse = await get("/sitemap.xml");
-const media = JSON.parse(await readFile('data/wordpress-media.json', 'utf8'));
+const media = JSON.parse(await readFile("data/wordpress-media.json", "utf8"));
 for (const item of media) {
-  const response = await fetch(new URL(item.path, base), { method: 'HEAD', redirect: 'manual' });
+  const response = await fetch(new URL(item.path, base), {
+    method: "HEAD",
+    redirect: "manual",
+  });
   assert.equal(response.status, 200, `Legacy media URL: ${item.path}`);
 }
 const sitemap = load(await sitemapResponse.text(), { xml: true });

@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { load } from "cheerio";
+import { homeContent } from "./home-content.mjs";
 import {
   decodeEmailProtection,
   correctPublishedHours,
@@ -205,6 +206,10 @@ const items = source.entries.map((entry) => {
   };
 });
 const home = items.find((item) => item.path === "/");
+await writeFile(
+  "data/home-content.json",
+  JSON.stringify(homeContent(home.content), null, 2) + "\n",
+);
 for (const page of [...source.entries, ...(source.archives || [])]) {
   for (const media of page.media || []) {
     asset(media.src);

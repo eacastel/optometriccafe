@@ -4,6 +4,7 @@ import { readFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { load } from "cheerio";
 import ts from "typescript";
+import { homeContent } from "../scripts/home-content.mjs";
 import {
   decodeEmailProtection,
   correctPublishedHours,
@@ -21,6 +22,33 @@ const flatten = (value) =>
       ? flatten(value["@graph"])
       : [value];
 const paths = new Set(items.map((item) => item.path));
+test("Homepage design sections preserve the entire source copy and links exactly once", async () => {
+  const home = items.find((item) => item.path === "/");
+  const fragments = await read("data/home-content.json");
+  assert.deepEqual(fragments, homeContent(home.content));
+  const before = load(home.content, null, false);
+  const after = load(Object.values(fragments).join("\n"), null, false);
+  const compact = (text) => text.replace(/\s+/g, "");
+  assert.equal(compact(before.root().text()), compact(after.root().text()));
+  for (const selector of ["a[href]", "img[src]", "source[src]", "h2", "h3"]) {
+    assert.deepEqual(
+      before(selector)
+        .toArray()
+        .map((node) => ({
+          text: normalize(before(node).text()),
+          href: before(node).attr("href"),
+          src: before(node).attr("src"),
+        })),
+      after(selector)
+        .toArray()
+        .map((node) => ({
+          text: normalize(after(node).text()),
+          href: after(node).attr("href"),
+          src: after(node).attr("src"),
+        })),
+    );
+  }
+});
 
 test("Every published REST record and sitemap landing URL is preserved", () => {
   assert.equal(items.length, source.entries.length);

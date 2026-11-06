@@ -6,11 +6,15 @@ const nextConfig: NextConfig = {
   // proxy.ts resolves aliases and slash normalization together, in one 301.
   skipTrailingSlashRedirect: true,
   async headers() {
-    return [{
-      source: '/:path*',
-      has: [{ type: 'host', value: '.*\\.vercel\\.app' }],
-      headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow, noarchive' }],
-    }];
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: ".*\\.vercel\\.app" }],
+        headers: [
+          { key: "X-Robots-Tag", value: "noindex, nofollow, noarchive" },
+        ],
+      },
+    ];
   },
 };
 export default nextConfig;
