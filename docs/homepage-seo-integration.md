@@ -2,6 +2,8 @@
 
 November 6, 2026. Implements the homepage recommendations in Analytics' November 5 pre-migration report while retaining the approved editorial design and headline copy.
 
+Fixed review URL: **https://optometriccafe.vercel.app/**. After each successful preview deployment, use `vercel alias set <new-preview-url> optometriccafe.vercel.app --scope emilio-castellanos-projects` and verify that address. Keep this review URL unchanged for the user; do not substitute new per-deployment links. It remains public and no-index, separate from the unchanged WordPress production domain.
+
 - Keep the Optometric Cafe brand, generated eyewear hero, "Great frames. An even better fit.", real shop gallery, owner portrait, workshop, attributed reviews, visit details and map.
 - Add the existing "Eyewear & Personal Fittings in Beverly Hills" wording as a modest second line in the single H1. Preserve the live SEO title, description, canonical, social metadata and schema.
 - Distribute all original homepage copy across the relevant designed sections instead of appending a second WordPress homepage below the redesign. No original paragraph, contextual link, heading text, award or video is deleted or hidden behind an accordion. Presentation order and heading levels can differ.
