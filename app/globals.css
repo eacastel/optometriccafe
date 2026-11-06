@@ -687,9 +687,20 @@ summary::-webkit-details-marker {
 }
 .shop-grid {
   display: grid;
-  grid-template-columns: 1.25fr 1fr;
+  grid-template-columns: 0.9fr 1.1fr;
   align-items: start;
   gap: 64px;
+}
+.shop-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+}
+.gallery-intro {
+  font-size: 18px;
+  line-height: 1.75;
+  margin: 0;
 }
 .shop-photo img {
   width: 100%;
@@ -775,7 +786,7 @@ figcaption {
   font-size: 13px;
 }
 @media (min-width: 761px) {
-  .shop-grid .shop-photo {
+  .shop-grid .shop-gallery {
     position: sticky;
     top: 110px;
   }
@@ -1540,6 +1551,10 @@ figcaption {
   }
 }
 @media (max-width: 760px) {
+  .gallery-intro {
+    order: -1;
+    font-size: 15px;
+  }
   :root {
     --gutter: 22px;
   }

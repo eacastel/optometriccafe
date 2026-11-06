@@ -145,13 +145,15 @@ export default function Home() {
               Personal attention.
             </h2>
           </div>
-          <p>
-            Designer frames, carefully crafted lenses, and someone who takes the
-            time to find what works for you.
-          </p>
         </div>
         <div className="shop-grid">
-          <BoutiqueGallery />
+          <div className="shop-gallery">
+            <BoutiqueGallery />
+            <p className="gallery-intro">
+              Designer frames, carefully crafted lenses, and someone who takes the
+              time to find what works for you.
+            </p>
+          </div>
           <div className="collection-list">
             <p className="eyebrow">Find your point of view</p>
             {(
