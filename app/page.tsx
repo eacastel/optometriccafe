@@ -154,47 +154,15 @@ export default function Home() {
           <BoutiqueGallery />
           <div className="collection-list">
             <p className="eyebrow">Find your point of view</p>
-            {[
-              [
-                "Prescription eyeglasses",
-                "Everyday clarity, individual style.",
-                "/prescription-eyeglasses-beverly-hills/",
-              ],
-              [
-                "Designer sunglasses",
-                "A little California, wherever you go.",
-                "/sunglasses-beverly-hills/",
-              ],
-              [
-                "Children's eyewear",
-                "Small frames. Plenty of personality.",
-                "/childrens-prescription-glasses-beverly-hills/",
-              ],
-              [
-                "Repairs & adjustments",
-                "Expert care for the pair you love.",
-                "/glasses-repair-adjustment-beverly-hills/",
-              ],
-            ].map(([title, text, href]) => (
-              <Link href={href} key={title}>
-                <div>
-                  <h3>{title}</h3>
-                  <p>{text}</p>
-                </div>
-                <ArrowUpRight size={20} />
-              </Link>
+            {(
+              ["prescription", "sunglasses", "children", "repair"] as const
+            ).map((name) => (
+              <HomeCopy key={name} name={name} />
             ))}
             <Link className="text-link" href="/services/">
               All optical services <ArrowRight size={17} />
             </Link>
           </div>
-        </div>
-        <div className="collection-details">
-          {(["prescription", "sunglasses", "children", "repair"] as const).map(
-            (name) => (
-              <HomeCopy key={name} name={name} />
-            ),
-          )}
         </div>
       </section>
 

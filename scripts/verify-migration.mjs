@@ -77,6 +77,24 @@ for (const item of items) {
       0,
       "No appended duplicate homepage",
     );
+    assert.equal(
+      $(".collection-details").length,
+      0,
+      "No duplicate collection grid",
+    );
+    assert.equal($(".collection-list [data-preserved-home]").length, 4);
+    for (const slug of [
+      "prescription-eyeglasses-beverly-hills",
+      "sunglasses-beverly-hills",
+      "childrens-prescription-glasses-beverly-hills",
+      "glasses-repair-adjustment-beverly-hills",
+    ]) {
+      assert.equal(
+        $(`.collection-list a[href="/${slug}/"]`).length,
+        1,
+        `One collection link per destination: ${slug}`,
+      );
+    }
   } else if (item.slug !== "blog") {
     const expected = load(item.content, null, false);
     assert.equal(
