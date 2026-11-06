@@ -786,9 +786,29 @@ figcaption {
   font-size: 13px;
 }
 @media (min-width: 761px) {
+  .shop-grid {
+    align-items: stretch;
+  }
   .shop-grid .shop-gallery {
-    position: sticky;
-    top: 110px;
+    position: static;
+  }
+  .shop-gallery .shop-photo {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .shop-gallery .gallery-frame {
+    flex: 1;
+    aspect-ratio: auto;
+    min-height: 380px;
+    position: relative;
+  }
+  .shop-gallery .gallery-frame img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    aspect-ratio: auto;
   }
 }
 .collection-list h3 {
