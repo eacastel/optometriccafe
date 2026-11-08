@@ -16,6 +16,7 @@ import { TrackedLink } from "@/components/TrackedLink";
 import { HomeCopy } from "@/components/HomeCopy";
 import { BusinessLinks, GoogleMap } from "@/components/BusinessLinks";
 import { home, contentMetadata } from "@/lib/content";
+import boutiquePhotos from "@/data/boutique-photos.json";
 
 export const metadata = contentMetadata(home);
 
@@ -150,8 +151,8 @@ export default function Home() {
             </div>
             <BoutiqueGallery />
             <p className="gallery-intro">
-              Designer frames, carefully crafted lenses, and someone who takes the
-              time to find what works for you.
+              Designer frames, carefully crafted lenses, and someone who takes
+              the time to find what works for you.
             </p>
           </div>
           <div className="collection-list">
@@ -217,13 +218,21 @@ export default function Home() {
             </figcaption>
           </figure>
         </div>
-        <div className="boutique-film">
-          <div>
-            <p className="eyebrow">A little closer to the boutique</p>
-            <h3>Step inside.</h3>
-            <HomeCopy name="fittingLink" />
-          </div>
-          <HomeCopy name="video" />
+        <div
+          className="boutique-photo-strip"
+          aria-label="Photographs of our boutique"
+        >
+          {boutiquePhotos.map((photo) => (
+            <Image
+              key={photo.output}
+              src={`/images/boutique/${photo.output}`}
+              alt={photo.alt}
+              width={1600}
+              height={1067}
+              sizes="(max-width: 760px) 100vw, 50vw"
+              loading="lazy"
+            />
+          ))}
         </div>
       </section>
 

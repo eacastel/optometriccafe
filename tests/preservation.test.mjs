@@ -22,6 +22,13 @@ const flatten = (value) =>
       ? flatten(value["@graph"])
       : [value];
 const paths = new Set(items.map((item) => item.path));
+test("Customer exports are excluded from public source and deployment uploads", async () => {
+  for (const file of [".gitignore", ".vercelignore"])
+    assert.ok(
+      (await readFile(file, "utf8")).split("\n").includes("private-exports/"),
+      file,
+    );
+});
 test("Homepage design sections preserve the entire source copy and links exactly once", async () => {
   const home = items.find((item) => item.path === "/");
   const fragments = await read("data/home-content.json");

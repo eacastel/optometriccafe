@@ -443,22 +443,21 @@ summary::-webkit-details-marker {
 .owner-copy .home-copy {
   max-width: 480px;
 }
-.boutique-film {
+.boutique-photo-strip {
   display: grid;
-  grid-template-columns: 1fr 1.4fr;
-  gap: 60px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
   align-items: center;
   padding-top: 48px;
   margin-top: 48px;
   border-top: 1px solid var(--line);
 }
-.boutique-film h3 {
-  font-size: 30px;
-}
-.boutique-film video {
+.boutique-photo-strip img {
   display: block;
   width: 100%;
-  aspect-ratio: 1200 / 516;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
   border-radius: 6px;
   background: var(--mist);
 }
@@ -561,7 +560,7 @@ summary::-webkit-details-marker {
   }
   .boutique-introduction,
   .specialist-intro,
-  .boutique-film,
+  .boutique-photo-strip,
   .neighborhood-intro {
     grid-template-columns: 1fr;
     gap: 28px;

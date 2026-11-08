@@ -11,3 +11,7 @@ docs/
 .env*
 README.md
 data/wordpress-source.json
+private-exports/
+scripts/consolidate-customers.py
+tests/test_customer_consolidation.py
+**/__pycache__/

@@ -34,10 +34,26 @@ for (const item of items) {
     assert.ok($('meta[name="robots"]').attr("content").includes("noindex"));
   assert.equal($("main h1").length, 1, `H1 count: ${item.path}`);
   if (item.path === "/") {
+    assert.equal($("main video").length, 0, "Owner requested video removal");
+    assert.equal(
+      $(".boutique-photo-strip img").length,
+      2,
+      "Real boutique photo pair",
+    );
+    assert.ok(!$("main").text().includes("A little closer to the boutique"));
+    assert.ok(!$("main").text().includes("Step inside."));
     const fragments = JSON.parse(
       await readFile("data/home-content.json", "utf8"),
     );
     for (const [name, html] of Object.entries(fragments)) {
+      if (["video", "fittingLink"].includes(name)) {
+        assert.equal(
+          $(`[data-preserved-home="${name}"]`).length,
+          0,
+          `Owner-requested removal: ${name}`,
+        );
+        continue;
+      }
       const actual = $(`[data-preserved-home="${name}"]`);
       assert.equal(actual.length, 1, `Homepage section: ${name}`);
       assert.equal(
@@ -115,7 +131,7 @@ for (const item of items) {
   results.push({
     path: item.path,
     status: 200,
-    copy: "exact",
+    copy: item.path === '/' ? '18 retained source fragments exact; video/CTA removed at owner request' : 'exact',
     title: "exact",
     canonical: "exact",
     schema: "parsed",

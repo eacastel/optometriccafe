@@ -35,3 +35,7 @@ public/tmp/
 optometriccafe-content-export-20260605/
 optometriccafe-content-export-20260605.tar.gz
 .vercel
+
+# Private customer exports must never enter source control.
+private-exports/
+__pycache__/
