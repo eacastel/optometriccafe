@@ -211,6 +211,7 @@ for (const [path, destination] of [
   ["/blog/page/1/", "/blog/"],
   ["/category/blog/page/2/", "/blog/"],
   ["/author/morteza/page/6/", "/author/morteza/"],
+  ["/progressive-glasses-beverly-hills/AMP/?AMP=1&NoAmp=mobile", "/progressive-glasses-beverly-hills/"],
 ]) {
   const response = await get(path);
   assert.equal(response.status, 301, path);
@@ -219,6 +220,19 @@ for (const [path, destination] of [
   assert.equal(location.search, "", path);
   assert.equal((await get(destination)).status, 200, destination);
   results.push({ path, status: 301, destination, hops: 1 });
+}
+for (const item of items) {
+  for (const key of ["p", "page_id"]) {
+    const path = `/?${key}=${item.id}&utm_source=release-audit&gclid=retained-test-value`;
+    const response = await get(path);
+    assert.equal(response.status, 301, path);
+    const location = new URL(response.headers.get("location"), base);
+    assert.equal(location.pathname, item.path, path);
+    assert.equal(location.searchParams.get("utm_source"), "release-audit");
+    assert.equal(location.searchParams.get("gclid"), "retained-test-value");
+    assert.equal(location.searchParams.has(key), false);
+    results.push({ path, status: 301, destination: item.path, hops: 1 });
+  }
 }
 for (const path of links) {
   const response = await get(path);
@@ -292,5 +306,5 @@ await writeFile(
   ) + "\n",
 );
 console.log(
-  `PASS: ${items.length} pages, ${redirects.length * 2 + 10} redirect variants, ${links.size} internal targets, ${urls.length} sitemap URLs, ${media.length} legacy media URLs, search and real 404s.`,
+  `PASS: ${items.length} pages, ${results.filter((result) => result.status === 301).length} redirect variants, ${links.size} internal targets, ${urls.length} sitemap URLs, ${media.length} legacy media URLs, search and real 404s.`,
 );

@@ -29,8 +29,8 @@ Generation prompt:
 
 ## Launch Follow-up
 
-- The existing dependency lockfile contains Next.js 16.2.7. The npm production audit on November 5, 2026 reports six vulnerable packages, including a critical rating for Next.js. Upgrade and revalidate before public deployment; this visual change does not attempt that framework upgrade.
-- Some preserved imported HTML still uses remote WordPress media and inline styles. Complete the content/media migration audit before retiring WordPress.
+- November 9 follow-up: upgraded Next.js 16.2.7 to the [16.4.5 security release](https://github.com/vercel/next.js/releases/tag/v16.4.5), applied compatible transitive fixes, and revalidated the build and preserved content. Production npm audit now reports zero known vulnerabilities, bound to the lockfile hash in `dependency-audit-verification.json`; this is not a complete security assessment.
+- Imported media are now local at their original upload paths and Divi styles/scripts are stripped. All 76 legacy media URLs pass the HTTP audit. A fresh source delta and final public-host verification remain necessary before retiring WordPress.
 - Booking links lead to visit details and phone scheduling; no online booking backend has been added.
 - Google Maps remains a third-party embed, with an independent directions link available.
 

@@ -15,9 +15,13 @@ export async function generateMetadata({
   params: Promise<{ author: string }>;
 }): Promise<Metadata> {
   const { author } = await params;
+  const title = `${posts.find((item) => item.author?.slug === author)?.author?.name || "Author"} - Articles | Optometric Cafe`;
+  const canonical = `https://optometriccafe.com/author/${author}/`;
   return {
-    title: `${posts.find((item) => item.author?.slug === author)?.author?.name || "Author"} - Articles`,
-    alternates: { canonical: `https://optometriccafe.com/author/${author}/` },
+    title: { absolute: title },
+    alternates: { canonical },
+    openGraph: { title, url: canonical, type: "website" },
+    twitter: { title },
     robots: { index: false, follow: true },
   };
 }

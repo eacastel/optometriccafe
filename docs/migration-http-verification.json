@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-09T11:09:01.185Z",
+  "checkedAt": "2026-11-09T15:30:48.764Z",
   "base": "http://localhost:3000",
   "pages": 46,
   "internalLinks": 48,
@@ -804,6 +804,564 @@
       "path": "/author/morteza/page/6/",
       "status": 301,
       "destination": "/author/morteza/",
+      "hops": 1
+    },
+    {
+      "path": "/progressive-glasses-beverly-hills/AMP/?AMP=1&NoAmp=mobile",
+      "status": 301,
+      "destination": "/progressive-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22608&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/homepage-redesign-no-divi/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22608&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/homepage-redesign-no-divi/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22591&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/glasses-repair-adjustment-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22591&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/glasses-repair-adjustment-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22470&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/contact-us/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22470&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/contact-us/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22105&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/featured-reviews/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22105&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/featured-reviews/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22020&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22020&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=2799&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/blog/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=2799&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/blog/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=195&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/optometry-lab-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=195&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/optometry-lab-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=189&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/about-us/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=189&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/about-us/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=167&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/childrens-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=167&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/childrens-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=156&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/mens-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=156&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/mens-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=145&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/womens-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=145&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/womens-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=131&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/contact-lenses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=131&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/contact-lenses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=124&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/computer-gaming-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=124&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/computer-gaming-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=115&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/sports-eye-glasses-and-sunglasses/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=115&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/sports-eye-glasses-and-sunglasses/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=105&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/childrens-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=105&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/childrens-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=96&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/mens-prescription-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=96&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/mens-prescription-eye-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=86&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/womens-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=86&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/womens-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=79&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/prescription-eyeglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=79&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/prescription-eyeglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=70&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/optometry-services-in-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=70&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/optometry-services-in-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=8&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=8&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22635&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/progressive-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22635&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/progressive-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22627&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/replacement-lenses-existing-frames-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22627&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/replacement-lenses-existing-frames-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22626&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/high-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22626&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/high-prescription-glasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22615&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/back-to-school-glasses-contact-lenses-children-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22615&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/back-to-school-glasses-contact-lenses-children-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22613&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/best-glasses-watching-outdoor-sports-los-angeles/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22613&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/best-glasses-watching-outdoor-sports-los-angeles/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22612&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/world-cup-2026-prescription-sunglasses-sports-glasses/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22612&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/world-cup-2026-prescription-sunglasses-sports-glasses/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22580&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/how-to-care-for-prescription-glasses/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22580&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/how-to-care-for-prescription-glasses/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22579&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/cheap-sunglasses-eye-protection/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22579&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/cheap-sunglasses-eye-protection/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22578&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/summer-prescription-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22578&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/summer-prescription-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22565&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/luxury-designer-frames-how-to-choose/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22565&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/luxury-designer-frames-how-to-choose/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22564&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/beverly-hills-eye-care-guide-families/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22564&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/beverly-hills-eye-care-guide-families/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22563&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/optometrist-near-rodeo-drive-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22563&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/optometrist-near-rodeo-drive-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22562&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/where-to-get-prescription-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22562&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/where-to-get-prescription-sunglasses-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22561&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/best-eyewear-boutique-experience-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22561&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/best-eyewear-boutique-experience-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22544&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/sports-glasses-prescription-sunglasses-active-lifestyles/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22544&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/sports-glasses-prescription-sunglasses-active-lifestyles/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22542&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/kids-prescription-glasses-fit-durability-comfort/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22542&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/kids-prescription-glasses-fit-durability-comfort/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22541&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/daily-vs-monthly-contact-lenses/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22541&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/daily-vs-monthly-contact-lenses/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22540&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/designer-eyewear-beverly-hills-great-fit/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22540&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/designer-eyewear-beverly-hills-great-fit/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22537&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/contact-lens-fitting-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22537&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/contact-lens-fitting-beverly-hills/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22535&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/prescription-sunglasses-vs-regular-sunglasses/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22535&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/prescription-sunglasses-vs-regular-sunglasses/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=7744&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/beverly-hills-eyewear-boutique/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=7744&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/beverly-hills-eyewear-boutique/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=7386&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/eye-exam-beverly-hills-what-to-expect/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=7386&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/eye-exam-beverly-hills-what-to-expect/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=22203&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/the-real-secret-to-picking-sunglasses-hint-its-not-face-shape/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=22203&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/the-real-secret-to-picking-sunglasses-hint-its-not-face-shape/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=6545&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/computer-glasses-digital-eye-strain/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=6545&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/computer-glasses-digital-eye-strain/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=5505&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/prescription-glasses-beverly-hills-choose-frames/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=5505&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/prescription-glasses-beverly-hills-choose-frames/",
+      "hops": 1
+    },
+    {
+      "path": "/?p=4215&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/how-often-should-you-get-an-eye-exam/",
+      "hops": 1
+    },
+    {
+      "path": "/?page_id=4215&utm_source=release-audit&gclid=retained-test-value",
+      "status": 301,
+      "destination": "/how-often-should-you-get-an-eye-exam/",
       "hops": 1
     }
   ]

@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checkedAt": "2026-11-09T11:13:49.342Z",
+  "checkedAt": "2026-11-09T15:32:26.156Z",
   "local": "http://localhost:3000",
   "simulatedOrigin": "https://optometriccafe.com",
   "stream": "G-CCNQVYK5KJ",
@@ -280,7 +280,7 @@
         "cta_type": "reviews",
         "cta_text": "See Our 5-Star Reviews",
         "link_placement": "content",
-        "gtm.uniqueEventId": 11
+        "gtm.uniqueEventId": 12
       }
     },
     {
@@ -298,7 +298,7 @@
         "cta_type": "contact_navigation",
         "cta_text": "Book a Fitting",
         "link_placement": "content",
-        "gtm.uniqueEventId": 12
+        "gtm.uniqueEventId": 13
       }
     },
     {

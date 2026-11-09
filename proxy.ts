@@ -7,10 +7,10 @@ export function proxy(request: NextRequest) {
   const path =
     url.pathname
       .replace(/^\/index\.php(?=\/)/, "")
-      .replace(/\/amp\/?$/, "/")
+      .replace(/\/amp\/?$/i, "/")
       .replace(/\/+$/, "") || "/";
-  url.searchParams.delete("amp");
-  url.searchParams.delete("noamp");
+  for (const key of [...url.searchParams.keys()])
+    if (/^(amp|noamp)$/i.test(key)) url.searchParams.delete(key);
   const alias = redirects.find((rule) => rule.source === path);
   let destination = alias?.destination;
   if (path === "/") {

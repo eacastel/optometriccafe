@@ -1,0 +1,592 @@
+{
+  "checkedAt": "2026-11-09T15:30:51.568061+00:00",
+  "base": "http://localhost:3000",
+  "matrixFile": "/home/eacastel/Avanti/clients/analytics/2026-11-05-optometric-premigration/url-migration-matrix.csv",
+  "matrixSha256": "ff7f3cd4099d5845b464c847bba96504c48f7ff73adfe2a14990c8875ebecbe8",
+  "matrixRows": 84,
+  "checkedRows": 81,
+  "passed": true,
+  "productionHostChecksPending": [
+    {
+      "url": "http://optometriccafe.com/",
+      "reason": "Production HTTP/www host normalization cannot be accepted on a preview hostname."
+    },
+    {
+      "url": "http://www.optometriccafe.com/",
+      "reason": "Production HTTP/www host normalization cannot be accepted on a preview hostname."
+    },
+    {
+      "url": "https://www.optometriccafe.com/",
+      "reason": "Production HTTP/www host normalization cannot be accepted on a preview hostname."
+    }
+  ],
+  "results": [
+    {
+      "source": "https://optometriccafe.com/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/?amp=1",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/about-us/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/about-us/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/back-to-school-glasses-contact-lenses-children-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/back-to-school-glasses-contact-lenses-children-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/best-eyewear-boutique-experience-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/best-eyewear-boutique-experience-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/best-eyewear-boutique-experience-beverly-hills/amp/",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/best-eyewear-boutique-experience-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/best-glasses-watching-outdoor-sports-los-angeles/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/best-glasses-watching-outdoor-sports-los-angeles/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/beverly-hills-eye-care-guide-families/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/beverly-hills-eye-care-guide-families/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/beverly-hills-eye-care-guide-families/amp/",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/beverly-hills-eye-care-guide-families/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/beverly-hills-eyewear-boutique/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/beverly-hills-eyewear-boutique/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/blog/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/blog/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/category/blog/",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/blog/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/cheap-sunglasses-eye-protection/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/cheap-sunglasses-eye-protection/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/childrens-eyeglasses-beverly-hills/",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/childrens-prescription-glasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/childrens-prescription-glasses",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/childrens-prescription-glasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/childrens-prescription-glasses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/childrens-prescription-glasses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/childrens-sunglasses",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/childrens-sunglasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/childrens-sunglasses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/childrens-sunglasses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/computer-gaming-eye-glasses",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/computer-gaming-eye-glasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/computer-gaming-eye-glasses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/computer-gaming-eye-glasses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/computer-glasses-beverly-hills",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/computer-gaming-eye-glasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/computer-glasses-digital-eye-strain/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/computer-glasses-digital-eye-strain/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/computer-glasses-digital-eye-strain/amp/",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/computer-glasses-digital-eye-strain/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/contact-lens-fitting-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/contact-lens-fitting-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/contact-lenses",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/contact-lenses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/contact-lenses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/contact-lenses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/contact-us/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/contact-us/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/daily-vs-monthly-contact-lenses/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/daily-vs-monthly-contact-lenses/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/designer-eyewear-beverly-hills-great-fit/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/designer-eyewear-beverly-hills-great-fit/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/eye-exam-beverly-hills-what-to-expect/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/eye-exam-beverly-hills-what-to-expect/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/eyeglasses-beverly-hills",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/prescription-eyeglasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/featured-reviews/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/featured-reviews/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/glasses-repair-adjustment-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/glasses-repair-adjustment-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/gunnar-gaming-computer-eye-glasses",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/computer-gaming-eye-glasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/high-prescription-glasses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/high-prescription-glasses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/homepage-redesign-no-divi/",
+      "decision": "KEEP EXCLUDED",
+      "expectedDestination": "https://optometriccafe.com/homepage-redesign-no-divi/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/how-often-should-you-get-an-eye-exam/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/how-often-should-you-get-an-eye-exam/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/how-to-care-for-prescription-glasses/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/how-to-care-for-prescription-glasses/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/index.php/optometry-lab-beverly-hills/",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/kids-prescription-glasses-fit-durability-comfort/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/kids-prescription-glasses-fit-durability-comfort/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/luxury-designer-frames-how-to-choose/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/luxury-designer-frames-how-to-choose/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/mens-eyeglasses-beverly-hills/",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/mens-prescription-eye-glasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/mens-prescription-eye-glasses",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/mens-prescription-eye-glasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/mens-prescription-eye-glasses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/mens-prescription-eye-glasses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/mens-prescription-glasses-beverly-hills",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/mens-prescription-eye-glasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/mens-sunglasses",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/mens-sunglasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/mens-sunglasses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/mens-sunglasses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/optometrist-near-rodeo-drive-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/optometrist-near-rodeo-drive-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/optometry-lab",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/optometry-los-angeles",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/optometry-services-in-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/optometry-services-in-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/optometry-services-in-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/preparing-for-eye-exam-beverly-hills/",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/eye-exam-beverly-hills-what-to-expect/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/prescription-eyeglasses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/prescription-eyeglasses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/prescription-glasses",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/prescription-eyeglasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/prescription-glasses-beverly-hills-choose-frames/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/prescription-glasses-beverly-hills-choose-frames/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/prescription-glasses?utm_source=pre-migration-audit&utm_medium=qa",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/prescription-eyeglasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/prescription-sunglasses-vs-regular-sunglasses/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/prescription-sunglasses-vs-regular-sunglasses/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/progressive-glasses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/progressive-glasses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/replacement-lenses-existing-frames-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/replacement-lenses-existing-frames-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/reviews/",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/featured-reviews/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/sitemap.xml",
+      "decision": "SITEMAP TRANSITION",
+      "expectedDestination": "https://optometriccafe.com/sitemap.xml",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/sports-eye-glasses-and-sunglasses/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/sports-eye-glasses-and-sunglasses/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/sports-glasses-prescription-sunglasses-active-lifestyles/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/sports-glasses-prescription-sunglasses-active-lifestyles/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/summer-prescription-sunglasses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/summer-prescription-sunglasses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/sunglasses",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/sunglasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/sunglasses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/sunglasses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/the-real-secret-to-picking-sunglasses-hint-its-not-face-shape/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/the-real-secret-to-picking-sunglasses-hint-its-not-face-shape/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/where-to-get-prescription-sunglasses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/where-to-get-prescription-sunglasses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/womens-eyeglasses-beverly-hills/",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/womens-prescription-glasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/womens-prescription-glasses",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/womens-prescription-glasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/womens-prescription-glasses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/womens-prescription-glasses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/womens-sunglasses",
+      "decision": "PERMANENT REDIRECT",
+      "expectedDestination": "https://optometriccafe.com/womens-sunglasses-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/womens-sunglasses-beverly-hills/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/womens-sunglasses-beverly-hills/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/world-cup-2026-prescription-sunglasses-sports-glasses/",
+      "decision": "KEEP 200 SAME URL",
+      "expectedDestination": "https://optometriccafe.com/world-cup-2026-prescription-sunglasses-sports-glasses/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/wp-sitemap.xml",
+      "decision": "SITEMAP TRANSITION",
+      "expectedDestination": "https://optometriccafe.com/sitemap.xml",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/sports-glasses-sunglasses/",
+      "decision": "REPAIR EXISTING 404",
+      "expectedDestination": "https://optometriccafe.com/sports-eye-glasses-and-sunglasses/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/optometry-services-beverly-hills/",
+      "decision": "REPAIR EXISTING 404",
+      "expectedDestination": "https://optometriccafe.com/optometry-services-in-beverly-hills/",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/sitemap_index.xml",
+      "decision": "SITEMAP TRANSITION",
+      "expectedDestination": "https://optometriccafe.com/sitemap.xml",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/post-sitemap.xml",
+      "decision": "SITEMAP TRANSITION",
+      "expectedDestination": "https://optometriccafe.com/sitemap.xml",
+      "status": 301,
+      "passed": true
+    },
+    {
+      "source": "https://optometriccafe.com/page-sitemap.xml",
+      "decision": "SITEMAP TRANSITION",
+      "expectedDestination": "https://optometriccafe.com/sitemap.xml",
+      "status": 301,
+      "passed": true
+    }
+  ]
+}

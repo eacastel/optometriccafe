@@ -8,13 +8,15 @@
     "start": "next start",
     "test": "node --test tests/*.test.mjs",
     "test:migration": "node scripts/verify-migration.mjs",
+    "test:integrity": "node scripts/verify-content-integrity.mjs",
     "content:capture": "node scripts/capture-wordpress.mjs",
+    "content:compare": "node scripts/content-delta.mjs",
     "content:import": "node scripts/import-wordpress.mjs",
     "content:media": "node scripts/download-wordpress-media.mjs"
   },
   "dependencies": {
     "lucide-react": "1.69.0",
-    "next": "latest",
+    "next": "16.4.5",
     "react": "latest",
     "react-dom": "latest"
   },

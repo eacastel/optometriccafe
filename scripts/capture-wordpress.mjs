@@ -1,10 +1,14 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { load } from "cheerio";
+import { dirname } from "node:path";
 
 // Public GET requests only. Never authenticate to or modify WordPress.
 const origin = "https://optometriccafe.com";
-const cache = "public/tmp/wordpress";
+const option = (name, fallback) =>
+  process.argv.find((arg) => arg.startsWith(`--${name}=`))?.slice(name.length + 3) || fallback;
+const cache = option("cache", "public/tmp/wordpress");
+const output = option("output", "data/wordpress-source.json");
 const refresh = process.argv.includes("--refresh");
 const archivePaths = new Set();
 function pageMedia($) {
@@ -25,7 +29,7 @@ function pageMedia($) {
     }));
 }
 await mkdir(cache, { recursive: true });
-await mkdir("data", { recursive: true });
+await mkdir(dirname(output), { recursive: true });
 async function capture(path, name) {
   const filename = `${cache}/${name}`;
   if (!refresh) {
@@ -61,6 +65,7 @@ for (const type of ["pages", "posts"]) {
   }
 }
 const entries = [];
+let siteVerification = {};
 for (const record of records) {
   const result = await capture(record.link, `${record.id}.json`);
   const $ = load(result.body);
@@ -75,8 +80,13 @@ for (const record of records) {
     $(`meta[name="${name}"], meta[property="${name}"]`)
       .first()
       .attr("content") || "";
+  if (new URL(record.link).pathname === "/") {
+    const google = meta("google-site-verification");
+    siteVerification = google ? { google } : {};
+  }
   entries.push({
     id: record.id,
+    guid: record.guid?.rendered || "",
     type: record.type,
     slug: new URL(record.link).pathname === "/" ? "" : record.slug,
     path: new URL(record.link).pathname,
@@ -152,11 +162,11 @@ while (pending.length) {
   sitemaps.push({ url: result.url, xml: result.body });
 }
 await writeFile(
-  "data/wordpress-source.json",
+  output,
   JSON.stringify(
-    { capturedAt: new Date().toISOString(), entries, sitemaps, archives },
+    { capturedAt: new Date().toISOString(), entries, sitemaps, archives, siteVerification },
     null,
     2,
   ) + "\n",
 );
-console.log(`Captured ${entries.length} entries, ${sitemaps.length} sitemaps.`);
+console.log(`Captured ${entries.length} entries, ${sitemaps.length} sitemaps to ${output}.`);

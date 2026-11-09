@@ -1,4 +1,22 @@
-# November 5 Content Preservation Audit
+# Content Preservation Audit
+
+## November 9 Recheck
+
+Read-only fresh capture matches the November 5 approved source: 46 records, 26 posts, 45 source sitemap URLs, no content/metadata/schema/link/media changes. The approved homepage design and explicit owner-requested removal of its video/fitting link remain unchanged. Source hashes and field-level comparison are in `source-delta-verification.json`.
+
+Closed omissions: preserved the live public Google Search Console verification tag; restored `/feed/` with full article bodies and original opaque GUIDs; corrected inherited homepage Open Graph URLs on blog pagination and author archives. AMP path/query cleanup now retains the source server's case-insensitive behavior without dropping unrelated UTMs/gclid.
+
+Candidate production evidence:
+
+- 66 automated tests, successful Next.js 16.4.5 build with 57 generated routes.
+- `migration-http-verification.json`: all 46 original records, 165 redirect variants, 47 sitemap URLs and 76 legacy media URLs pass; real 404 and search checks pass.
+- `content-integrity-verification.json`: 51 page routes, 26 discoverable posts across three blog pages, 59 anchor targets, 255 referenced asset URLs, resolved JSON-LD identities, correct per-page social URLs, full-text RSS, verification tag and private export exclusions pass.
+- `analytics-matrix-verification.json`: all 81 candidate-testable rows in Analytics' original 84-row matrix pass. Three production HTTP/www host cases remain explicitly pending.
+- `dependency-audit-verification.json`: production npm advisory count reduced from six (including critical Next.js) to zero. A full-tree audit request returned a registry endpoint error; do not infer full security clearance from the production result. Next.js [16.4.5 release notes](https://github.com/vercel/next.js/releases/tag/v16.4.5) confirm the security release.
+
+The raw fresh source remains in ignored local scratch; the approved snapshot is not overwritten. No WordPress, DNS, Google-account, indexing or production-domain changes were made. Future edits before cutover still require a new source delta. See the updated preservation runbook for rollback prerequisites and remaining gates.
+
+## Historical Acceptance
 
 Status: implemented and independently checked locally; **not launched**. Final launch sign-off and the cutover gates in `content-migration-plan.md` remain outstanding.
 

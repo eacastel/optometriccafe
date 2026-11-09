@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BlogIndex } from "@/components/BlogIndex";
-import { posts } from "@/lib/content";
+import { posts, findItem, contentMetadata } from "@/lib/content";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -15,9 +15,15 @@ export async function generateMetadata({
   params: Promise<{ page: string }>;
 }): Promise<Metadata> {
   const { page } = await params;
+  const metadata = contentMetadata(findItem("blog")!);
+  const title = `Blog - Page ${page} | Optometric Cafe`;
+  const canonical = `https://optometriccafe.com/blog/page/${page}/`;
   return {
-    title: `Blog - Page ${page}`,
-    alternates: { canonical: `https://optometriccafe.com/blog/page/${page}/` },
+    ...metadata,
+    title: { absolute: title },
+    alternates: { canonical },
+    openGraph: { ...metadata.openGraph, title, url: canonical },
+    twitter: { ...metadata.twitter, title },
   };
 }
 export default async function BlogPage({
@@ -26,7 +32,7 @@ export default async function BlogPage({
   params: Promise<{ page: string }>;
 }) {
   const { page } = await params;
-  if (!/^[2-9]\d*$/.test(page) || Number(page) > Math.ceil(posts.length / 10))
+  if (!/^[1-9]\d*$/.test(page) || Number(page) < 2 || Number(page) > Math.ceil(posts.length / 10))
     notFound();
   return <BlogIndex page={Number(page)} />;
 }

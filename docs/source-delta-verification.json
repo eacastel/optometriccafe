@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-11-09T15:28:53.111Z",
+  "baselineFile": "data/wordpress-source.json",
+  "baselineSha256": "0535da5df239e07ab9530f88658e78a3124f421ef51f05fdd2c2131efaa981ab",
+  "candidateFile": "public/tmp/preservation-2026-11-09/wordpress-source.json",
+  "candidateSha256": "099f570b83c36d7ebaa67597a1a4eade473ce5bb0028a1961f7d6f17ffc86a69",
+  "passed": true,
+  "baselineCapturedAt": "2026-11-05T18:04:06.067Z",
+  "candidateCapturedAt": "2026-11-09T15:28:45.752Z",
+  "baselineRecords": 46,
+  "candidateRecords": 46,
+  "candidatePosts": 26,
+  "added": [],
+  "removed": [],
+  "changed": [],
+  "sitemaps": {
+    "before": 45,
+    "after": 45,
+    "added": [],
+    "removed": []
+  },
+  "identityChanges": []
+}

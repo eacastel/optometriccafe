@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-09T15:26:19.203Z",
+  "scope": "production dependencies including optional dependencies; not a full security penetration test",
+  "nextVersion": "16.4.5",
+  "lockfileSha256": "989f4159da77966fea2fb4aa26ded23dcd86dd3c26857b8b9ce62ea158a23024",
+  "vulnerabilities": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "passed": true
+}

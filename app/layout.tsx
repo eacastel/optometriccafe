@@ -3,11 +3,13 @@ import Script from "next/script";
 import "./globals.css";
 import { business } from "@/app/data";
 import businessSchema from "@/data/business-schema.json";
+import siteIdentity from "@/data/site-identity.json";
 import { AnalyticsLinks } from "@/components/AnalyticsLinks";
 import { Footer, Header, JsonLd } from "@/components/SiteChrome";
 
 export const metadata: Metadata = {
   metadataBase: new URL(business.url),
+  verification: siteIdentity.verification,
   title: {
     default: "Optometric Cafe | Beverly Hills Eyewear & Fittings",
     template: "%s | Optometric Cafe",
@@ -41,6 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <head>
+        <link rel="alternate" type="application/rss+xml" title={siteIdentity.feed.title} href={`${business.url}/feed/`} />
         <Script id="gtm" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

@@ -1,6 +1,8 @@
 # URL Preservation and Redirects
 
-Updated November 5, 2026. No production cutover authorized.
+Updated November 9, 2026. No production cutover authorized.
+
+Latest candidate check: 165 variants pass, including every known record's `p` and `page_id` entry points with UTMs/gclid, slash/AMP aliases and uppercase AMP controls. Analytics' original 84-row matrix is also reconciled: all 81 candidate-testable rows pass; three HTTP/www hosting checks remain pending. Evidence: `migration-http-verification.json` and `analytics-matrix-verification.json`.
 
 ## Preserve
 
@@ -20,7 +22,7 @@ Rules include:
 - `/reviews/`, `/category/blog/`, and `/preparing-for-eye-exam-beverly-hills/`.
 - The three observed AMP article aliases, plus the general server AMP rule.
 - `/sitemap_index.xml`, `/page-sitemap.xml`, `/post-sitemap.xml`, and `/wp-sitemap.xml` directly to the new valid `/sitemap.xml`.
-- Server patterns: `/index.php/<path>`, `/<path>/amp/`, and `amp`/`noamp` query flags normalize in the same hop. Other query parameters survive.
+- Server patterns: `/index.php/<path>`, `/<path>/amp/`, and `amp`/`noamp` query flags normalize in the same hop. AMP matching remains case-insensitive, consistent with the recovered source rules. Other query parameters survive.
 - `/category/blog/page/<number>/` redirects to `/blog/`, matching the existing MU plugin.
 - Old `/author/morteza/page/<number>/` archives redirect to the noindex author archive, which now lists all 26 articles without pagination.
 - WordPress `?p=<known id>` and `?page_id=<known id>` resolve to their retained pages. `?s=` opens functional site search.
