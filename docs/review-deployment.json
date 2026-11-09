@@ -1,0 +1,17 @@
+{
+  "deployedOn": "2026-11-09",
+  "applicationCommit": "fa70d79",
+  "reviewUrl": "https://optometriccafe.vercel.app/",
+  "deploymentId": "dpl_GJqiP5fPEDq2t5RbnXjTzGj1ZEvF",
+  "deploymentUrl": "https://optometriccafe-fvdimz95t-emilio-castellanos-projects.vercel.app",
+  "previousReviewDeploymentUrl": "https://optometriccafe-kh93z8kcj-emilio-castellanos-projects.vercel.app",
+  "target": "preview",
+  "readyState": "READY",
+  "productionDomainChanged": false,
+  "wordpressChanged": false,
+  "googleConfigurationChanged": false,
+  "previewRobotsHeaderVerified": "noindex, nofollow, noarchive",
+  "privateCustomerExportResponse": 404,
+  "publicHttpAudit": { "pages": 46, "redirectVariants": 165, "legacyMediaUrls": 76, "passed": true },
+  "productionCutoverApproved": false
+}

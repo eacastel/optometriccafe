@@ -16,6 +16,8 @@ Candidate production evidence:
 
 The raw fresh source remains in ignored local scratch; the approved snapshot is not overwritten. No WordPress, DNS, Google-account, indexing or production-domain changes were made. Future edits before cutover still require a new source delta. See the updated preservation runbook for rollback prerequisites and remaining gates.
 
+Application commit `fa70d79` is deployed at the unchanged public, no-index review alias `https://optometriccafe.vercel.app/`. The full 46-page / 165-redirect / 76-legacy-media HTTP audit also passed on that actual host; `migration-http-verification.json` now records the public review URL rather than localhost. Public spot checks confirm Search Console verification, archive social URLs, 26 RSS entries with retained GUIDs and private customer export 404s. `review-deployment.json` records the exact ready deployment and the previous preview for alias rollback. This is preview acceptance, not production-domain or GA4 receipt approval.
+
 ## Historical Acceptance
 
 Status: implemented and independently checked locally; **not launched**. Final launch sign-off and the cutover gates in `content-migration-plan.md` remain outstanding.
