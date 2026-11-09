@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-11-09T11:09:45.940Z",
+  "scope": "Illustrative optimized image transfer sizes, not a Core Web Vitals or comparative Lighthouse result",
+  "samples": [
+    {
+      "source": "/wp-content/uploads/2026/09/high-prescription-glasses-fitting-beverly-hills.png",
+      "sourceBytes": 2312123,
+      "responsiveBytes": 34030,
+      "responsiveWidth": 640,
+      "contentType": "image/webp"
+    },
+    {
+      "source": "/wp-content/uploads/2026/09/replacement-lenses-existing-frames-beverly-hills.png",
+      "sourceBytes": 2106780,
+      "responsiveBytes": 27948,
+      "responsiveWidth": 640,
+      "contentType": "image/webp"
+    }
+  ]
+}

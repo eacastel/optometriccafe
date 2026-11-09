@@ -8,6 +8,20 @@ import { BusinessLinks } from "@/components/BusinessLinks";
 export const metadata: Metadata = {
   alternates: { canonical: "https://optometriccafe.com/visit/" },
   title: "Visit & Contact",
+  openGraph: {
+    title: "Visit Optometric Cafe | Beverly Hills",
+    description:
+      "Find our family-owned optical boutique at 277 South Beverly Drive. Call about a fitting or confirm optometrist availability.",
+    url: "https://optometriccafe.com/visit/",
+    type: "website",
+    siteName: business.name,
+    images: [
+      {
+        url: "/images/selected/originals/store-fitting-room.jpg",
+        alt: "Inside Optometric Cafe on South Beverly Drive",
+      },
+    ],
+  },
   description:
     "Visit Optometric Cafe at 277 South Beverly Dr. in Beverly Hills. Call 310-888-2848 to book a fitting or ask about eye exams by appointment.",
 };
@@ -28,8 +42,8 @@ export default function VisitPage() {
             <h1>Visit Optometric Cafe.</h1>
             <p className="lead">
               Call ahead for the smoothest visit. Morteza leads eyewear fittings
-              and optical work; optometrist appointments are available for eye
-              exams and prescriptions.
+              and optical work. Please call to confirm optometrist availability
+              before planning an eye exam.
             </p>
             <div className="hero-ctas">
               <TrackedLink
@@ -154,7 +168,7 @@ export default function VisitPage() {
             <iframe
               title="Optometric Cafe at 277 South Beverly Drive, Beverly Hills"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6610.551982048929!2d-118.40184858737193!3d34.06243867304126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bbfb81f19c99%3A0xa9d4f7be050d7f74!2sOptometric%20Cafe!5e0!3m2!1sen!2sus!4v1755187937456!5m2!1sen!2sus"
-              loading="eager"
+              loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen
             />

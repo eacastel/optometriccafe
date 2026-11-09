@@ -31,9 +31,18 @@ const groups = [
   {
     label: "Optical services",
     links: [
-      ["All services", "/services/"],
-      ["Repairs & adjustments", "/services/#glasses-repair"],
       ["Our optical workshop", "/optometry-lab-beverly-hills/"],
+      ["Repairs & adjustments", "/glasses-repair-adjustment-beverly-hills/"],
+      [
+        "High-prescription glasses",
+        "/high-prescription-glasses-beverly-hills/",
+      ],
+      [
+        "New lenses for existing frames",
+        "/replacement-lenses-existing-frames-beverly-hills/",
+      ],
+      ["Progressive fittings", "/progressive-glasses-beverly-hills/"],
+      ["All services", "/services/"],
       ["Eye exams", "/optometry-services-in-beverly-hills/"],
       ["Contact lenses", "/contact-lenses-beverly-hills/"],
     ],

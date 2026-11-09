@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { business } from "@/app/data";
 import { JsonLd } from "@/components/SiteChrome";
@@ -7,6 +8,7 @@ import { TrackedLink } from "@/components/TrackedLink";
 import { BusinessLinks } from "@/components/BusinessLinks";
 import { BlogIndex } from "@/components/BlogIndex";
 import { ContentBody } from "@/components/ContentBody";
+import { OpticalNextSteps } from "@/components/OpticalNextSteps";
 import { items, findItem, contentMetadata, dateLabel } from "@/lib/content";
 
 export const dynamicParams = false;
@@ -90,16 +92,18 @@ export default async function ContentPage({
       </section>
       {item.featuredImage && (
         <div className="content-featured-image">
-          <img
+          <Image
             src={item.featuredImage}
             alt={item.featuredImageAlt}
             width={1200}
             height={800}
             loading="eager"
+            sizes="(max-width: 1000px) 100vw, 950px"
           />
         </div>
       )}
       <ContentBody html={item.content} />
+      <OpticalNextSteps slug={item.slug} />
       {["contact-us", "featured-reviews"].includes(item.slug) && (
         <section className="content-shell profile-section">
           <BusinessLinks />

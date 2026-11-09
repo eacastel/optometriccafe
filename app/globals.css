@@ -1388,6 +1388,22 @@ figcaption {
   font-size: 13px;
   color: var(--graphite);
 }
+.optical-next-steps {
+  padding-top: 0;
+}
+.optical-next-steps h2 {
+  font-size: 26px;
+}
+.optical-next-steps p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.optical-next-steps p a,
+.service-guide-links a {
+  color: var(--orange-deep);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
 .article-byline a {
   text-decoration: underline;
   text-underline-offset: 3px;

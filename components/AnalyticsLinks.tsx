@@ -22,9 +22,10 @@ export function AnalyticsLinks() {
       window.dataLayer.push({
         ...payload,
         cta_text: (
-          anchor.dataset.ctaText ||
-          anchor.textContent ||
           anchor.getAttribute("aria-label") ||
+          anchor.innerText ||
+          anchor.textContent ||
+          anchor.dataset.ctaText ||
           ""
         )
           .replace(/\s+/g, " ")

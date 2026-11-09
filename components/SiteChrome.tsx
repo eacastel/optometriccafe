@@ -63,7 +63,9 @@ export function Footer() {
           <Link href="/childrens-prescription-glasses-beverly-hills/">
             Children&apos;s eyewear
           </Link>
-          <Link href="/services/#glasses-repair">Glasses repairs</Link>
+          <Link href="/glasses-repair-adjustment-beverly-hills/">
+            Glasses repairs
+          </Link>
         </div>
         <div>
           <h2>Our boutique</h2>

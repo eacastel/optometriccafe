@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Search } from "lucide-react";
 import { posts, dateLabel, type ContentItem } from "@/lib/content";
 
@@ -9,13 +10,14 @@ export function PostList({ entries }: { entries: ContentItem[] }) {
         <article className="content-card" key={post.slug}>
           {post.featuredImage && (
             <Link href={post.path} tabIndex={-1} aria-hidden="true">
-              <img
+              <Image
                 className="blog-thumbnail"
                 src={post.featuredImage}
                 alt=""
                 width={600}
                 height={360}
                 loading="lazy"
+                sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 400px"
               />
             </Link>
           )}

@@ -1,0 +1,594 @@
+{
+  "passed": true,
+  "checkedAt": "2026-11-09T11:13:49.342Z",
+  "local": "http://localhost:3000",
+  "simulatedOrigin": "https://optometriccafe.com",
+  "stream": "G-CCNQVYK5KJ",
+  "allCollectorsBlocked": true,
+  "scripts": [
+    "/gtm.js",
+    "/gtag/js",
+    "/gtm.js",
+    "/gtag/js",
+    "/gtm.js",
+    "/gtag/js"
+  ],
+  "blocked": [
+    "GET https://www.google.com/maps/embed"
+  ],
+  "checks": [
+    {
+      "check": "pageview",
+      "path": "/",
+      "count": 1,
+      "location": "https://optometriccafe.com/?utm_source=qa_analytics&utm_medium=test&utm_campaign=release-check",
+      "referrer": "https://example.org/",
+      "title": "Eyewear & Personal Fittings in Beverly Hills | Optometric Cafe"
+    },
+    {
+      "check": "pageview",
+      "path": "/visit/",
+      "count": 2,
+      "location": "https://optometriccafe.com/visit/",
+      "referrer": "https://optometriccafe.com/?utm_source=qa_analytics&utm_medium=test&utm_campaign=release-check",
+      "title": "Visit & Contact | Optometric Cafe"
+    },
+    {
+      "check": "click",
+      "name": "oc_phone_click",
+      "selector": "main a[href=\"tel:+13108882848\"]",
+      "keyboard": true,
+      "parameters": {
+        "page_path": "/visit/",
+        "service_interest": "general_inquiry",
+        "measurement_version": "2026-10-05",
+        "event": "oc_phone_click",
+        "cta_type": "phone_intent",
+        "destination_path": "phone",
+        "link_url": "tel:+13108882848",
+        "cta_text": "Book a Fitting",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 14
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_email_click",
+      "selector": "main a[href=\"mailto:info@optometriccafe.com\"]",
+      "keyboard": false,
+      "parameters": {
+        "page_path": "/visit/",
+        "service_interest": "general_inquiry",
+        "measurement_version": "2026-10-05",
+        "event": "oc_email_click",
+        "cta_type": "email_intent",
+        "destination_path": "email",
+        "link_url": "mailto:info@optometriccafe.com",
+        "cta_text": "Email",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 15
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_directions_click",
+      "selector": "main a[href*=\"google.com/maps?cid=\"]",
+      "keyboard": false,
+      "parameters": {
+        "page_path": "/visit/",
+        "service_interest": "general_inquiry",
+        "measurement_version": "2026-10-05",
+        "event": "oc_directions_click",
+        "cta_type": "directions",
+        "destination_path": "directions",
+        "link_url": "https://www.google.com/maps",
+        "cta_text": "Get Directions",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 16
+      }
+    },
+    {
+      "check": "pageview",
+      "path": "/optometry-lab-beverly-hills/",
+      "count": 3,
+      "location": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "referrer": "https://optometriccafe.com/visit/",
+      "title": "Morteza’s Optical Workshop in Beverly Hills | Optometric Cafe"
+    },
+    {
+      "check": "click",
+      "name": "oc_phone_click",
+      "selector": ".content-hero a[href=\"tel:+13108882848\"]",
+      "keyboard": false,
+      "parameters": {
+        "page_path": "/optometry-lab-beverly-hills/",
+        "service_interest": "optical_workshop",
+        "measurement_version": "2026-10-05",
+        "event": "oc_phone_click",
+        "cta_type": "phone_intent",
+        "destination_path": "phone",
+        "link_url": "tel:+13108882848",
+        "cta_text": "Call Now",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 19
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_service_cta_click",
+      "selector": ".optical-next-steps a[href=\"/prescription-eyeglasses-beverly-hills/\"]",
+      "keyboard": false,
+      "parameters": {
+        "page_path": "/optometry-lab-beverly-hills/",
+        "service_interest": "prescription_glasses",
+        "measurement_version": "2026-10-05",
+        "destination_path": "/prescription-eyeglasses-beverly-hills/",
+        "link_url": "https://optometriccafe.com/prescription-eyeglasses-beverly-hills/",
+        "event": "oc_service_cta_click",
+        "cta_type": "service_navigation",
+        "cta_text": "prescription glasses and personal frame fittings",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 20
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_contact_click",
+      "selector": ".optical-next-steps a[href=\"/contact-us/\"]",
+      "keyboard": false,
+      "parameters": {
+        "page_path": "/optometry-lab-beverly-hills/",
+        "service_interest": "optical_workshop",
+        "measurement_version": "2026-10-05",
+        "destination_path": "/contact-us/",
+        "link_url": "https://optometriccafe.com/contact-us/",
+        "event": "oc_contact_click",
+        "cta_type": "contact_navigation",
+        "cta_text": "Talk to us about your glasses",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 22
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_contact_click",
+      "selector": "[data-preserved-content] a[href=\"/contact-us/\"]",
+      "keyboard": false,
+      "parameters": {
+        "page_path": "/optometry-lab-beverly-hills/",
+        "service_interest": "optical_workshop",
+        "measurement_version": "2026-10-05",
+        "destination_path": "/contact-us/",
+        "link_url": "https://optometriccafe.com/contact-us/",
+        "event": "oc_contact_click",
+        "cta_type": "contact_navigation",
+        "cta_text": "Contact Us About Lens Work",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 23
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_review_click",
+      "selector": "footer a[href=\"/featured-reviews/\"]",
+      "keyboard": false,
+      "parameters": {
+        "page_path": "/optometry-lab-beverly-hills/",
+        "service_interest": "optical_workshop",
+        "measurement_version": "2026-10-05",
+        "destination_path": "/featured-reviews/",
+        "link_url": "https://optometriccafe.com/featured-reviews/",
+        "event": "oc_review_click",
+        "cta_type": "reviews",
+        "cta_text": "Featured reviews",
+        "link_placement": "footer",
+        "gtm.uniqueEventId": 24
+      }
+    },
+    {
+      "check": "pageview",
+      "path": "/visit/",
+      "count": 4,
+      "location": "https://optometriccafe.com/visit/",
+      "referrer": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "title": "Visit & Contact | Optometric Cafe"
+    },
+    {
+      "check": "click",
+      "name": "oc_phone_click",
+      "selector": "[data-preserved-content] a[href^=\"tel:\"]",
+      "keyboard": true,
+      "parameters": {
+        "page_path": "/contact-us/",
+        "service_interest": "general_inquiry",
+        "measurement_version": "2026-10-05",
+        "event": "oc_phone_click",
+        "cta_type": "phone_intent",
+        "destination_path": "phone",
+        "link_url": "tel:+13108882848",
+        "cta_text": "(310) 888‑2848",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 11
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_email_click",
+      "selector": "[data-preserved-content] a[href^=\"mailto:\"]",
+      "keyboard": false,
+      "parameters": {
+        "page_path": "/contact-us/",
+        "service_interest": "general_inquiry",
+        "measurement_version": "2026-10-05",
+        "event": "oc_email_click",
+        "cta_type": "email_intent",
+        "destination_path": "email",
+        "link_url": "mailto:info@optometriccafe.com",
+        "cta_text": "info@optometriccafe.com",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 12
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_directions_click",
+      "selector": "[data-preserved-content] a[href*=\"maps\"]",
+      "keyboard": false,
+      "parameters": {
+        "page_path": "/contact-us/",
+        "service_interest": "general_inquiry",
+        "measurement_version": "2026-10-05",
+        "event": "oc_directions_click",
+        "cta_type": "directions",
+        "destination_path": "directions",
+        "link_url": "https://maps.google.com/",
+        "cta_text": "Get Directions",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 13
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_service_cta_click",
+      "selector": "[data-preserved-content] a[href=\"/optometry-lab-beverly-hills/\"]",
+      "keyboard": false,
+      "parameters": {
+        "page_path": "/contact-us/",
+        "service_interest": "optical_workshop",
+        "measurement_version": "2026-10-05",
+        "destination_path": "/optometry-lab-beverly-hills/",
+        "link_url": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+        "event": "oc_service_cta_click",
+        "cta_type": "service_navigation",
+        "cta_text": "Our Lab",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 14
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_review_click",
+      "selector": "[data-preserved-home=\"family\"] a[href=\"/featured-reviews/\"]",
+      "keyboard": false,
+      "parameters": {
+        "page_path": "/",
+        "service_interest": "general_inquiry",
+        "measurement_version": "2026-10-05",
+        "destination_path": "/featured-reviews/",
+        "link_url": "https://optometriccafe.com/featured-reviews/",
+        "event": "oc_review_click",
+        "cta_type": "reviews",
+        "cta_text": "See Our 5-Star Reviews",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 11
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_contact_click",
+      "selector": ".hero-copy a[href=\"/visit/#book\"]",
+      "keyboard": false,
+      "parameters": {
+        "page_path": "/",
+        "service_interest": "general_inquiry",
+        "measurement_version": "2026-10-05",
+        "destination_path": "/visit/",
+        "link_url": "https://optometriccafe.com/visit/",
+        "event": "oc_contact_click",
+        "cta_type": "contact_navigation",
+        "cta_text": "Book a Fitting",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 12
+      }
+    },
+    {
+      "check": "preview-host-gate",
+      "origin": "https://optometriccafe.vercel.app",
+      "collectorRequests": 0,
+      "dataLayerIntent": true
+    }
+  ],
+  "packets": [
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dl": "https://optometriccafe.com/?utm_source=qa_analytics&utm_medium=test&utm_campaign=release-check",
+      "dr": "https://example.org/",
+      "dt": "Eyewear & Personal Fittings in Beverly Hills | Optometric Cafe",
+      "en": "page_view"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/",
+      "dl": "https://optometriccafe.com/?utm_source=qa_analytics&utm_medium=test&utm_campaign=release-check",
+      "dr": "https://example.org/",
+      "dt": "Eyewear & Personal Fittings in Beverly Hills | Optometric Cafe",
+      "en": "oc_contact_click",
+      "ep.cta_type": "contact_navigation",
+      "ep.cta_text": "Book a Fitting",
+      "ep.link_url": "https://optometriccafe.com/visit/",
+      "ep.destination_path": "/visit/",
+      "ep.service_interest": "general_inquiry",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dl": "https://optometriccafe.com/visit/",
+      "dr": "https://optometriccafe.com/?utm_source=qa_analytics&utm_medium=test&utm_campaign=release-check",
+      "dt": "Visit & Contact | Optometric Cafe",
+      "en": "page_view"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/visit/",
+      "dl": "https://optometriccafe.com/visit/",
+      "dr": "https://optometriccafe.com/?utm_source=qa_analytics&utm_medium=test&utm_campaign=release-check",
+      "dt": "Visit & Contact | Optometric Cafe",
+      "en": "oc_phone_click",
+      "ep.cta_type": "phone_intent",
+      "ep.cta_text": "Book a Fitting",
+      "ep.link_url": "tel:+13108882848",
+      "ep.destination_path": "phone",
+      "ep.service_interest": "general_inquiry",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/visit/",
+      "dl": "https://optometriccafe.com/visit/",
+      "dr": "https://optometriccafe.com/?utm_source=qa_analytics&utm_medium=test&utm_campaign=release-check",
+      "dt": "Visit & Contact | Optometric Cafe",
+      "en": "oc_email_click",
+      "ep.cta_type": "email_intent",
+      "ep.cta_text": "Email",
+      "ep.link_url": "mailto:info@optometriccafe.com",
+      "ep.destination_path": "email",
+      "ep.service_interest": "general_inquiry",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/visit/",
+      "dl": "https://optometriccafe.com/visit/",
+      "dr": "https://optometriccafe.com/?utm_source=qa_analytics&utm_medium=test&utm_campaign=release-check",
+      "dt": "Visit & Contact | Optometric Cafe",
+      "en": "oc_directions_click",
+      "ep.cta_type": "directions",
+      "ep.cta_text": "Get Directions",
+      "ep.link_url": "https://www.google.com/maps",
+      "ep.destination_path": "directions",
+      "ep.service_interest": "general_inquiry",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/visit/",
+      "dl": "https://optometriccafe.com/visit/",
+      "dr": "https://optometriccafe.com/?utm_source=qa_analytics&utm_medium=test&utm_campaign=release-check",
+      "dt": "Visit & Contact | Optometric Cafe",
+      "en": "oc_service_cta_click",
+      "ep.cta_type": "service_navigation",
+      "ep.cta_text": "Our optical workshop",
+      "ep.link_url": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "ep.destination_path": "/optometry-lab-beverly-hills/",
+      "ep.service_interest": "optical_workshop",
+      "ep.link_placement": "header",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dl": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "dr": "https://optometriccafe.com/visit/",
+      "dt": "Morteza’s Optical Workshop in Beverly Hills | Optometric Cafe",
+      "en": "page_view"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/optometry-lab-beverly-hills/",
+      "dl": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "dr": "https://optometriccafe.com/visit/",
+      "dt": "Morteza’s Optical Workshop in Beverly Hills | Optometric Cafe",
+      "en": "oc_phone_click",
+      "ep.cta_type": "phone_intent",
+      "ep.cta_text": "Call Now",
+      "ep.link_url": "tel:+13108882848",
+      "ep.destination_path": "phone",
+      "ep.service_interest": "optical_workshop",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/optometry-lab-beverly-hills/",
+      "dl": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "dr": "https://optometriccafe.com/visit/",
+      "dt": "Morteza’s Optical Workshop in Beverly Hills | Optometric Cafe",
+      "en": "oc_service_cta_click",
+      "ep.cta_type": "service_navigation",
+      "ep.cta_text": "prescription glasses and personal frame fittings",
+      "ep.link_url": "https://optometriccafe.com/prescription-eyeglasses-beverly-hills/",
+      "ep.destination_path": "/prescription-eyeglasses-beverly-hills/",
+      "ep.service_interest": "prescription_glasses",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dl": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "dr": "https://optometriccafe.com/visit/",
+      "dt": "Morteza’s Optical Workshop in Beverly Hills | Optometric Cafe",
+      "en": "scroll"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/optometry-lab-beverly-hills/",
+      "dl": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "dr": "https://optometriccafe.com/visit/",
+      "dt": "Morteza’s Optical Workshop in Beverly Hills | Optometric Cafe",
+      "en": "oc_contact_click",
+      "ep.cta_type": "contact_navigation",
+      "ep.cta_text": "Talk to us about your glasses",
+      "ep.link_url": "https://optometriccafe.com/contact-us/",
+      "ep.destination_path": "/contact-us/",
+      "ep.service_interest": "optical_workshop",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/optometry-lab-beverly-hills/",
+      "dl": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "dr": "https://optometriccafe.com/visit/",
+      "dt": "Morteza’s Optical Workshop in Beverly Hills | Optometric Cafe",
+      "en": "oc_contact_click",
+      "ep.cta_type": "contact_navigation",
+      "ep.cta_text": "Contact Us About Lens Work",
+      "ep.link_url": "https://optometriccafe.com/contact-us/",
+      "ep.destination_path": "/contact-us/",
+      "ep.service_interest": "optical_workshop",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/optometry-lab-beverly-hills/",
+      "dl": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "dr": "https://optometriccafe.com/visit/",
+      "dt": "Morteza’s Optical Workshop in Beverly Hills | Optometric Cafe",
+      "en": "oc_review_click",
+      "ep.cta_type": "reviews",
+      "ep.cta_text": "Featured reviews",
+      "ep.link_url": "https://optometriccafe.com/featured-reviews/",
+      "ep.destination_path": "/featured-reviews/",
+      "ep.service_interest": "optical_workshop",
+      "ep.link_placement": "footer",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dl": "https://optometriccafe.com/visit/",
+      "dr": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "dt": "Visit & Contact | Optometric Cafe",
+      "en": "page_view"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dl": "https://optometriccafe.com/contact-us/",
+      "dt": "Contact Optometric Cafe | Beverly Hills Eye Exams",
+      "en": "page_view"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/contact-us/",
+      "dl": "https://optometriccafe.com/contact-us/",
+      "dt": "Contact Optometric Cafe | Beverly Hills Eye Exams",
+      "en": "oc_phone_click",
+      "ep.cta_type": "phone_intent",
+      "ep.cta_text": "(310) 888‑2848",
+      "ep.link_url": "tel:+13108882848",
+      "ep.destination_path": "phone",
+      "ep.service_interest": "general_inquiry",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/contact-us/",
+      "dl": "https://optometriccafe.com/contact-us/",
+      "dt": "Contact Optometric Cafe | Beverly Hills Eye Exams",
+      "en": "oc_email_click",
+      "ep.cta_type": "email_intent",
+      "ep.cta_text": "info@optometriccafe.com",
+      "ep.link_url": "mailto:info@optometriccafe.com",
+      "ep.destination_path": "email",
+      "ep.service_interest": "general_inquiry",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/contact-us/",
+      "dl": "https://optometriccafe.com/contact-us/",
+      "dt": "Contact Optometric Cafe | Beverly Hills Eye Exams",
+      "en": "oc_directions_click",
+      "ep.cta_type": "directions",
+      "ep.cta_text": "Get Directions",
+      "ep.link_url": "https://maps.google.com/",
+      "ep.destination_path": "directions",
+      "ep.service_interest": "general_inquiry",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/contact-us/",
+      "dl": "https://optometriccafe.com/contact-us/",
+      "dt": "Contact Optometric Cafe | Beverly Hills Eye Exams",
+      "en": "oc_service_cta_click",
+      "ep.cta_type": "service_navigation",
+      "ep.cta_text": "Our Lab",
+      "ep.link_url": "https://optometriccafe.com/optometry-lab-beverly-hills/",
+      "ep.destination_path": "/optometry-lab-beverly-hills/",
+      "ep.service_interest": "optical_workshop",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dl": "https://optometriccafe.com/",
+      "dt": "Eyewear & Personal Fittings in Beverly Hills | Optometric Cafe",
+      "en": "page_view"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/",
+      "dl": "https://optometriccafe.com/",
+      "dt": "Eyewear & Personal Fittings in Beverly Hills | Optometric Cafe",
+      "en": "oc_review_click",
+      "ep.cta_type": "reviews",
+      "ep.cta_text": "See Our 5-Star Reviews",
+      "ep.link_url": "https://optometriccafe.com/featured-reviews/",
+      "ep.destination_path": "/featured-reviews/",
+      "ep.service_interest": "general_inquiry",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/",
+      "dl": "https://optometriccafe.com/",
+      "dt": "Eyewear & Personal Fittings in Beverly Hills | Optometric Cafe",
+      "en": "oc_contact_click",
+      "ep.cta_type": "contact_navigation",
+      "ep.cta_text": "Book a Fitting",
+      "ep.link_url": "https://optometriccafe.com/visit/",
+      "ep.destination_path": "/visit/",
+      "ep.service_interest": "general_inquiry",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    }
+  ]
+}

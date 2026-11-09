@@ -54,7 +54,7 @@ export const services = [
     id: "eye-exams",
     title: "Eye Exams",
     summary:
-      "An optometrist is available by appointment for eye exams. Morteza Talebi is the owner and expert optician, not a doctor.",
+      "Call to confirm optometrist availability for eye exams. Morteza Talebi is the owner and expert optician, not a doctor.",
   },
 ] as const;
 

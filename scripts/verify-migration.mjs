@@ -123,6 +123,41 @@ for (const item of items) {
     .toArray()
     .map((node) => JSON.parse($(node).text()));
   assert.ok(graphs.length >= 2, `Schema: ${item.path}`);
+  assert.equal(
+    $(
+      'nav[aria-label="Primary navigation"] a[href="/glasses-repair-adjustment-beverly-hills/"]',
+    ).length,
+    1,
+    "Repair nav links directly to retained repair page",
+  );
+  for (const slug of [
+    "high-prescription-glasses-beverly-hills",
+    "replacement-lenses-existing-frames-beverly-hills",
+    "progressive-glasses-beverly-hills",
+  ])
+    assert.equal(
+      $(`nav[aria-label="Primary navigation"] a[href="/${slug}/"]`).length,
+      1,
+      `Guide in navigation: ${slug}`,
+    );
+  const nextSteps =
+    item.slug === "optometry-lab-beverly-hills"
+      ? [
+          "prescription-eyeglasses-beverly-hills",
+          "glasses-repair-adjustment-beverly-hills",
+        ]
+      : item.slug === "about-us"
+        ? [
+            "high-prescription-glasses-beverly-hills",
+            "replacement-lenses-existing-frames-beverly-hills",
+            "glasses-repair-adjustment-beverly-hills",
+          ]
+        : [];
+  for (const slug of nextSteps)
+    assert.ok(
+      $(`.optical-next-steps a[href="/${slug}/"]`).length,
+      `Contextual optical link from ${item.path} to ${slug}`,
+    );
   $("a[href]").each((_, node) => {
     const value = $(node).attr("href");
     const url = new URL(value, base);
@@ -131,7 +166,10 @@ for (const item of items) {
   results.push({
     path: item.path,
     status: 200,
-    copy: item.path === '/' ? '18 retained source fragments exact; video/CTA removed at owner request' : 'exact',
+    copy:
+      item.path === "/"
+        ? "18 retained source fragments exact; video/CTA removed at owner request"
+        : "exact",
     title: "exact",
     canonical: "exact",
     schema: "parsed",
@@ -187,6 +225,30 @@ for (const path of links) {
   assert.equal(response.status, 200, `Internal link: ${path}`);
 }
 const sitemapResponse = await get("/sitemap.xml");
+for (const path of ["/services/", "/visit/"]) {
+  const response = await get(path);
+  assert.equal(response.status, 200, path);
+  const $ = load(await response.text());
+  assert.equal(
+    $('meta[property="og:url"]').attr("content"),
+    `https://optometriccafe.com${path}`,
+    `Page-specific social URL: ${path}`,
+  );
+  if (path === "/services/") {
+    for (const slug of [
+      "prescription-eyeglasses-beverly-hills",
+      "glasses-repair-adjustment-beverly-hills",
+      "high-prescription-glasses-beverly-hills",
+      "replacement-lenses-existing-frames-beverly-hills",
+      "progressive-glasses-beverly-hills",
+      "optometry-lab-beverly-hills",
+    ])
+      assert.ok(
+        $(`main a[href="/${slug}/"]`).length,
+        `Service hub links to ${slug}`,
+      );
+  }
+}
 const media = JSON.parse(await readFile("data/wordpress-media.json", "utf8"));
 for (const item of media) {
   const response = await fetch(new URL(item.path, base), {

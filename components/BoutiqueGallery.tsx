@@ -47,8 +47,8 @@ export function BoutiqueGallery() {
           alt={photo.alt}
           width={photo.width}
           height={photo.height}
-          loading="eager"
-          sizes="(max-width: 760px) 100vw, 60vw"
+          loading="lazy"
+          sizes="(max-width: 760px) 100vw, (max-width: 1440px) 50vw, 660px"
         />
       </div>
       <div className="gallery-bottom">
