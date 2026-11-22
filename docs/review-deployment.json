@@ -1,10 +1,10 @@
 {
   "deployedOn": "2026-11-22",
-  "applicationCommit": "cfbe13e",
+  "applicationCommit": "c77374c",
   "reviewUrl": "https://optometriccafe.vercel.app/",
-  "deploymentId": "dpl_Cx4L9QjKr1XS9Gz2TSTHv1T7qS9M",
-  "deploymentUrl": "https://optometriccafe-70jso7on2-emilio-castellanos-projects.vercel.app",
-  "previousReviewDeploymentUrl": "https://optometriccafe-fvdimz95t-emilio-castellanos-projects.vercel.app",
+  "deploymentId": "dpl_3iK8S3shp5AGfpkJCTDGrEFUhMbH",
+  "deploymentUrl": "https://optometriccafe-ef7d5so4d-emilio-castellanos-projects.vercel.app",
+  "previousReviewDeploymentUrl": "https://optometriccafe-70jso7on2-emilio-castellanos-projects.vercel.app",
   "target": "preview",
   "readyState": "READY",
   "productionDomainChanged": false,
@@ -13,6 +13,6 @@
   "previewRobotsHeaderVerified": "noindex, nofollow, noarchive",
   "privateCustomerExportResponse": 404,
   "publicHttpAudit": { "applicationCommit": "fa70d79", "checkedOn": "2026-11-09", "pages": 46, "redirectVariants": 165, "legacyMediaUrls": 76, "passed": true },
-  "photographyPublicAudit": { "checkedOn": "2026-11-22", "responsiveChecks": 15, "newImageHashes": 4, "galleryControls": "pass", "passed": true },
+  "photographyPublicAudit": { "applicationCommit": "c77374c", "checkedOn": "2026-11-22", "responsiveChecks": 35, "newImageHashes": 7, "galleryControls": "pass", "workshopAndContactLensGrids": "pass", "passed": true },
   "productionCutoverApproved": false
 }
