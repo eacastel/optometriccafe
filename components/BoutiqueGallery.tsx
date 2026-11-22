@@ -3,30 +3,9 @@
 import Image from "next/image";
 import { useState } from "react";
 import { ArrowLeft, ArrowRight, MapPin } from "lucide-react";
+import photography from "@/data/new-photography.json";
 
-const photos = [
-  {
-    src: "/images/selected/originals/store-fitting-room.jpg",
-    alt: "Glass eyewear displays and wood cabinetry inside Optometric Cafe",
-    caption: "Our boutique on South Beverly Drive",
-    width: 2400,
-    height: 1800,
-  },
-  {
-    src: "/images/selected/originals/store-frame-wall.jpg",
-    alt: "Orange orchids against the textured walls of the boutique",
-    caption: "A little color. A lot of character.",
-    width: 1350,
-    height: 1800,
-  },
-  {
-    src: "/images/selected/originals/store-showroom-wide.jpg",
-    alt: "The original orange and black Optometric Cafe sign inside the shop",
-    caption: "An independent spirit, since 2005",
-    width: 2400,
-    height: 1800,
-  },
-];
+const photos = [photography.showroom, photography.orchid, photography.storefront];
 
 export function BoutiqueGallery() {
   const [active, setActive] = useState(0);
@@ -37,7 +16,7 @@ export function BoutiqueGallery() {
   return (
     <figure
       className="shop-photo"
-      aria-label="Inside the boutique"
+      aria-label="The Optometric Cafe boutique"
       aria-roledescription="carousel"
     >
       <div className="gallery-frame">
@@ -47,6 +26,7 @@ export function BoutiqueGallery() {
           alt={photo.alt}
           width={photo.width}
           height={photo.height}
+          style={{ objectPosition: photo.objectPosition }}
           loading="lazy"
           sizes="(max-width: 760px) 100vw, (max-width: 1440px) 50vw, 660px"
         />

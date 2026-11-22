@@ -1,0 +1,175 @@
+{
+  "checkedAt": "2026-11-22T07:49:18.232Z",
+  "base": "http://localhost:3000",
+  "passed": true,
+  "analyticsBlocked": true,
+  "errors": [],
+  "responsiveChecks": [
+    {
+      "path": "/",
+      "width": 320,
+      "photo": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+        "naturalWidth": 320,
+        "width": 284,
+        "height": 218.453125
+      }
+    },
+    {
+      "path": "/services/",
+      "width": 320,
+      "photo": "/images/boutique-refresh/interior-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/interior-enhanced-v1.webp",
+        "naturalWidth": 320,
+        "width": 284,
+        "height": 189.328125
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 320,
+      "photo": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+        "naturalWidth": 320,
+        "width": 284,
+        "height": 189.328125
+      }
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "photo": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+        "naturalWidth": 390,
+        "width": 346,
+        "height": 266.140625
+      }
+    },
+    {
+      "path": "/services/",
+      "width": 390,
+      "photo": "/images/boutique-refresh/interior-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/interior-enhanced-v1.webp",
+        "naturalWidth": 390,
+        "width": 346,
+        "height": 230.65625
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 390,
+      "photo": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+        "naturalWidth": 390,
+        "width": 346,
+        "height": 230.65625
+      }
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "photo": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+        "naturalWidth": 384,
+        "width": 375.546875,
+        "height": 780.984375
+      }
+    },
+    {
+      "path": "/services/",
+      "width": 768,
+      "photo": "/images/boutique-refresh/interior-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/interior-enhanced-v1.webp",
+        "naturalWidth": 384,
+        "width": 338,
+        "height": 281.65625
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 768,
+      "photo": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+        "naturalWidth": 384,
+        "width": 338,
+        "height": 281.65625
+      }
+    },
+    {
+      "path": "/",
+      "width": 1024,
+      "photo": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+        "naturalWidth": 512,
+        "width": 517.765625,
+        "height": 614.921875
+      }
+    },
+    {
+      "path": "/services/",
+      "width": 1024,
+      "photo": "/images/boutique-refresh/interior-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/interior-enhanced-v1.webp",
+        "naturalWidth": 512,
+        "width": 466,
+        "height": 388.328125
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 1024,
+      "photo": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+        "naturalWidth": 512,
+        "width": 466,
+        "height": 388.328125
+      }
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "photo": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+        "naturalWidth": 720,
+        "width": 653.328125,
+        "height": 521.359375
+      }
+    },
+    {
+      "path": "/services/",
+      "width": 1440,
+      "photo": "/images/boutique-refresh/interior-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/interior-enhanced-v1.webp",
+        "naturalWidth": 720,
+        "width": 585,
+        "height": 487.5
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 1440,
+      "photo": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+        "naturalWidth": 720,
+        "width": 585,
+        "height": 487.5
+      }
+    }
+  ],
+  "carousel": "all slides, wraparound, previous and stable dimensions pass at every width"
+}

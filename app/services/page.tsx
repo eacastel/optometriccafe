@@ -4,6 +4,7 @@ import Link from "next/link";
 import { breadcrumbSchema, business, services } from "@/app/data";
 import { JsonLd } from "@/components/SiteChrome";
 import { TrackedLink } from "@/components/TrackedLink";
+import photography from "@/data/new-photography.json";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://optometriccafe.com/services/" },
@@ -17,8 +18,8 @@ export const metadata: Metadata = {
     siteName: business.name,
     images: [
       {
-        url: "/images/selected/originals/store-fitting-room.jpg",
-        alt: "Optometric Cafe boutique and eyewear displays",
+        url: photography.interior.src,
+        alt: photography.interior.alt,
       },
     ],
   },
@@ -124,10 +125,11 @@ export default function ServicesPage() {
           </div>
           <div className="page-hero-media">
             <Image
-              src="/images/selected/originals/store-fitting-room.jpg"
-              alt="Eyewear displays inside the Optometric Cafe boutique"
-              width={2400}
-              height={1800}
+              src={photography.interior.src}
+              alt={photography.interior.alt}
+              width={photography.interior.width}
+              height={photography.interior.height}
+              style={{ objectPosition: photography.interior.objectPosition }}
               sizes="(max-width: 760px) 100vw, 50vw"
               priority
             />
