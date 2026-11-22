@@ -190,6 +190,14 @@ export default function VisitPage() {
           </div>
         </div>
       </section>
+      <section className="content-shell boutique-evening" aria-label="The boutique window">
+        <figure>
+          <Image src={photography.evening.src} alt={photography.evening.alt}
+            width={photography.evening.width} height={photography.evening.height}
+            sizes="(max-width: 1000px) 100vw, 844px" loading="lazy" />
+          <figcaption>{photography.evening.caption}</figcaption>
+        </figure>
+      </section>
       <section className="content-shell profile-section">
         <BusinessLinks />
       </section>

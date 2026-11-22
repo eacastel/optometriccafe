@@ -35,6 +35,27 @@ const selections = {
     caption: "A little color. A lot of character.", objectPosition: "50% 30%",
     use: "Homepage boutique gallery detail",
   },
+  people: {
+    source: "IMG_3618.png", master: "people-cropped-v1.png",
+    generated: "exec-70b2b9c8-c366-4f3f-b55f-a28a4a87360e.png",
+    alt: "Two people pictured inside Optometric Cafe beneath the shop sign",
+    caption: "At Optometric Cafe", objectPosition: "50% 45%",
+    use: "About page; counter paperwork excluded from the published crop",
+  },
+  detail: {
+    source: "IMG_3624.png", master: "boutique-detail-enhanced-v1.png",
+    generated: "exec-a6f50ce1-9222-42a3-9463-16e8e17cbc45.png",
+    alt: "Optometric Cafe wall sign and illuminated glass-fish display in a wood surround",
+    caption: "A little character, inside the boutique", objectPosition: "50% 50%",
+    use: "About page boutique detail",
+  },
+  evening: {
+    source: "IMG_3630.png", master: "evening-window-enhanced-v1.png",
+    generated: "exec-1a7d0241-1c9a-499d-a688-3c04224b4b80.png",
+    alt: "Optometric Cafe's illuminated eyewear window on South Beverly Drive in the evening",
+    caption: "An evening view of the boutique window", objectPosition: "50% 50%",
+    use: "Visit page supporting photograph; not a statement of opening hours",
+  },
 };
 await mkdir(masters, { recursive: true });
 await mkdir(output, { recursive: true });
@@ -65,7 +86,7 @@ for (const [index, [id, photo]] of Object.entries(selections).entries()) {
     comparisons.push({ input: Buffer.from(`<svg width="480" height="30"><rect width="480" height="30" fill="white"/><text x="12" y="21" font-family="sans-serif" font-size="16" fill="#303a35">${label}</text></svg>`), left: column * 480, top: index * 360 + 330 });
   }
 }
-await sharp({ create: { width: 960, height: 1440, channels: 3, background: "white" } })
+await sharp({ create: { width: 960, height: Object.keys(selections).length * 360, channels: 3, background: "white" } })
   .composite(comparisons).jpeg({ quality: 90 }).toFile(join(masters, "comparison.jpg"));
 await writeFile("data/new-photography.json", JSON.stringify(manifest, null, 2) + "\n");
 console.log(JSON.stringify(Object.fromEntries(Object.entries(manifest).map(([id, photo]) => [id, { src: photo.src, width: photo.width, height: photo.height, bytes: photo.bytes }])), null, 2));

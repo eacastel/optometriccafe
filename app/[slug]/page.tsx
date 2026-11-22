@@ -9,6 +9,7 @@ import { BusinessLinks } from "@/components/BusinessLinks";
 import { BlogIndex } from "@/components/BlogIndex";
 import { ContentBody } from "@/components/ContentBody";
 import { OpticalNextSteps } from "@/components/OpticalNextSteps";
+import { BoutiqueStoryPhotos } from "@/components/BoutiqueStoryPhotos";
 import { items, findItem, contentMetadata, dateLabel } from "@/lib/content";
 
 export const dynamicParams = false;
@@ -102,8 +103,12 @@ export default async function ContentPage({
           />
         </div>
       )}
-      <ContentBody html={item.content} />
+      <ContentBody
+        html={item.content}
+        photoLayout={item.slug === "optometry-lab-beverly-hills" ? "workshop" : item.slug === "contact-lenses-beverly-hills" ? "contact-lenses" : undefined}
+      />
       <OpticalNextSteps slug={item.slug} />
+      {item.slug === "about-us" && <BoutiqueStoryPhotos />}
       {["contact-us", "featured-reviews"].includes(item.slug) && (
         <section className="content-shell profile-section">
           <BusinessLinks />

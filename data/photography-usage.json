@@ -1,0 +1,19 @@
+[
+  { "source": "IMG_3613.png", "status": "used", "photo": "storefront", "pages": ["/", "/visit/"], "reason": "Clearest unobstructed daytime arrival view" },
+  { "source": "IMG_3614.png", "status": "used", "photo": "showroom", "pages": ["/"], "reason": "Wide showroom overview in the existing gallery" },
+  { "source": "IMG_3615.png", "status": "duplicate", "representedBy": "IMG_3613.png", "reason": "Closer framing of the same shopfront/window" },
+  { "source": "IMG_3616.png", "status": "duplicate", "representedBy": "IMG_3613.png", "reason": "Portrait alternate of the same daytime shopfront" },
+  { "source": "IMG_3617.png", "status": "used", "photo": "interior", "pages": ["/services/"], "reason": "Complementary deeper room view, used on a separate page" },
+  { "source": "IMG_3618.png", "status": "used", "photo": "people", "pages": ["/about-us/"], "reason": "Distinct two-person portrait, privacy-cropped above paperwork; no unsupported relationship or role caption" },
+  { "source": "IMG_3619.png", "status": "duplicate", "representedBy": "IMG_3618.png", "reason": "Same two-person portrait with a different exposure" },
+  { "source": "IMG_3620.png", "status": "duplicate", "representedBy": "IMG_3630.png", "reason": "Alternate evening view of the same window; one evening image is sufficient" },
+  { "source": "IMG_3621.png", "status": "used", "photo": "orchid", "pages": ["/"], "reason": "Orchid and sign detail adds a different subject to the gallery" },
+  { "source": "IMG_3622.png", "status": "duplicate", "representedBy": "IMG_3613.png", "reason": "Same facade with support structure in view; unobstructed version is stronger" },
+  { "source": "IMG_3623.png", "status": "duplicate", "representedBy": "IMG_3624.png", "reason": "Alternate angle of the same sign and glass-fish display" },
+  { "source": "IMG_3624.png", "status": "used", "photo": "detail", "pages": ["/about-us/"], "reason": "Distinct boutique-character detail paired with the people photograph" },
+  { "source": "IMG_3625.png", "status": "duplicate", "representedBy": "IMG_3613.png", "reason": "Another shopfront shot with the window obscured by a campaign poster" },
+  { "source": "IMG_3626.png", "status": "reference", "reason": "Screenshot of an older website, not a shop photograph; would duplicate a website inside the website" },
+  { "source": "IMG_3627.png", "status": "reference", "reason": "Map/street-view interface screenshot; the site already has the live Google map instead" },
+  { "source": "IMG_3629.png", "status": "duplicate", "representedBy": "IMG_3613.png", "reason": "Alternate facade photo with bicycle/person/poster; selected arrival image shows the entrance more clearly" },
+  { "source": "IMG_3630.png", "status": "used", "photo": "evening", "pages": ["/visit/"], "reason": "Evening window view complements the daylight arrival photo without implying evening opening hours" }
+]
