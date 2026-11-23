@@ -1,0 +1,175 @@
+{
+  "checkedAt": "2026-11-23T20:54:53.425Z",
+  "base": "http://localhost:3000",
+  "checks": [
+    {
+      "path": "/",
+      "width": 320,
+      "category": "all",
+      "photos": 6,
+      "columns": 1,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/prescription-eyeglasses-beverly-hills/",
+      "width": 320,
+      "category": "optical",
+      "photos": 3,
+      "columns": 1,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/sunglasses-beverly-hills/",
+      "width": 320,
+      "category": "sun",
+      "photos": 3,
+      "columns": 1,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/about-us/",
+      "width": 320,
+      "currentBrandCopy": true,
+      "passed": true
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "category": "all",
+      "photos": 6,
+      "columns": 1,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/prescription-eyeglasses-beverly-hills/",
+      "width": 390,
+      "category": "optical",
+      "photos": 3,
+      "columns": 1,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/sunglasses-beverly-hills/",
+      "width": 390,
+      "category": "sun",
+      "photos": 3,
+      "columns": 1,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/about-us/",
+      "width": 390,
+      "currentBrandCopy": true,
+      "passed": true
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "category": "all",
+      "photos": 6,
+      "columns": 2,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/prescription-eyeglasses-beverly-hills/",
+      "width": 768,
+      "category": "optical",
+      "photos": 3,
+      "columns": 2,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/sunglasses-beverly-hills/",
+      "width": 768,
+      "category": "sun",
+      "photos": 3,
+      "columns": 2,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/about-us/",
+      "width": 768,
+      "currentBrandCopy": true,
+      "passed": true
+    },
+    {
+      "path": "/",
+      "width": 1024,
+      "category": "all",
+      "photos": 6,
+      "columns": 3,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/prescription-eyeglasses-beverly-hills/",
+      "width": 1024,
+      "category": "optical",
+      "photos": 3,
+      "columns": 3,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/sunglasses-beverly-hills/",
+      "width": 1024,
+      "category": "sun",
+      "photos": 3,
+      "columns": 3,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/about-us/",
+      "width": 1024,
+      "currentBrandCopy": true,
+      "passed": true
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "category": "all",
+      "photos": 6,
+      "columns": 3,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/prescription-eyeglasses-beverly-hills/",
+      "width": 1440,
+      "category": "optical",
+      "photos": 3,
+      "columns": 3,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/sunglasses-beverly-hills/",
+      "width": 1440,
+      "category": "sun",
+      "photos": 3,
+      "columns": 3,
+      "originalFraming": true,
+      "passed": true
+    },
+    {
+      "path": "/about-us/",
+      "width": 1440,
+      "currentBrandCopy": true,
+      "passed": true
+    }
+  ],
+  "searchUsesUpdatedBrands": true,
+  "collectorsBlocked": true,
+  "browserErrors": [],
+  "passed": true
+}

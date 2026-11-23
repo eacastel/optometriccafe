@@ -1,10 +1,10 @@
 {
   "deployedOn": "2026-11-23",
-  "applicationCommit": "6722b5e",
+  "applicationCommit": "900d90a",
   "reviewUrl": "https://optometriccafe.vercel.app/",
-  "deploymentId": "dpl_BeewokdL9QciwyZuQ8U11rok6eAE",
-  "deploymentUrl": "https://optometriccafe-mt4e5po6c-emilio-castellanos-projects.vercel.app",
-  "previousReviewDeploymentUrl": "https://optometriccafe-ef7d5so4d-emilio-castellanos-projects.vercel.app",
+  "deploymentId": "dpl_7qmXByamco9cKgzwirpLeTVQJgJa",
+  "deploymentUrl": "https://optometriccafe-dqwxihski-emilio-castellanos-projects.vercel.app",
+  "previousReviewDeploymentUrl": "https://optometriccafe-mt4e5po6c-emilio-castellanos-projects.vercel.app",
   "target": "preview",
   "readyState": "READY",
   "productionDomainChanged": false,
@@ -12,9 +12,11 @@
   "googleConfigurationChanged": false,
   "previewRobotsHeaderVerified": "noindex, nofollow, noarchive",
   "privateCustomerExportResponse": 404,
-  "publicHttpAudit": { "applicationCommit": "6722b5e", "checkedOn": "2026-11-23", "pages": 46, "redirectVariants": 165, "legacyMediaUrls": 76, "evidence": "reviews-public-migration-verification.json", "passed": true },
+  "publicHttpAudit": { "applicationCommit": "900d90a", "checkedOn": "2026-11-23", "pages": 46, "redirectVariants": 165, "legacyMediaUrls": 76, "evidence": "frame-collection-public-migration-verification.json", "passed": true },
   "photographyPublicAudit": { "applicationCommit": "c77374c", "checkedOn": "2026-11-22", "responsiveChecks": 35, "newImageHashes": 7, "galleryControls": "pass", "workshopAndContactLensGrids": "pass", "passed": true },
   "reviewPublicAudit": { "applicationCommit": "6722b5e", "checkedOn": "2026-11-23", "responsiveChecks": 15, "selectedFiveStarTiles": 56, "googleTiles": 54, "yelpTiles": 2, "cyclingImageHashVerified": true, "collectorsBlocked": true, "passed": true },
   "localAcceptance": { "applicationCommit": "6722b5e", "tests": 87, "generatedRoutes": 57, "collectorBlockedAnalyticsChecks": 22, "renderedIntegrityPages": 51, "blogPosts": 26, "photographyRegressionChecks": 35, "passed": true },
+  "frameCollectionPublicAudit": { "applicationCommit": "900d90a", "checkedOn": "2026-11-23", "responsiveChecks": 20, "originalPhotos": 6, "newImageHashesVerified": 6, "annotationResponse": 404, "currentStockCopyAndSchema": "pass", "collectorsBlocked": true, "passed": true },
+  "frameCollectionLocalAcceptance": { "applicationCommit": "900d90a", "tests": 93, "generatedRoutes": 57, "renderedIntegrityPages": 51, "blogPosts": 26, "preservedRecords": 46, "redirectVariants": 165, "legacyMediaUrls": 76, "passed": true },
   "productionCutoverApproved": false
 }
