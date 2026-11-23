@@ -18,6 +18,8 @@ import { home, contentMetadata } from "@/lib/content";
 import boutiquePhotos from "@/data/boutique-photos.json";
 import { ReviewStars } from "@/components/ReviewStars";
 import profiles from "@/data/business-profiles.json";
+import brands from "@/data/frame-brands.json";
+import { FrameCollection } from "@/components/FrameCollection";
 
 export const metadata = contentMetadata(home);
 
@@ -172,16 +174,12 @@ export default function Home() {
 
       <section className="designer-band" aria-label="Designer eyewear brands">
         <p>Independent spirit. Exceptional designers.</p>
-        <div>
-          <span>OLIVER PEOPLES</span>
-          <span>MYKITA</span>
-          <span>SALT.</span>
-          <span>Persol</span>
-          <span>MAUI JIM</span>
-          <span>LUNOR</span>
-        </div>
+        <ul className="designer-names" aria-label="Featured frame designers">
+          {brands.highlights.map((brand) => <li key={brand}>{brand}</li>)}
+        </ul>
         <HomeCopy name="designers" />
       </section>
+      <FrameCollection />
 
       <section className="band owner-section">
         <HomeCopy name="storyHeading" className="owner-context" />

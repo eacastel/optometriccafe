@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import content from "@/data/site-content.json";
+import brands from "@/data/frame-brands.json";
+import { applyBrandText, applyBrandUpdates, applyBrandSchemas } from "@/lib/brand-content";
 
 export type ContentItem = {
   id: number;
@@ -22,7 +24,12 @@ export type ContentItem = {
   openGraph: Record<string, string>;
   schemas: Record<string, unknown>[];
 };
-export const items = content as unknown as ContentItem[];
+export const items = (content as unknown as ContentItem[]).map((item) => ({
+  ...item,
+  content: applyBrandUpdates(item.content, item.path, brands),
+  plainText: applyBrandText(item.plainText, item.path, brands),
+  schemas: applyBrandSchemas(item.schemas, item.path, brands),
+}));
 export const posts = items
   .filter((item) => item.type === "post")
   .sort((a, b) => b.date.localeCompare(a.date));

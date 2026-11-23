@@ -12,6 +12,7 @@ import { OpticalNextSteps } from "@/components/OpticalNextSteps";
 import { BoutiqueStoryPhotos } from "@/components/BoutiqueStoryPhotos";
 import { ReviewProfiles } from "@/components/ReviewProfiles";
 import photography from "@/data/new-photography.json";
+import { FrameCollection } from "@/components/FrameCollection";
 import { items, findItem, contentMetadata, dateLabel } from "@/lib/content";
 
 export const dynamicParams = false;
@@ -113,6 +114,8 @@ export default async function ContentPage({
         imageOverride={item.slug === "sports-eye-glasses-and-sunglasses" ? { original: "/wp-content/uploads/2019/01/sports-glasses2.jpg", ...photography.cycling } : undefined}
       />
       <OpticalNextSteps slug={item.slug} />
+      {item.slug === "prescription-eyeglasses-beverly-hills" && <FrameCollection category="optical" />}
+      {item.slug === "sunglasses-beverly-hills" && <FrameCollection category="sun" />}
       {item.slug === "about-us" && <BoutiqueStoryPhotos />}
       {["contact-us", "featured-reviews"].includes(item.slug) && (
         <section className="content-shell profile-section">

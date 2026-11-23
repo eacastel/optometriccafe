@@ -1,0 +1,30 @@
+{
+  "confirmedOn": "2026-11-23",
+  "source": "Morteza's message and docs/images-pre-launch/IMG_3853.jpeg; Revo is also shown in his supplied collection photographs",
+  "removed": ["Salt", "Maui Jim", "Lunor"],
+  "current": ["Persol", "Oliver Peoples", "Prada", "Paul Smith", "Tom Ford", "SwissFlex", "Anglo American", "Ray-Ban", "Alain Mikli", "Mykita", "Masunaga", "Miu Miu", "Res / Rei", "ba&sh", "Celine", "iGreen", "Chopard", "Revo"],
+  "highlights": ["Masunaga", "Miu Miu", "Res / Rei", "ba&sh", "Prada", "Celine", "iGreen", "Chopard", "Oliver Peoples", "Mykita", "Persol", "Revo"],
+  "schemaRemovalPaths": ["/sunglasses-beverly-hills/"],
+  "edits": [
+    {
+      "path": "/",
+      "before": "Mykita, Maui Jim, and Oliver Peoples",
+      "after": "Mykita, Oliver Peoples, Prada, and Miu Miu"
+    },
+    {
+      "path": "/",
+      "before": "Persol, Salt, Oliver Peoples, Prada, Paul Smith, Tom Ford, Lunor, SwissFlex, Anglo American, Maui Jim, Ray-Ban, Alain Mikli, Mykita, and more",
+      "after": "Persol, Oliver Peoples, Prada, Paul Smith, Tom Ford, SwissFlex, Anglo American, Ray-Ban, Alain Mikli, Mykita, Masunaga, Miu Miu, Res / Rei, ba&sh, Celine, iGreen, Chopard, Revo, and more"
+    },
+    {
+      "path": "/about-us/",
+      "before": "Persol, Salt, Oliver Peoples, Chanel, Prada, Paul Smith, Tom Ford, Lunor, SwissFlex, Anglo American, Maui Jim, Ray-Ban, Liberty Sport, Alain Mikli, Kawasaki Kids, 2.5 Eyewear Kids, Victory Collection, Prodesign Denmark, Mykita, Eye-bobs, Velocity, Ray-Ban Jr.",
+      "after": "Persol, Oliver Peoples, Chanel, Prada, Paul Smith, Tom Ford, SwissFlex, Anglo American, Ray-Ban, Liberty Sport, Alain Mikli, Kawasaki Kids, 2.5 Eyewear Kids, Victory Collection, Prodesign Denmark, Mykita, Eye-bobs, Velocity, Ray-Ban Jr., Masunaga, Miu Miu, Res / Rei, ba&sh, Celine, iGreen, Chopard, Revo"
+    },
+    {
+      "path": "/about-us/",
+      "before": "Maui Jim, Oliver Peoples, Ray-Ban, Mykita",
+      "after": "Oliver Peoples, Ray-Ban, Mykita, Miu Miu, Prada, Chopard, Revo"
+    }
+  ]
+}

@@ -1,4 +1,6 @@
 import copy from "@/data/home-content.json";
+import brands from "@/data/frame-brands.json";
+import { applyBrandUpdates } from "@/lib/brand-content";
 
 export function HomeCopy({
   name,
@@ -11,7 +13,7 @@ export function HomeCopy({
     <div
       className={`home-copy ${className}`}
       data-preserved-home={name}
-      dangerouslySetInnerHTML={{ __html: copy[name] }}
+      dangerouslySetInnerHTML={{ __html: applyBrandUpdates(copy[name], "/", brands) }}
     />
   );
 }

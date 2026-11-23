@@ -1,6 +1,13 @@
 import assert from "node:assert/strict";
 import { readFile, writeFile } from "node:fs/promises";
 import { load } from "cheerio";
+import ts from "typescript";
+
+const brandUpdates = JSON.parse(await readFile("data/frame-brands.json", "utf8"));
+const brandModule = ts.transpileModule(await readFile("lib/brand-content.ts", "utf8"), {
+  compilerOptions: { module: ts.ModuleKind.ESNext },
+}).outputText.replace('from "cheerio"', `from ${JSON.stringify(import.meta.resolve("cheerio"))}`);
+const { applyBrandUpdates } = await import(`data:text/javascript;base64,${Buffer.from(brandModule).toString("base64")}`);
 
 const base = process.env.TEST_BASE_URL || "http://localhost:3001";
 const items = JSON.parse(await readFile("data/site-content.json", "utf8"));
@@ -58,7 +65,7 @@ for (const item of items) {
       assert.equal(actual.length, 1, `Homepage section: ${name}`);
       assert.equal(
         text(actual.text()),
-        text(load(html, null, false).root().text()),
+        text(load(applyBrandUpdates(html, "/", brandUpdates), null, false).root().text()),
         `Homepage copy: ${name}`,
       );
       const before = load(html, null, false);
@@ -112,7 +119,7 @@ for (const item of items) {
       );
     }
   } else if (item.slug !== "blog") {
-    const expected = load(item.content, null, false);
+    const expected = load(applyBrandUpdates(item.content, item.path, brandUpdates), null, false);
     assert.equal(
       text($("[data-preserved-content]").clone().find("[data-added-reviews]").remove().end().text()),
       text(expected.root().text()),
@@ -168,8 +175,10 @@ for (const item of items) {
     status: 200,
     copy:
       item.path === "/"
-        ? "18 retained source fragments exact; video/CTA removed at owner request"
-        : "exact",
+        ? "18 retained source fragments; owner-approved brand corrections; video/CTA removed at owner request"
+        : brandUpdates.edits.some((edit) => edit.path === item.path)
+          ? "exact except owner-approved stock-list corrections"
+          : "exact",
     title: "exact",
     canonical: "exact",
     schema: "parsed",

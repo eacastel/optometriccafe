@@ -835,23 +835,61 @@ figcaption {
   margin-bottom: 28px;
   color: var(--muted);
 }
-.designer-band > div:not(.home-copy) {
-  display: flex;
-  flex-wrap: wrap;
+.designer-names {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   align-items: center;
-  justify-content: space-between;
-  gap: 24px;
+  gap: 28px 24px;
+  max-width: 1240px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
 }
-.designer-band span {
-  font-size: 21px;
+.designer-names li {
+  font-size: 20px;
   font-weight: 600;
+  overflow-wrap: anywhere;
 }
-.designer-band span:nth-child(3) {
-  font-size: 29px;
-  font-weight: 400;
+.frame-collection.content-shell {
+  max-width: 1240px;
+  padding-block: 64px;
 }
-.designer-band span:nth-child(4) {
-  font-style: italic;
+.frame-collection-heading {
+  margin-bottom: 28px;
+}
+.frame-collection-heading h2 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+.frame-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px 24px;
+}
+.frame-photo-grid figure {
+  min-width: 0;
+  margin: 0;
+}
+.frame-photo-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.frame-photo-grid figcaption {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 14px;
+}
+@media (max-width: 899px) {
+  .frame-photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 599px) {
+  .frame-photo-grid { grid-template-columns: minmax(0, 1fr); }
+  .frame-collection-heading h2 { font-size: 26px; }
+  .frame-collection.content-shell { padding-block: 40px; }
 }
 .owner-section {
   background: var(--mist);
@@ -1930,16 +1968,12 @@ figcaption {
     aspect-ratio: 1.3;
     border-top-right-radius: 60px;
   }
-  .designer-band > div:not(.home-copy) {
-    display: grid;
+  .designer-names {
     grid-template-columns: repeat(3, 1fr);
     gap: 24px 14px;
   }
-  .designer-band span {
-    font-size: 15px;
-  }
-  .designer-band span:nth-child(3) {
-    font-size: 24px;
+  .designer-names li {
+    font-size: 16px;
   }
   .owner-photo {
     max-width: 500px;
