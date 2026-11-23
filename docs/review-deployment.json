@@ -1,10 +1,10 @@
 {
-  "deployedOn": "2026-11-22",
-  "applicationCommit": "c77374c",
+  "deployedOn": "2026-11-23",
+  "applicationCommit": "6722b5e",
   "reviewUrl": "https://optometriccafe.vercel.app/",
-  "deploymentId": "dpl_3iK8S3shp5AGfpkJCTDGrEFUhMbH",
-  "deploymentUrl": "https://optometriccafe-ef7d5so4d-emilio-castellanos-projects.vercel.app",
-  "previousReviewDeploymentUrl": "https://optometriccafe-70jso7on2-emilio-castellanos-projects.vercel.app",
+  "deploymentId": "dpl_BeewokdL9QciwyZuQ8U11rok6eAE",
+  "deploymentUrl": "https://optometriccafe-mt4e5po6c-emilio-castellanos-projects.vercel.app",
+  "previousReviewDeploymentUrl": "https://optometriccafe-ef7d5so4d-emilio-castellanos-projects.vercel.app",
   "target": "preview",
   "readyState": "READY",
   "productionDomainChanged": false,
@@ -12,7 +12,9 @@
   "googleConfigurationChanged": false,
   "previewRobotsHeaderVerified": "noindex, nofollow, noarchive",
   "privateCustomerExportResponse": 404,
-  "publicHttpAudit": { "applicationCommit": "fa70d79", "checkedOn": "2026-11-09", "pages": 46, "redirectVariants": 165, "legacyMediaUrls": 76, "passed": true },
+  "publicHttpAudit": { "applicationCommit": "6722b5e", "checkedOn": "2026-11-23", "pages": 46, "redirectVariants": 165, "legacyMediaUrls": 76, "evidence": "reviews-public-migration-verification.json", "passed": true },
   "photographyPublicAudit": { "applicationCommit": "c77374c", "checkedOn": "2026-11-22", "responsiveChecks": 35, "newImageHashes": 7, "galleryControls": "pass", "workshopAndContactLensGrids": "pass", "passed": true },
+  "reviewPublicAudit": { "applicationCommit": "6722b5e", "checkedOn": "2026-11-23", "responsiveChecks": 15, "selectedFiveStarTiles": 56, "googleTiles": 54, "yelpTiles": 2, "cyclingImageHashVerified": true, "collectorsBlocked": true, "passed": true },
+  "localAcceptance": { "applicationCommit": "6722b5e", "tests": 87, "generatedRoutes": 57, "collectorBlockedAnalyticsChecks": 22, "renderedIntegrityPages": 51, "blogPosts": 26, "photographyRegressionChecks": 35, "passed": true },
   "productionCutoverApproved": false
 }

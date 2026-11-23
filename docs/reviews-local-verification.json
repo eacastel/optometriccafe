@@ -1,0 +1,154 @@
+{
+  "checkedAt": "2026-11-23T15:53:21.348Z",
+  "base": "http://localhost:3000",
+  "checks": [
+    {
+      "path": "/featured-reviews/",
+      "width": 320,
+      "tiles": 56,
+      "google": 54,
+      "yelp": 2,
+      "columns": 1,
+      "wholeTileLink": true,
+      "contextualServiceLink": true,
+      "passed": true
+    },
+    {
+      "path": "/sports-eye-glasses-and-sunglasses/",
+      "width": 320,
+      "image": {
+        "src": "/images/boutique-refresh/morteza-cycling-enhanced-v1.webp",
+        "width": 276,
+        "height": 368,
+        "naturalWidth": 1086,
+        "naturalHeight": 1448
+      },
+      "passed": true
+    },
+    {
+      "path": "/",
+      "width": 320,
+      "homeReviewProfiles": 3,
+      "passed": true
+    },
+    {
+      "path": "/featured-reviews/",
+      "width": 390,
+      "tiles": 56,
+      "google": 54,
+      "yelp": 2,
+      "columns": 1,
+      "wholeTileLink": true,
+      "contextualServiceLink": true,
+      "passed": true
+    },
+    {
+      "path": "/sports-eye-glasses-and-sunglasses/",
+      "width": 390,
+      "image": {
+        "src": "/images/boutique-refresh/morteza-cycling-enhanced-v1.webp",
+        "width": 346,
+        "height": 461.328125,
+        "naturalWidth": 1086,
+        "naturalHeight": 1448
+      },
+      "passed": true
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "homeReviewProfiles": 3,
+      "passed": true
+    },
+    {
+      "path": "/featured-reviews/",
+      "width": 768,
+      "tiles": 56,
+      "google": 54,
+      "yelp": 2,
+      "columns": 2,
+      "wholeTileLink": true,
+      "contextualServiceLink": true,
+      "passed": true
+    },
+    {
+      "path": "/sports-eye-glasses-and-sunglasses/",
+      "width": 768,
+      "image": {
+        "src": "/images/boutique-refresh/morteza-cycling-enhanced-v1.webp",
+        "width": 560,
+        "height": 746.65625,
+        "naturalWidth": 1086,
+        "naturalHeight": 1448
+      },
+      "passed": true
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "homeReviewProfiles": 3,
+      "passed": true
+    },
+    {
+      "path": "/featured-reviews/",
+      "width": 1024,
+      "tiles": 56,
+      "google": 54,
+      "yelp": 2,
+      "columns": 2,
+      "wholeTileLink": true,
+      "contextualServiceLink": true,
+      "passed": true
+    },
+    {
+      "path": "/sports-eye-glasses-and-sunglasses/",
+      "width": 1024,
+      "image": {
+        "src": "/images/boutique-refresh/morteza-cycling-enhanced-v1.webp",
+        "width": 560,
+        "height": 746.65625,
+        "naturalWidth": 1086,
+        "naturalHeight": 1448
+      },
+      "passed": true
+    },
+    {
+      "path": "/",
+      "width": 1024,
+      "homeReviewProfiles": 3,
+      "passed": true
+    },
+    {
+      "path": "/featured-reviews/",
+      "width": 1440,
+      "tiles": 56,
+      "google": 54,
+      "yelp": 2,
+      "columns": 3,
+      "wholeTileLink": true,
+      "contextualServiceLink": true,
+      "passed": true
+    },
+    {
+      "path": "/sports-eye-glasses-and-sunglasses/",
+      "width": 1440,
+      "image": {
+        "src": "/images/boutique-refresh/morteza-cycling-enhanced-v1.webp",
+        "width": 560,
+        "height": 746.65625,
+        "naturalWidth": 1086,
+        "naturalHeight": 1448
+      },
+      "passed": true
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "homeReviewProfiles": 3,
+      "passed": true
+    }
+  ],
+  "browserErrors": [],
+  "collectorsBlocked": true,
+  "passed": true
+}

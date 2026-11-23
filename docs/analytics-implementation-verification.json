@@ -1,11 +1,13 @@
 {
   "passed": true,
-  "checkedAt": "2026-11-09T15:32:26.156Z",
+  "checkedAt": "2026-11-23T15:51:54.098Z",
   "local": "http://localhost:3000",
   "simulatedOrigin": "https://optometriccafe.com",
   "stream": "G-CCNQVYK5KJ",
   "allCollectorsBlocked": true,
   "scripts": [
+    "/gtm.js",
+    "/gtag/js",
     "/gtm.js",
     "/gtag/js",
     "/gtm.js",
@@ -280,7 +282,7 @@
         "cta_type": "reviews",
         "cta_text": "See Our 5-Star Reviews",
         "link_placement": "content",
-        "gtm.uniqueEventId": 12
+        "gtm.uniqueEventId": 11
       }
     },
     {
@@ -298,7 +300,61 @@
         "cta_type": "contact_navigation",
         "cta_text": "Book a Fitting",
         "link_placement": "content",
+        "gtm.uniqueEventId": 12
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_review_click",
+      "selector": ".home-review-source[data-review-source=\"google\"]",
+      "keyboard": true,
+      "parameters": {
+        "page_path": "/",
+        "service_interest": "general_inquiry",
+        "measurement_version": "2026-10-05",
+        "event": "oc_review_click",
+        "cta_type": "reviews",
+        "destination_path": "/maps/",
+        "link_url": "https://www.google.com/maps",
+        "cta_text": "Open Optometric Cafe on Google Maps",
+        "link_placement": "content",
         "gtm.uniqueEventId": 13
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_review_click",
+      "selector": ".review-source-link[data-review-source=\"google\"]",
+      "keyboard": false,
+      "parameters": {
+        "page_path": "/featured-reviews/",
+        "service_interest": "general_inquiry",
+        "measurement_version": "2026-10-05",
+        "event": "oc_review_click",
+        "cta_type": "reviews",
+        "destination_path": "/maps/",
+        "link_url": "https://www.google.com/maps",
+        "cta_text": "Open Optometric Cafe on Google Maps",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 11
+      }
+    },
+    {
+      "check": "click",
+      "name": "oc_review_click",
+      "selector": ".review-source-link[data-review-source=\"yelp\"]",
+      "keyboard": true,
+      "parameters": {
+        "page_path": "/featured-reviews/",
+        "service_interest": "general_inquiry",
+        "measurement_version": "2026-10-05",
+        "event": "oc_review_click",
+        "cta_type": "reviews",
+        "destination_path": "/biz/optometric-cafe-beverly-hills/",
+        "link_url": "https://www.yelp.com/biz/optometric-cafe-beverly-hills",
+        "cta_text": "Open Optometric Cafe on Yelp",
+        "link_placement": "content",
+        "gtm.uniqueEventId": 12
       }
     },
     {
@@ -586,6 +642,54 @@
       "ep.cta_text": "Book a Fitting",
       "ep.link_url": "https://optometriccafe.com/visit/",
       "ep.destination_path": "/visit/",
+      "ep.service_interest": "general_inquiry",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/",
+      "dl": "https://optometriccafe.com/",
+      "dt": "Eyewear & Personal Fittings in Beverly Hills | Optometric Cafe",
+      "en": "oc_review_click",
+      "ep.cta_type": "reviews",
+      "ep.cta_text": "Open Optometric Cafe on Google Maps",
+      "ep.link_url": "https://www.google.com/maps",
+      "ep.destination_path": "/maps/",
+      "ep.service_interest": "general_inquiry",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dl": "https://optometriccafe.com/featured-reviews/",
+      "dt": "Optometric Cafe Reviews | Beverly Hills Eye Care",
+      "en": "page_view"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/featured-reviews/",
+      "dl": "https://optometriccafe.com/featured-reviews/",
+      "dt": "Optometric Cafe Reviews | Beverly Hills Eye Care",
+      "en": "oc_review_click",
+      "ep.cta_type": "reviews",
+      "ep.cta_text": "Open Optometric Cafe on Google Maps",
+      "ep.link_url": "https://www.google.com/maps",
+      "ep.destination_path": "/maps/",
+      "ep.service_interest": "general_inquiry",
+      "ep.link_placement": "content",
+      "ep.measurement_version": "2026-10-05"
+    },
+    {
+      "tid": "G-CCNQVYK5KJ",
+      "dp": "/featured-reviews/",
+      "dl": "https://optometriccafe.com/featured-reviews/",
+      "dt": "Optometric Cafe Reviews | Beverly Hills Eye Care",
+      "en": "oc_review_click",
+      "ep.cta_type": "reviews",
+      "ep.cta_text": "Open Optometric Cafe on Yelp",
+      "ep.link_url": "https://www.yelp.com/biz/optometric-cafe-beverly-hills",
+      "ep.destination_path": "/biz/optometric-cafe-beverly-hills/",
       "ep.service_interest": "general_inquiry",
       "ep.link_placement": "content",
       "ep.measurement_version": "2026-10-05"

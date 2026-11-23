@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-09T15:30:43.843Z",
+  "checkedAt": "2026-11-23T15:51:32.753Z",
   "base": "http://localhost:3000/",
   "passed": true,
   "pages": 51,
   "posts": 26,
   "blogPages": 3,
   "feedPosts": 26,
-  "references": 5734,
-  "uniqueChecks": 364,
-  "uniqueAssets": 255,
+  "references": 5852,
+  "uniqueChecks": 415,
+  "uniqueAssets": 306,
   "anchorTargets": 59,
   "checks": [
     "SSR content and headings",

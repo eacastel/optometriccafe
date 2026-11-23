@@ -1,0 +1,605 @@
+{
+  "checkedAt": "2026-11-23T15:52:10.776Z",
+  "base": "http://localhost:3000",
+  "passed": true,
+  "analyticsBlocked": true,
+  "errors": [],
+  "responsiveChecks": [
+    {
+      "path": "/",
+      "width": 320,
+      "photo": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+        "naturalWidth": 320,
+        "width": 284,
+        "height": 218.453125
+      }
+    },
+    {
+      "path": "/services/",
+      "width": 320,
+      "photo": "/images/boutique-refresh/interior-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/interior-enhanced-v1.webp",
+        "naturalWidth": 320,
+        "width": 284,
+        "height": 189.328125
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 320,
+      "photo": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+        "naturalWidth": 320,
+        "width": 284,
+        "height": 189.328125
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 320,
+      "component": "evening-window",
+      "photo": "/images/boutique-refresh/evening-window-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/evening-window-enhanced-v1.webp",
+        "naturalWidth": 320,
+        "width": 276,
+        "height": 207
+      }
+    },
+    {
+      "path": "/optometry-lab-beverly-hills/",
+      "width": 320,
+      "component": "preserved-photo-grid",
+      "state": {
+        "columns": 1,
+        "images": [
+          {
+            "width": 276,
+            "height": 207,
+            "naturalWidth": 330
+          },
+          {
+            "width": 276,
+            "height": 207,
+            "naturalWidth": 330
+          },
+          {
+            "width": 276,
+            "height": 207,
+            "naturalWidth": 330
+          },
+          {
+            "width": 276,
+            "height": 207,
+            "naturalWidth": 330
+          },
+          {
+            "width": 276,
+            "height": 207,
+            "naturalWidth": 330
+          },
+          {
+            "width": 276,
+            "height": 207,
+            "naturalWidth": 330
+          }
+        ]
+      }
+    },
+    {
+      "path": "/contact-lenses-beverly-hills/",
+      "width": 320,
+      "component": "preserved-photo-grid",
+      "state": {
+        "columns": 1,
+        "images": [
+          {
+            "width": 276,
+            "height": 207,
+            "naturalWidth": 330
+          },
+          {
+            "width": 276,
+            "height": 207,
+            "naturalWidth": 330
+          },
+          {
+            "width": 276,
+            "height": 207,
+            "naturalWidth": 330
+          }
+        ]
+      }
+    },
+    {
+      "path": "/about-us/",
+      "width": 320,
+      "component": "boutique-story",
+      "photos": [
+        "/images/boutique-refresh/people-cropped-v1.webp",
+        "/images/boutique-refresh/boutique-detail-enhanced-v1.webp"
+      ]
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "photo": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+        "naturalWidth": 390,
+        "width": 346,
+        "height": 266.140625
+      }
+    },
+    {
+      "path": "/services/",
+      "width": 390,
+      "photo": "/images/boutique-refresh/interior-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/interior-enhanced-v1.webp",
+        "naturalWidth": 390,
+        "width": 346,
+        "height": 230.65625
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 390,
+      "photo": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+        "naturalWidth": 390,
+        "width": 346,
+        "height": 230.65625
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 390,
+      "component": "evening-window",
+      "photo": "/images/boutique-refresh/evening-window-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/evening-window-enhanced-v1.webp",
+        "naturalWidth": 390,
+        "width": 346,
+        "height": 259.5
+      }
+    },
+    {
+      "path": "/optometry-lab-beverly-hills/",
+      "width": 390,
+      "component": "preserved-photo-grid",
+      "state": {
+        "columns": 1,
+        "images": [
+          {
+            "width": 346,
+            "height": 259.5,
+            "naturalWidth": 330
+          },
+          {
+            "width": 346,
+            "height": 259.5,
+            "naturalWidth": 330
+          },
+          {
+            "width": 346,
+            "height": 259.5,
+            "naturalWidth": 330
+          },
+          {
+            "width": 346,
+            "height": 259.5,
+            "naturalWidth": 330
+          },
+          {
+            "width": 346,
+            "height": 259.5,
+            "naturalWidth": 330
+          },
+          {
+            "width": 346,
+            "height": 259.5,
+            "naturalWidth": 330
+          }
+        ]
+      }
+    },
+    {
+      "path": "/contact-lenses-beverly-hills/",
+      "width": 390,
+      "component": "preserved-photo-grid",
+      "state": {
+        "columns": 1,
+        "images": [
+          {
+            "width": 346,
+            "height": 259.5,
+            "naturalWidth": 330
+          },
+          {
+            "width": 346,
+            "height": 259.5,
+            "naturalWidth": 330
+          },
+          {
+            "width": 346,
+            "height": 259.5,
+            "naturalWidth": 330
+          }
+        ]
+      }
+    },
+    {
+      "path": "/about-us/",
+      "width": 390,
+      "component": "boutique-story",
+      "photos": [
+        "/images/boutique-refresh/people-cropped-v1.webp",
+        "/images/boutique-refresh/boutique-detail-enhanced-v1.webp"
+      ]
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "photo": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+        "naturalWidth": 384,
+        "width": 375.546875,
+        "height": 780.984375
+      }
+    },
+    {
+      "path": "/services/",
+      "width": 768,
+      "photo": "/images/boutique-refresh/interior-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/interior-enhanced-v1.webp",
+        "naturalWidth": 384,
+        "width": 338,
+        "height": 281.65625
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 768,
+      "photo": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+        "naturalWidth": 384,
+        "width": 338,
+        "height": 281.65625
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 768,
+      "component": "evening-window",
+      "photo": "/images/boutique-refresh/evening-window-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/evening-window-enhanced-v1.webp",
+        "naturalWidth": 768,
+        "width": 712,
+        "height": 534
+      }
+    },
+    {
+      "path": "/optometry-lab-beverly-hills/",
+      "width": 768,
+      "component": "preserved-photo-grid",
+      "state": {
+        "columns": 2,
+        "images": [
+          {
+            "width": 348,
+            "height": 261,
+            "naturalWidth": 330
+          },
+          {
+            "width": 348,
+            "height": 261,
+            "naturalWidth": 330
+          },
+          {
+            "width": 348,
+            "height": 261,
+            "naturalWidth": 330
+          },
+          {
+            "width": 348,
+            "height": 261,
+            "naturalWidth": 330
+          },
+          {
+            "width": 348,
+            "height": 261,
+            "naturalWidth": 330
+          },
+          {
+            "width": 348,
+            "height": 261,
+            "naturalWidth": 330
+          }
+        ]
+      }
+    },
+    {
+      "path": "/contact-lenses-beverly-hills/",
+      "width": 768,
+      "component": "preserved-photo-grid",
+      "state": {
+        "columns": 2,
+        "images": [
+          {
+            "width": 348,
+            "height": 261,
+            "naturalWidth": 330
+          },
+          {
+            "width": 348,
+            "height": 261,
+            "naturalWidth": 330
+          },
+          {
+            "width": 348,
+            "height": 261,
+            "naturalWidth": 330
+          }
+        ]
+      }
+    },
+    {
+      "path": "/about-us/",
+      "width": 768,
+      "component": "boutique-story",
+      "photos": [
+        "/images/boutique-refresh/people-cropped-v1.webp",
+        "/images/boutique-refresh/boutique-detail-enhanced-v1.webp"
+      ]
+    },
+    {
+      "path": "/",
+      "width": 1024,
+      "photo": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+        "naturalWidth": 512,
+        "width": 517.765625,
+        "height": 614.921875
+      }
+    },
+    {
+      "path": "/services/",
+      "width": 1024,
+      "photo": "/images/boutique-refresh/interior-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/interior-enhanced-v1.webp",
+        "naturalWidth": 512,
+        "width": 466,
+        "height": 388.328125
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 1024,
+      "photo": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+        "naturalWidth": 512,
+        "width": 466,
+        "height": 388.328125
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 1024,
+      "component": "evening-window",
+      "photo": "/images/boutique-refresh/evening-window-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/evening-window-enhanced-v1.webp",
+        "naturalWidth": 843,
+        "width": 844,
+        "height": 633
+      }
+    },
+    {
+      "path": "/optometry-lab-beverly-hills/",
+      "width": 1024,
+      "component": "preserved-photo-grid",
+      "state": {
+        "columns": 3,
+        "images": [
+          {
+            "width": 270.65625,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.671875,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.65625,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.65625,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.671875,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.65625,
+            "height": 203,
+            "naturalWidth": 330
+          }
+        ]
+      }
+    },
+    {
+      "path": "/contact-lenses-beverly-hills/",
+      "width": 1024,
+      "component": "preserved-photo-grid",
+      "state": {
+        "columns": 3,
+        "images": [
+          {
+            "width": 270.65625,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.671875,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.65625,
+            "height": 203,
+            "naturalWidth": 330
+          }
+        ]
+      }
+    },
+    {
+      "path": "/about-us/",
+      "width": 1024,
+      "component": "boutique-story",
+      "photos": [
+        "/images/boutique-refresh/people-cropped-v1.webp",
+        "/images/boutique-refresh/boutique-detail-enhanced-v1.webp"
+      ]
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "photo": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/showroom-enhanced-v1.webp",
+        "naturalWidth": 720,
+        "width": 653.328125,
+        "height": 521.359375
+      }
+    },
+    {
+      "path": "/services/",
+      "width": 1440,
+      "photo": "/images/boutique-refresh/interior-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/interior-enhanced-v1.webp",
+        "naturalWidth": 720,
+        "width": 585,
+        "height": 487.5
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 1440,
+      "photo": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/storefront-enhanced-v1.webp",
+        "naturalWidth": 720,
+        "width": 585,
+        "height": 487.5
+      }
+    },
+    {
+      "path": "/visit/",
+      "width": 1440,
+      "component": "evening-window",
+      "photo": "/images/boutique-refresh/evening-window-enhanced-v1.webp",
+      "state": {
+        "src": "/images/boutique-refresh/evening-window-enhanced-v1.webp",
+        "naturalWidth": 843,
+        "width": 844,
+        "height": 633
+      }
+    },
+    {
+      "path": "/optometry-lab-beverly-hills/",
+      "width": 1440,
+      "component": "preserved-photo-grid",
+      "state": {
+        "columns": 3,
+        "images": [
+          {
+            "width": 270.65625,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.671875,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.65625,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.65625,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.671875,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.65625,
+            "height": 203,
+            "naturalWidth": 330
+          }
+        ]
+      }
+    },
+    {
+      "path": "/contact-lenses-beverly-hills/",
+      "width": 1440,
+      "component": "preserved-photo-grid",
+      "state": {
+        "columns": 3,
+        "images": [
+          {
+            "width": 270.65625,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.671875,
+            "height": 203,
+            "naturalWidth": 330
+          },
+          {
+            "width": 270.65625,
+            "height": 203,
+            "naturalWidth": 330
+          }
+        ]
+      }
+    },
+    {
+      "path": "/about-us/",
+      "width": 1440,
+      "component": "boutique-story",
+      "photos": [
+        "/images/boutique-refresh/people-cropped-v1.webp",
+        "/images/boutique-refresh/boutique-detail-enhanced-v1.webp"
+      ]
+    }
+  ],
+  "carousel": "all slides, wraparound, previous and stable dimensions pass at every width"
+}

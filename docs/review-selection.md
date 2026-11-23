@@ -31,3 +31,13 @@ Analytics confirmed access to the Business Profile, but the legacy Reviews API r
 ## Sports photograph
 
 The owner identified Morteza in `docs/new-images/IMG_3629.png`. A separately versioned lighting/color-corrected derivative replaces only the four-player tennis photograph on the existing Sports Glasses URL. The original legacy image remains available at its original URL, the other sports image and all page wording remain unchanged. The edit prompt and asset hashes are recorded in the existing photography manifests.
+
+## Delivery
+
+Application commit `6722b5e` is pushed on `design/optical-boutique-refresh` and published to the unchanged https://optometriccafe.vercel.app/ review alias. `review-deployment.json` records the exact preview deployment and previous rollback target. No live WordPress, DNS or Google account settings changed.
+
+Verification: 87 tests pass and the production build generates 57 routes. Fifteen responsive browser checks pass locally and on the public alias at 320/390/768/1024/1440px, including all 56 tiles, 3/2/1 column layouts, exact 14px Google stars, source logos, full-tile links, preserved contextual service links, homepage branding fit and the Sports Glasses photograph's natural aspect ratio. The legacy tennis image still returns 200. Screenshots were visually reviewed on desktop and mobile; collectors were blocked throughout browser QA. The public cycling WebP hash matches the manifest.
+
+`analytics-implementation-verification.json` records 22 real-tag, collector-blocked checks, including exactly one `oc_review_click` for homepage Google, imported Google and imported Yelp source links, separate from directions. No collector requests were transmitted and reviewer names are not placed in event labels. The existing 35 gallery/grid checks also pass locally; rendered-content integrity passes for 51 pages including all 26 blog posts and full-text RSS. Production launch approval and final migration/measurement gates remain separate from this preview delivery.
+
+`reviews-public-migration-verification.json` records the full audit on the updated public alias: 46 content records, 165 redirect variants, 48 internal destinations, 47 sitemap URLs, 76 legacy media URLs, search and genuine 404s. The original November 9 public HTTP evidence remains unchanged in `migration-http-verification.json`.
