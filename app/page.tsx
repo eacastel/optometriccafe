@@ -7,7 +7,6 @@ import {
   Glasses,
   Wrench,
   Phone,
-  Star,
 } from "lucide-react";
 import { BoutiqueGallery } from "@/components/BoutiqueGallery";
 import { business, reviews } from "@/app/data";
@@ -17,6 +16,8 @@ import { HomeCopy } from "@/components/HomeCopy";
 import { BusinessLinks, GoogleMap } from "@/components/BusinessLinks";
 import { home, contentMetadata } from "@/lib/content";
 import boutiquePhotos from "@/data/boutique-photos.json";
+import { ReviewStars } from "@/components/ReviewStars";
+import profiles from "@/data/business-profiles.json";
 
 export const metadata = contentMetadata(home);
 
@@ -323,17 +324,9 @@ export default function Home() {
         <div className="review-grid">
           {[reviews[0], reviews[5], reviews[6]].map((review) => (
             <article className="review-card" key={review.name}>
-              <div className="review-stars" aria-label="5 out of 5 stars">
-                {Array.from({ length: 5 }, (_, i) => (
-                  <Star
-                    size={15}
-                    fill="currentColor"
-                    key={i}
-                    aria-hidden="true"
-                  />
-                ))}
-              </div>
+              <ReviewStars />
               <blockquote>{review.quote}</blockquote>
+              <a className="home-review-source" href={profiles.googleBusinessUrl} target="_blank" rel="noopener noreferrer" data-review-source="google" aria-label="Open Optometric Cafe on Google Maps">
               <div className="review-person">
                 <span className="review-avatar" aria-hidden="true">
                   {review.name[0]}
@@ -343,6 +336,8 @@ export default function Home() {
                   <span>Google review</span>
                 </div>
               </div>
+              <img className="home-review-mark" src="/images/review-brands/GoogleMaps_Logo_DarkGray.svg" alt="Google Maps" width={100} height={18} loading="lazy" />
+              </a>
             </article>
           ))}
         </div>

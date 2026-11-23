@@ -14,6 +14,6 @@
   { "source": "IMG_3625.png", "status": "duplicate", "representedBy": "IMG_3613.png", "reason": "Another shopfront shot with the window obscured by a campaign poster" },
   { "source": "IMG_3626.png", "status": "reference", "reason": "Screenshot of an older website, not a shop photograph; would duplicate a website inside the website" },
   { "source": "IMG_3627.png", "status": "reference", "reason": "Map/street-view interface screenshot; the site already has the live Google map instead" },
-  { "source": "IMG_3629.png", "status": "duplicate", "representedBy": "IMG_3613.png", "reason": "Alternate facade photo with bicycle/person/poster; selected arrival image shows the entrance more clearly" },
+  { "source": "IMG_3629.png", "status": "used", "photo": "cycling", "pages": ["/sports-eye-glasses-and-sunglasses/"], "reason": "Owner identified the cyclist as Morteza and requested this photo instead of the tennis group" },
   { "source": "IMG_3630.png", "status": "used", "photo": "evening", "pages": ["/visit/"], "reason": "Evening window view complements the daylight arrival photo without implying evening opening hours" }
 ]

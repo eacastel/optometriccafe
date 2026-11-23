@@ -258,6 +258,11 @@ try {
     await page.locator('script[src*="gtm.js?id=GTM-WGHNXHX9"]').count(),
     1,
   );
+  await clickEvent('.home-review-source[data-review-source="google"]', "oc_review_click", "general_inquiry", true);
+  await page.goto(`${origin}/featured-reviews/`, { waitUntil: "domcontentloaded" });
+  await page.waitForTimeout(2000);
+  await clickEvent('.review-source-link[data-review-source="google"]', "oc_review_click", "general_inquiry");
+  await clickEvent('.review-source-link[data-review-source="yelp"]', "oc_review_click", "general_inquiry", true);
   const previewOrigin = "https://optometriccafe.vercel.app";
   const previewContext = await browser.newContext({ serviceWorkers: "block" });
   const previewCollectors = [];

@@ -56,6 +56,13 @@ const selections = {
     caption: "An evening view of the boutique window", objectPosition: "50% 50%",
     use: "Visit page supporting photograph; not a statement of opening hours",
   },
+  cycling: {
+    source: "IMG_3629.png", master: "morteza-cycling-enhanced-v1.png",
+    generated: "exec-c6646252-2f25-439f-9905-752ba20fed6f.png", editedOn: "2026-11-23",
+    alt: "Morteza Talebi in cycling gear beside his bicycle outside Optometric Cafe",
+    caption: "Morteza, ready for a ride", objectPosition: "50% 50%",
+    use: "Sports Glasses page, replacing the tennis-group photograph at the owner's request",
+  },
 };
 await mkdir(masters, { recursive: true });
 await mkdir(output, { recursive: true });
@@ -77,7 +84,7 @@ for (const [index, [id, photo]] of Object.entries(selections).entries()) {
     source: `docs/new-images/${photo.source}`, sourceSha256: sha(original),
     master, masterSha256: sha(enhanced), bytes: encoded.data.length, sha256: sha(encoded.data),
     enhancement: "AI-assisted lighting and white-balance retouch using built-in image_gen; not a pixel-preserving filter",
-    editedOn: "2026-11-22", capturedOn: null, use: photo.use,
+    editedOn: photo.editedOn || "2026-11-22", capturedOn: null, use: photo.use,
   };
   for (const [column, [buffer, label]] of [[original, `${photo.source} - before`], [enhanced, "Enhanced - review"]].entries()) {
     const preview = await sharp(buffer).trim({ background: "#000000", threshold: 8 })

@@ -114,7 +114,7 @@ for (const item of items) {
   } else if (item.slug !== "blog") {
     const expected = load(item.content, null, false);
     assert.equal(
-      text($("[data-preserved-content]").text()),
+      text($("[data-preserved-content]").clone().find("[data-added-reviews]").remove().end().text()),
       text(expected.root().text()),
       `Rendered copy: ${item.path}`,
     );

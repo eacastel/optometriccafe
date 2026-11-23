@@ -21,7 +21,7 @@ const normalizePath = (path: string) =>
   path === "/" ? "/" : `${path.replace(/\/+$/, "")}/`;
 
 // Compatible with the October measurement contract; clicks are intent, never bookings.
-export function classifyClick(href: string, pageUrl: string) {
+export function classifyClick(href: string, pageUrl: string, reviewSource?: string) {
   const url = new URL(href, pageUrl);
   const current = new URL(pageUrl);
   const source = normalizePath(current.pathname);
@@ -53,6 +53,12 @@ export function classifyClick(href: string, pageUrl: string) {
       destination_path: "email",
       link_url: "mailto:info@optometriccafe.com",
     };
+  if (
+    (reviewSource === "google" && url.protocol === "https:" && url.hostname === "www.google.com" && url.pathname === "/maps" && url.searchParams.get("cid") === "12237678482973097844") ||
+    (reviewSource === "yelp" && url.protocol === "https:" && url.hostname === "www.yelp.com" && url.pathname.replace(/\/$/, "") === "/biz/optometric-cafe-beverly-hills")
+  )
+    return { ...common, event: "oc_review_click", cta_type: "reviews",
+      destination_path: destination, link_url: `${url.origin}${url.pathname}` };
   if (
     (/^(maps\.|www\.)?google\.[a-z.]+$/.test(url.hostname) &&
       (url.hostname.startsWith("maps.") || url.pathname.startsWith("/maps"))) ||

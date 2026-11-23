@@ -16,7 +16,7 @@ export function AnalyticsLinks() {
           ? event.target.closest("a[href]")
           : null;
       if (!(anchor instanceof HTMLAnchorElement)) return;
-      const payload = classifyClick(anchor.href, window.location.href);
+      const payload = classifyClick(anchor.href, window.location.href, anchor.dataset.reviewSource);
       if (!payload) return;
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({

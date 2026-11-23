@@ -24,3 +24,11 @@ export function layoutPreservedPhotos(html: string, layout?: PreservedPhotoLayou
   images.wrapAll(`<div class="preserved-photo-grid preserved-photo-grid--${layout}" role="group" aria-label="${config.label}"></div>`);
   return $.html();
 }
+
+export function replaceContentImage(html: string, photo: { original: string; src: string; alt: string; width: number; height: number }) {
+  const $ = load(html, null, false);
+  $("img[src]").filter((_, node) => $(node).attr("src") === photo.original)
+    .attr({ src: photo.src, alt: photo.alt, width: String(photo.width), height: String(photo.height) })
+    .removeAttr("srcset").addClass("sports-owner-photo");
+  return $.html();
+}

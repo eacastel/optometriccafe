@@ -124,5 +124,23 @@
     "editedOn": "2026-11-22",
     "capturedOn": null,
     "use": "Visit page supporting photograph; not a statement of opening hours"
+  },
+  "cycling": {
+    "src": "/images/boutique-refresh/morteza-cycling-enhanced-v1.webp",
+    "width": 1086,
+    "height": 1448,
+    "alt": "Morteza Talebi in cycling gear beside his bicycle outside Optometric Cafe",
+    "caption": "Morteza, ready for a ride",
+    "objectPosition": "50% 50%",
+    "source": "docs/new-images/IMG_3629.png",
+    "sourceSha256": "8e877ca6a500d560bb0c5357c76fe7512fcff352fa6501b2d8a229013e1c9f96",
+    "master": "docs/new-images/enhanced/morteza-cycling-enhanced-v1.png",
+    "masterSha256": "f49469b2f2e7ee0d5da900ed6491f64fb3b7b291344ecfa384f19a48c59831b8",
+    "bytes": 169676,
+    "sha256": "a7fbd8d59f7fe17f736f5f0e4f492060fe7b6012f1c38730ff9c7b0dff597a4a",
+    "enhancement": "AI-assisted lighting and white-balance retouch using built-in image_gen; not a pixel-preserving filter",
+    "editedOn": "2026-11-23",
+    "capturedOn": null,
+    "use": "Sports Glasses page, replacing the tennis-group photograph at the owner's request"
   }
 }

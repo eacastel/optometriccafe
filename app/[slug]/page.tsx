@@ -10,6 +10,8 @@ import { BlogIndex } from "@/components/BlogIndex";
 import { ContentBody } from "@/components/ContentBody";
 import { OpticalNextSteps } from "@/components/OpticalNextSteps";
 import { BoutiqueStoryPhotos } from "@/components/BoutiqueStoryPhotos";
+import { ReviewProfiles } from "@/components/ReviewProfiles";
+import photography from "@/data/new-photography.json";
 import { items, findItem, contentMetadata, dateLabel } from "@/lib/content";
 
 export const dynamicParams = false;
@@ -103,9 +105,12 @@ export default async function ContentPage({
           />
         </div>
       )}
+      {item.slug === "featured-reviews" && <ReviewProfiles />}
       <ContentBody
         html={item.content}
         photoLayout={item.slug === "optometry-lab-beverly-hills" ? "workshop" : item.slug === "contact-lenses-beverly-hills" ? "contact-lenses" : undefined}
+        reviews={item.slug === "featured-reviews"}
+        imageOverride={item.slug === "sports-eye-glasses-and-sunglasses" ? { original: "/wp-content/uploads/2019/01/sports-glasses2.jpg", ...photography.cycling } : undefined}
       />
       <OpticalNextSteps slug={item.slug} />
       {item.slug === "about-us" && <BoutiqueStoryPhotos />}

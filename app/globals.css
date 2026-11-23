@@ -928,6 +928,7 @@ figcaption {
   gap: 20px;
 }
 .review-card {
+  position: relative;
   background: #f3f4f0;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -935,11 +936,47 @@ figcaption {
   display: flex;
   flex-direction: column;
 }
+.home-review-source {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
+  color: inherit;
+}
+.home-review-source::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+}
+.home-review-source:focus-visible::after {
+  outline: 2px solid var(--orange);
+  outline-offset: 3px;
+}
+.home-review-mark {
+  flex-shrink: 0;
+  width: auto;
+  height: 18px;
+}
 .review-stars {
-  color: var(--orange-deep);
+  color: #fbbc04;
   display: flex;
   gap: 3px;
   margin-bottom: 20px;
+}
+.google-star-icons {
+  display: inline-flex;
+  gap: 0;
+  height: 14px;
+}
+.google-star-icons i {
+  display: block;
+  flex: 0 0 14px;
+  width: 14px;
+  height: 13px;
+  background: url("/images/review-brands/google-star.png") center / 14px 14px no-repeat;
 }
 .review-card blockquote {
   font-size: 16px;
@@ -1319,6 +1356,132 @@ figcaption {
 .wp-content .review-stars {
   margin: 0;
 }
+.review-profile-bar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 8px 28px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.review-profile-bar > p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.review-profile-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px 28px;
+}
+.review-profile-links a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink);
+  font-size: 13px;
+}
+.review-profile-links img {
+  height: 18px;
+  width: auto;
+}
+.featured-review-content {
+  max-width: 1200px;
+  padding-top: 0;
+}
+.featured-review-content .review-tiles {
+  columns: 3;
+  column-gap: 20px;
+  margin-bottom: 48px;
+}
+.review-additions {
+  display: contents;
+}
+.featured-review-content .review-tile {
+  position: relative;
+  display: flex;
+  width: 100%;
+  break-inside: avoid;
+  margin: 0 0 20px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+.featured-review-content .review-tile:hover {
+  border-color: #b9c8bb;
+  box-shadow: 0 5px 20px #303a350b;
+}
+.featured-review-content .review-tile > p {
+  font-size: 14px;
+  line-height: 1.75;
+  margin: 0 0 18px;
+}
+.featured-review-content .review-stars {
+  order: -1;
+  margin: 0 0 18px;
+}
+.featured-review-content .review-source-link {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  color: var(--ink);
+  text-decoration: none;
+}
+.review-source-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+}
+.review-source-link:focus-visible::after {
+  outline: 2px solid var(--orange);
+  outline-offset: 3px;
+}
+.featured-review-content .review-source-link em {
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 600;
+}
+.featured-review-content .review-source-mark {
+  flex-shrink: 0;
+  width: auto;
+  height: 18px;
+  margin: 0;
+  border-radius: 0;
+}
+.review-tile a:not(.review-source-link) {
+  position: relative;
+  z-index: 2;
+}
+.review-tile .review-excerpt {
+  font-size: 11px;
+  color: var(--muted);
+}
+.featured-review-content .review-family-photo {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  margin: 48px auto;
+}
+.wp-content .sports-owner-photo {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  margin: 32px auto;
+}
+@media (max-width: 1099px) {
+  .featured-review-content .review-tiles { columns: 2; }
+}
+@media (max-width: 699px) {
+  .featured-review-content .review-tiles { columns: 1; }
+}
 .wp-content .oc-btn {
   display: inline-flex;
   align-items: center;
@@ -1418,7 +1581,7 @@ figcaption {
 .wp-content li {
   margin-block: 8px;
 }
-.wp-content .review-card {
+.wp-content .review-card:not(.review-tile) {
   padding: 24px 0;
   border-bottom: 1px solid var(--line);
 }

@@ -9,8 +9,8 @@ const prompts = JSON.parse(await readFile("data/photography-prompts.json", "utf8
 const usage = JSON.parse(await readFile("data/photography-usage.json", "utf8"));
 const sha = (value) => createHash("sha256").update(value).digest("hex");
 
-test("Seven distinct photographs have local, versioned, optimized derivatives", async () => {
-  assert.deepEqual(Object.keys(photos).sort(), ["detail", "evening", "interior", "orchid", "people", "showroom", "storefront"]);
+test("Eight distinct photographs have local, versioned, optimized derivatives", async () => {
+  assert.deepEqual(Object.keys(photos).sort(), ["cycling", "detail", "evening", "interior", "orchid", "people", "showroom", "storefront"]);
   for (const photo of Object.values(photos)) {
     assert.match(photo.src, /^\/images\/boutique-refresh\/.+-v1\.webp$/);
     const image = await readFile(`public${photo.src}`);
